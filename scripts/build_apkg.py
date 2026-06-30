@@ -59,6 +59,7 @@ def escape_field(s: str) -> str:
 
 INPUT_PATH = Path("build/cards.jsonl")
 OUTPUT_PATH = Path("build/guidelines.apkg")
+CLASSIFICATIONS_PATH = Path("build/card-classifications.jsonl")
 BUNDLE_ROOT = Path("references/guidelines")
 MANIFEST_PATH = Path("manifest.yaml")
 
@@ -67,6 +68,7 @@ MANIFEST_PATH = Path("manifest.yaml")
 # with multiple flat groups (system::, topic::, year::, etc.).
 TAG_ROOT = "im-guidelines"
 HIGH_YIELD_TAG = f"{TAG_ROOT}::high-yield"
+DOSING_TAG = f"{TAG_ROOT}::dosing"
 
 # Stable IDs — generated once via random.randrange(1 << 30, 1 << 31).
 # Never change these; doing so orphans existing notes in any collection that
@@ -266,6 +268,28 @@ def main() -> int:
         f"{len(ctx['high_yield_topics'])} high-yield"
     )
 
+    # Load per-card dosing classifications if available (optional — produced by
+    # scripts/classify_dosing.py). Used to add the im-guidelines::dosing tag.
+    dosing_guids: set[str] = set()
+    if CLASSIFICATIONS_PATH.is_file():
+        with CLASSIFICATIONS_PATH.open() as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    r = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                if r.get("is_dosing") and r.get("guid"):
+                    dosing_guids.add(r["guid"])
+        print(f"classifications: {len(dosing_guids)} cards flagged as dosing")
+    else:
+        print(
+            f"classifications: {CLASSIFICATIONS_PATH} not found — "
+            "dosing tag will not be applied (run `just qa-dosing` to generate)"
+        )
+
     # Parent deck included so its ID is preserved (migration from old single deck).
     # Intermediate (per-system) decks are auto-created by Anki on import from the
     # leaf deck names.
@@ -339,6 +363,8 @@ def main() -> int:
                 add_tag(f"{TAG_ROOT}::year::{year_val}")
             if (system, topic) in ctx["high_yield_topics"]:
                 add_tag(HIGH_YIELD_TAG)
+            if guid in dosing_guids:
+                add_tag(DOSING_TAG)
             # Supersession: this version is superseded if a later year exists from the same society
             max_year = ctx["max_year_for"].get((system, topic, society))
             if year_val is not None and max_year is not None and year_val < max_year:

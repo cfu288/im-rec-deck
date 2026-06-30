@@ -1,10 +1,11 @@
 # Secrets — never commit
 .env
 
-# Generated artifacts (cards.jsonl, .apkg, runtime state) — derivative of
-# copyrighted source material, same reasoning as sources/ and references/.
-build/*
-!build/README.md
+# build/ artifacts are tracked so the .apkg is downloadable straight from
+# GitHub (linked from docs/) and so cards.jsonl is available for reproducible
+# re-packaging without re-running paid card generation. Same copyright posture
+# as the public deck download. Runtime-only state stays ignored.
+build/.enrich-state.json
 
 # Node deps for the puppeteer helpers
 scripts/node_modules
@@ -21,7 +22,10 @@ __pycache__/
 sources/*
 !sources/README.md
 
-# Derivative work (verbatim quotes + structured extractions of copyrighted guidelines).
-# Same reasoning as sources/ — regenerable from sources/ + spec/ via the extraction pipeline.
-references/*
-!references/README.md
+# references/ is tracked — it's the most expensive artifact in the chain
+# (paid enrichment of paraphrased recommendations + numerics across every
+# manifest version) and the canonical body that cards.jsonl + docs summaries
+# project from. Same copyright posture as build/. Losing it costs API spend
+# to rebuild, so we keep it under version control as the durable knowledge
+# layer. Runtime-only state stays ignored.
+references/.enrich-state.json

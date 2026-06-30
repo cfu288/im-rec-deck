@@ -14,14 +14,74 @@ are copyrighted and gitignored. Only public publisher URLs are surfaced.
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 from ruamel.yaml import YAML
 
 REPO = Path(__file__).resolve().parent.parent
 MANIFEST = REPO / "manifest.yaml"
 DOCS = REPO / "docs"
+REFERENCES = REPO / "references" / "guidelines"
 
 yaml = YAML()
+
+SKELETON_BODY_MARKER = "_Body pending Stage 2 enrichment from parsed source._"
+FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n?(.*)$", re.DOTALL)
+SUMMARY_SECTION_RE = re.compile(
+    r"^#\s+Summary\s*\n+(.*?)(?=\n#\s|\Z)", re.MULTILINE | re.DOTALL
+)
+
+
+def slugify_society(s):
+    if not s:
+        return "unknown"
+    s = s.lower()
+    s = re.sub(r"\s*&\s*", "-and-", s)
+    s = re.sub(r"[/\s]+", "-", s)
+    s = re.sub(r"[^a-z0-9-]", "", s)
+    return re.sub(r"-+", "-", s).strip("-")
+
+
+def reference_summary(
+    system_slug: str,
+    topic_slug: str,
+    versions: list[dict],
+    topic_society: str | None,
+) -> str | None:
+    """Pull the `# Summary` paragraph from the current version's reference file.
+
+    Mirrors `scripts/build_references.py:version_slug` for the filename, which is
+    `<year>-<society>` if a year is present, else just `<society>`. Society
+    inherits from topic when the version doesn't carry its own (most versions in
+    this manifest don't). Picks the latest-year version as "current", matching
+    `build_references.py:current_version`.
+
+    Returns None when:
+      - no dated version exists,
+      - the reference file is missing,
+      - the body is still the unenriched skeleton (so the docs site doesn't
+        show "_Body pending..._" to readers).
+    """
+    dated = [v for v in versions if v.get("year") is not None]
+    if not dated:
+        return None
+    current = max(dated, key=lambda v: v["year"])
+    society = current.get("society") or topic_society
+    society_slug = slugify_society(society) if society else "unknown"
+    slug = f"{current['year']}-{society_slug}"
+    path = REFERENCES / system_slug / topic_slug / f"{slug}.md"
+    if not path.is_file():
+        return None
+    text = path.read_text()
+    m = FRONTMATTER_RE.match(text)
+    body = m.group(2) if m else text
+    if SKELETON_BODY_MARKER in body:
+        return None
+    sm = SUMMARY_SECTION_RE.search(body)
+    if not sm:
+        return None
+    summary = sm.group(1).strip()
+    return summary or None
 
 
 def fmt_year_society(year, society):
@@ -90,7 +150,7 @@ def render_version(v: dict, topic_society: str | None) -> list[str]:
     return out
 
 
-def render_topic(topic_slug: str, topic_block: dict) -> list[str]:
+def render_topic(system_slug: str, topic_slug: str, topic_block: dict) -> list[str]:
     out: list[str] = []
     title = topic_block.get("title") or topic_slug
     society = topic_block.get("society")
@@ -107,6 +167,12 @@ def render_topic(topic_slug: str, topic_block: dict) -> list[str]:
         meta_parts.append("**high-yield**")
     out.append(" · ".join(meta_parts))
     out.append("")
+    summary = reference_summary(
+        system_slug, topic_slug, topic_block.get("versions") or [], society
+    )
+    if summary:
+        out.append(summary)
+        out.append("")
     for v in topic_block.get("versions", []):
         out.extend(render_version(v, society))
     out.append("")
@@ -133,7 +199,7 @@ def render_system(system_slug: str, sys_block: dict) -> str:
     lines.append(f"[← back to all systems]({site_url('/')})")
     lines.append("")
     for topic_slug in sorted(topics):
-        lines.extend(render_topic(topic_slug, topics[topic_slug]))
+        lines.extend(render_topic(system_slug, topic_slug, topics[topic_slug]))
     return "\n".join(lines) + "\n"
 
 
@@ -176,6 +242,39 @@ def render_index(manifest: dict) -> str:
     lines.append("")
     lines.append(
         f"_Totals: {len(systems)} systems · {total_topics} topics · {total_versions} versions · {total_hy} high-yield_"
+    )
+    lines.append("")
+    lines.append("## Anki deck")
+    lines.append("")
+    lines.append(
+        "[Download `guidelines.apkg`]"
+        "(https://github.com/cfu288/guidelines-flashcards/raw/main/build/guidelines.apkg) — "
+        "cloze cards generated from the references above. In Anki: **File → Import**. "
+        "Card GUIDs are stable, so re-importing a newer build updates notes in place "
+        "and preserves FSRS history."
+    )
+    lines.append("")
+    lines.append(
+        "**Don't grind the whole deck dry.** It's broad on purpose (every topic above, "
+        "every flagged recommendation), and front-loading the long tail will bury you. "
+        "Suggested first pass:"
+    )
+    lines.append("")
+    lines.append(
+        "1. **Suspend dosing cards.** Specific drug doses are reference-lookup material, "
+        "not spaced-repetition material. In the Anki browser, search "
+        "`deck:\"Internal Medicine Guidelines\" tag:im-guidelines::dosing` → select all → "
+        "**Notes → Suspend**."
+    )
+    lines.append(
+        f"2. **Suspend non-high-yield cards.** Start with the ~{total_hy} ⭐ topics an "
+        "attending will actually expect on rounds. Search "
+        "`deck:\"Internal Medicine Guidelines\" -tag:im-guidelines::high-yield` → select "
+        "all → **Notes → Suspend**."
+    )
+    lines.append(
+        "3. Unsuspend the rest as you encounter the underlying topics on service or in "
+        "study blocks."
     )
     lines.append("")
     sg = manifest.get("study_guides") or {}

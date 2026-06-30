@@ -26,7 +26,12 @@ from pathlib import Path
 from typing import NamedTuple, Optional
 
 import yaml
-from anthropic import Anthropic
+from anthropic import (
+    Anthropic,
+    APIConnectionError,
+    APIStatusError,
+    InternalServerError,
+)
 from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
 from anthropic.types.messages.batch_create_params import Request
 from dotenv import load_dotenv
@@ -41,14 +46,22 @@ STATE_PATH = Path("build/.enrich-state.json")
 # lands). Each chunk completes before the next is submitted; state-file resume
 # already handles Ctrl-C between chunks.
 CHUNK_SIZE = 20
-# Sonnet 4.6 batch pricing (50% off standard).
-INPUT_USD_PER_M = 1.50
-OUTPUT_USD_PER_M = 7.50
-MODEL = "claude-sonnet-4-6"
+# Opus 4.7 batch pricing (50% off standard $5 / $25 per M tokens).
+# Note: Opus 4.7 uses a new tokenizer that can produce up to ~35% more tokens
+# for the same source text vs. Sonnet 4.6 — factor that into pre-run estimates.
+# Tier-up from Sonnet 4.6: enrichment is the upstream knowledge layer that
+# cards + docs summaries both derive from, so accuracy here propagates
+# downstream. Run-once cost; references/ is committed afterwards.
+INPUT_USD_PER_M = 2.50
+OUTPUT_USD_PER_M = 12.50
+MODEL = "claude-opus-4-7"
 MAX_OUTPUT_TOKENS = 8192
-MAX_SOURCE_CHARS = 600_000          # ~150K tokens at ~4 chars/token
-HEAD_CHARS = 480_000                # ~120K tokens
-TAIL_CHARS = 120_000                # ~30K tokens
+MAX_SOURCE_CHARS = 2_000_000        # ~660K tokens at ~3 chars/token (Opus 4.7);
+                                    # covers 100% of current sources (max 1.23M
+                                    # chars) with headroom. Opus 4.7 has 1M ctx,
+                                    # so per-request input stays under budget.
+HEAD_CHARS = 1_600_000              # 80% head — matches original head/tail ratio
+TAIL_CHARS = 400_000                # 20% tail (only used when len > MAX_SOURCE_CHARS)
 POLL_SECONDS = 30
 SOURCE_FORMAT_PREFERENCE = ("epub", "html", "pdf")  # match parse_sources.py
 
@@ -276,7 +289,12 @@ def chunked(seq: list, n: int) -> list[list]:
 
 
 def estimate_cost(jobs: list[Job]) -> tuple[float, int]:
-    """Rough $ estimate for a batch + total input tokens (chars / 4)."""
+    """Rough $ estimate for a batch + total input tokens.
+
+    Uses ~3 chars/token because Opus 4.7's new tokenizer produces up to ~35%
+    more tokens than prior Claude models for the same text (per docs.claude.com).
+    Adjust if the model is downshifted to a pre-Opus-4.7 generation.
+    """
     total_input_chars = 0
     for j in jobs:
         msgs = j.request["params"]["messages"]
@@ -284,7 +302,7 @@ def estimate_cost(jobs: list[Job]) -> tuple[float, int]:
             c = m["content"]
             if isinstance(c, str):
                 total_input_chars += len(c)
-    input_tokens = total_input_chars // 4
+    input_tokens = total_input_chars // 3
     # Assume ~1500 output tokens per call (typical for tool-use payload).
     output_tokens = len(jobs) * 1500
     cost = (
@@ -298,7 +316,24 @@ def submit_and_track(
     client: Anthropic, jobs: list[Job], state: dict, label: str
 ) -> dict:
     requests = [j.request for j in jobs]
-    batch = client.messages.batches.create(requests=requests)
+    # The Anthropic SDK retries internally, but batch-submission has been
+    # observed to fail with sustained Cloudflare 502s / dropped connections
+    # during regional incidents. Wrap with explicit exponential backoff so a
+    # 5-30min infrastructure blip doesn't lose the whole resume-state context.
+    backoffs = [15, 60, 180, 600]
+    last_exc: Exception | None = None
+    for attempt, wait in enumerate([0] + backoffs):
+        if wait:
+            print(f"  submit retry {attempt}/{len(backoffs)} after {wait}s …")
+            time.sleep(wait)
+        try:
+            batch = client.messages.batches.create(requests=requests)
+            break
+        except (APIConnectionError, InternalServerError, APIStatusError) as e:
+            last_exc = e
+            print(f"  submit attempt {attempt + 1} failed: {type(e).__name__}: {e}")
+    else:
+        raise last_exc  # all retries exhausted
     print(f"submitted {label} batch {batch.id} ({len(jobs)} requests)")
     entry = {
         "id": batch.id,
@@ -528,7 +563,7 @@ def main() -> int:
         print(
             f"\nestimate: {len(jobs)} jobs in {len(chunks)} chunk(s) of ≤{CHUNK_SIZE}; "
             f"input ~{est_tokens:,} tokens; "
-            f"rough cost ~${est_cost:.2f} (batch-discounted Sonnet 4.6)"
+            f"rough cost ~${est_cost:.2f} (batch-discounted {MODEL})"
         )
 
         for i, chunk in enumerate(chunks, start=1):

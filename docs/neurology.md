@@ -13,6 +13,8 @@ permalink: /neurology/
 
 `acute-ischemic-stroke` · society: **AHA/ASA** · **high-yield**
 
+The 2026 AHA/ASA guideline replaces the 2018 guideline and 2019 update for early management of acute ischemic stroke, spanning prehospital care through early in-hospital management. Major updates include endorsement of tenecteplase as equivalent to alteplase within 4.5 hours, expanded EVT eligibility (large cores, basilar occlusion to 24 h, selected pediatric patients), extended-window IVT (4.5–9 h with perfusion mismatch), abandonment of intensive glucose (80–130 mg/dL) and intensive post-EVT BP (<140 mm Hg) targets, mobile stroke unit endorsement, and first-time pediatric EVT/IVT recommendations.
+
   - **2026 · AHA/ASA** — 2026 AHA/ASA Early Management of AIS
     - [canonical](https://www.ahajournals.org/doi/10.1161/STR.0000000000000513) · [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000513) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000513)
   - **2019 · AHA/ASA** — (no title)
@@ -31,12 +33,16 @@ permalink: /neurology/
 
 `ich` · society: **AHA/ASA**
 
+2022 AHA/ASA guideline for management of spontaneous (nontraumatic, non-structural) intracerebral hemorrhage in adults, updating the 2015 version. Key updates include refined acute BP targets emphasizing smooth sustained control, expanded anticoagulation reversal recommendations (4F-PCC, idarucizumab, andexanet alfa), evidence against prophylactic corticosteroids/hyperosmolar therapy/platelet transfusions/antiseizure prophylaxis, support for minimally invasive hematoma evacuation to reduce mortality, and broader criteria for cerebellar ICH surgery (now including volume >15 mL).
+
   - **2022 · AHA/ASA** — 2022 AHA/ASA ICH Guideline
     - [canonical](https://www.ahajournals.org/doi/10.1161/STR.0000000000000407) · [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000407) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000407)
 
 ### Migraine
 
 `migraine`
+
+Updated AHS consensus on integrating newer acute and preventive migraine therapies into adult practice, building on the prior position statement without altering established treatment principles. New acute options covered include gepants (ubrogepant, rimegepant), the ditan lasmiditan, celecoxib oral solution, and remote electrical neuromodulation (REN); new preventive options include IV eptinezumab, with emerging dual-use gepants (rimegepant, atogepant). Recommendations specify when to escalate from triptans/established preventives to these newer agents and how to measure response.
 
   - **2021 · American Headache Society** — AHS 2021 Migraine Consensus
     - _Plus AAN._
@@ -46,12 +52,16 @@ permalink: /neurology/
 
 `multiple-sclerosis` · society: **AAN**
 
+AAN 2018 guideline on disease-modifying therapy (DMT) for adults with multiple sclerosis, replacing the 2002 AAN DMT guideline. Thirty consensus recommendations address starting (17), switching (10), and stopping (3) DMTs across RRMS, SPMS, PPMS, and clinically isolated syndrome (CIS), emphasizing shared decision-making, adherence, comorbidity management, and PML risk counseling. Ocrelizumab is endorsed for ambulatory PPMS, and specific guidance is given for natalizumab JCV-antibody risk stratification and pregnancy-related DMT decisions.
+
   - **2018 · AAN** — AAN 2018 MS Disease-Modifying Therapy Guideline
     - [canonical](https://www.neurology.org/doi/10.1212/WNL.0000000000005347) · [html](https://www.neurology.org/doi/full/10.1212/WNL.0000000000005347) · [pdf](https://www.neurology.org/doi/pdf/10.1212/WNL.0000000000005347)
 
 ### Secondary stroke prevention
 
 `secondary-stroke-prevention` · society: **AHA/ASA**
+
+Comprehensive AHA/ASA guideline on secondary prevention of ischemic stroke and TIA, organized by etiologic subtype with new sections on diagnostic evaluation and systems of care. Emphasizes intensive vascular risk factor management (BP <130/80, LDL-C <70 mg/dL), antithrombotic therapy tailored to mechanism, short-term DAPT for minor stroke/high-risk TIA, anticoagulation for AF, and PFO closure in selected patients age 18–60. Replaces 2014 guidelines and adds ESUS, carotid web, FMD, and health equity sections.
 
   - **2021 · AHA/ASA** — 2021 AHA/ASA Stroke/TIA Prevention Guideline
     - [canonical](https://www.ahajournals.org/doi/10.1161/STR.0000000000000375) · [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000375) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000375)

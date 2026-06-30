@@ -90,6 +90,33 @@ Good (multiple atomic cards):
 - "ARNIs combine a {{c1::neprilysin inhibitor (sacubitril)}} with an {{c2::ARB (valsartan)}}."
 - "Class side effects of ARNIs include {{c1::hyperkalemia}} and {{c2::angioedema}}."
 
+## Overlapping numeric ranges — use SAME cloze number
+
+When two thresholds in one sentence reference each other's boundary (≥X and <X, or two adjacent bands of a range), DIFFERENT cloze numbers create a leak: hiding one but leaving the other visible reveals the answer via the shared boundary value.
+
+Bad (c1 is spoiled by the visible `<70` in c2's range):
+`After ACS, a nonstatin agent should be added if LDL-C remains ≥{{c1::70 mg/dL}}; intensification is reasonable at LDL-C {{c2::55 to <70 mg/dL}}.`
+
+Good (both hidden together — facts that only make sense as a pair):
+`After ACS, a nonstatin agent should be added if LDL-C remains ≥{{c1::70 mg/dL}}; intensification is reasonable at LDL-C {{c1::55 to <70 mg/dL}}.`
+
+Even better (split into two atomic cards with no shared numeric context):
+- "After ACS on maximally tolerated statin, a nonstatin agent should be added if LDL-C remains ≥{{c1::70 mg/dL}}."
+- "After ACS on maximally tolerated statin, intensification is reasonable at LDL-C {{c1::55 to <70 mg/dL}}."
+
+Rule: if blanking field A would let the reader deduce A from a still-visible field B (boundaries, units, "X mg q daily" hiding only mg while keeping "q daily" + drug name), either combine them under the same cN or split into separate atomic cards.
+
+# Self-audit before submitting
+
+Before calling `submit_cards`, mentally render each multi-cloze card with each cN hidden in turn. For each generated "view":
+
+1. **Numeric leak**: does any visible number elsewhere in the card make the hidden value obvious (≥X visible while <X is hidden; an adjacent range bounded by the hidden value)?
+2. **Literal repetition**: does the hidden answer's word appear verbatim elsewhere in the visible text?
+3. **List elimination**: if the card lists N items and you've hidden 1, does the remaining N-1 give it away?
+4. **Grammar tell**: does the visible "a" / "an" before the cloze betray the answer's starting letter?
+
+If ANY of those apply, either change the offending clozes to the SAME cN (so they hide together) or rephrase to remove the leak. Then re-audit.
+
 # Your task
 
 For each concept you receive (one guideline version), produce 5-12 atomic cloze cards covering its highest-yield Key Recommendations and Thresholds & Doses. Aim for breadth over depth — one card per discrete fact a resident should know cold.
@@ -423,8 +450,10 @@ def main() -> int:
         )
 
     # Discover concepts: card_eligible + enriched (has _source_hash). For each,
-    # decide: fresh (skip), legacy-no-hash (skip — don't relitigate), stale
-    # body (purge old + regen), or new (gen).
+    # decide: fresh (skip), legacy-no-hash (purge + regen — pre-versioning cards
+    # can't be diffed against current body, so they must drift; safer to rebuild
+    # from the now-tracked enriched body than to silently keep drift forever),
+    # stale body (purge + regen), or new (gen).
     eligible: list[tuple[Path, dict, str]] = []
     purge_concepts: set[tuple[str, str, str]] = set()
     stats = {"fresh": 0, "legacy_no_hash": 0, "stale_body": 0, "stale_gen": 0, "new": 0}
@@ -454,8 +483,13 @@ def main() -> int:
         ex_hash = existing.get("body_hash")
         ex_gen = existing.get("generator_version")
         if ex_hash is None:
-            # Pre-versioning row — don't force re-spend on existing cards.
+            # Pre-versioning row — can't diff body content, so we can't know
+            # whether the cards are still aligned with the current enriched
+            # body. Treat as stale and regenerate so the new cards carry
+            # body_hash + generator_version going forward.
             stats["legacy_no_hash"] += 1
+            purge_concepts.add(parts)
+            eligible.append((p, fm, body))
             continue
 
         current_hash = body_hash(body)

@@ -32,9 +32,21 @@ report:
 apkg:
     uv run scripts/build_apkg.py
 
-# Everything free: validate → parse → build → report → apkg.
+# Heuristic spoiler-pattern check on build/cards.jsonl.
+# Catches: NUMERIC_OVERLAP, NUMERIC_BOUNDARY, LITERAL_REPETITION, GRAMMAR_TELL.
+# Report-only; add `--strict` to exit non-zero.
+qa-cards:
+    uv run scripts/validate_cards.py
+
+# Regenerate docs/index.md + docs/<system>.md from manifest.yaml.
+# The deck download links to build/guidelines.apkg on GitHub directly (build/
+# is committed), so nothing to stage into docs/.
+publish-docs:
+    uv run scripts/build_docs.py
+
+# Everything free: validate → parse → build → report → apkg → qa-cards.
 # Safe to run any time; never spends money on API.
-all-local: validate parse build report apkg
+all-local: validate parse build report apkg qa-cards
 
 # ── Paid (Anthropic API spend) ─────────────────────────────────────────────
 
@@ -50,3 +62,15 @@ enrich:
 # Chunks submissions in groups of 20.
 cards:
     uv run scripts/generate_cards.py
+
+# LLM-based deep audit of multi-cloze cards for spoiler patterns.
+# Uses Haiku (cheap; ~$0.10-0.20 per full run). Catches semantic leaks the
+# heuristic validator can't see. Report at build/qa-cards-deep.jsonl.
+qa-cards-deep:
+    uv run scripts/validate_cards_deep.py
+
+# Classify each card as dosing vs concept; writes build/card-classifications.jsonl.
+# build_apkg.py reads it and adds `im-guidelines::dosing` tag to flagged cards.
+# Cheap Haiku run (~$0.05).
+qa-dosing:
+    uv run scripts/classify_dosing.py

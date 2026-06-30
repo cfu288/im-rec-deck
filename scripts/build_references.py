@@ -198,12 +198,20 @@ def build_version_concept(
 
     target = BUNDLE_ROOT / sys_slug / topic_slug / f"{slug}.md"
 
-    # Preserve enrichment state if this concept has already been enriched.
-    # `_source_hash` is the marker the enrichment script writes; if present,
-    # also keep the existing body (it's the enriched body, not the skeleton).
+    # Preserve enrichment state. We check the body content itself rather than
+    # only the `_source_hash` frontmatter marker — historical lesson: a missing
+    # marker is not a reliable signal that the body is throwaway, and silently
+    # clobbering an enriched body (paid Anthropic batch work) on a skeleton
+    # rebuild has bitten us before. If the body contains any of the section
+    # headers the enrichment script emits, treat it as enriched and preserve.
     existing_fm, existing_body = read_existing(target)
-    if existing_fm.get("_source_hash"):
-        frontmatter["_source_hash"] = existing_fm["_source_hash"]
+    body_is_enriched = bool(existing_body) and any(
+        h in existing_body
+        for h in ("# Key Recommendations", "# Thresholds & Doses", "# Citations")
+    )
+    if body_is_enriched:
+        if existing_fm.get("_source_hash"):
+            frontmatter["_source_hash"] = existing_fm["_source_hash"]
         body_text = existing_body.rstrip() + "\n"
     else:
         body_text = "\n".join(

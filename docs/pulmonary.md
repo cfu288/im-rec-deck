@@ -13,12 +13,16 @@ permalink: /pulmonary/
 
 `ards` · society: **ATS/ESICM/SCCM**
 
+2023 ESICM update of the 2017 ATS/ESICM/SCCM ARDS guideline covering adult patients and non-pharmacological respiratory support (plus neuromuscular blockade) for ARDS including COVID-19 ARDS. The guideline addresses 21 PICO questions across nine domains: definition, phenotyping, HFNO, NIV/CPAP, low tidal volume ventilation, PEEP and recruitment maneuvers, prone positioning, neuromuscular blockade, and extracorporeal life support. New since 2017: explicit recommendations for HFNO over conventional oxygen, awake prone positioning in COVID-19, against routine recruitment maneuvers, and stronger guidance on VV-ECMO in EOLIA-eligible patients.
+
   - **2023 · ATS/ESICM/SCCM** — 2023 ATS/ESICM/SCCM ARDS Guideline
     - [canonical](https://pmc.ncbi.nlm.nih.gov/articles/PMC10354163/)
 
 ### Asthma ⭐
 
 `asthma` · society: **GINA** · **high-yield**
+
+GINA 2026 is the annual update of the Global Strategy for Asthma Management and Prevention, covering diagnosis, assessment, pharmacologic and non-pharmacologic management, exacerbations, severe asthma, and prevention across all ages. Key 2026 changes include four new exacerbation flowcharts with revised lower oxygen saturation thresholds (≥92%) and more conservative SABA dosing; addition of as-needed ICS-formoterol (AIR) and ICS-SABA options for children 6–11 years (CARE study) and adults (BATURA study); new biologics depemokimab (long-acting anti-IL5, q26-weekly) and biosimilar omalizumab-igec; expanded Step 5 LAMA options including budesonide-formoterol-glycopyrronium; and retention of the ≥12% and ≥200 mL FEV₁ criterion for bronchodilator responsiveness. Track 1 (ICS-formoterol as reliever, with or without maintenance) remains the preferred approach for adults/adolescents.
 
   - **2026 · GINA** — GINA 2026 — Global Strategy for Asthma Management and Prevention
     - _Updated annually._
@@ -31,6 +35,8 @@ permalink: /pulmonary/
 
 `cap` · society: **ATS/IDSA** · **high-yield**
 
+2025 ATS/IDSA update to the 2019 CAP guideline addressing four focused questions in immunocompetent adults: lung ultrasound (LUS) as an alternative to chest radiography, empiric antibacterial therapy when a respiratory virus is detected, antibiotic duration shorter than 5 days after clinical stability, and adjunctive systemic corticosteroids in hospitalized CAP. Two questions are new (LUS, virus-positive empiric antibiotics) and two update 2019 recommendations (duration, steroids). The guideline emphasizes individualized care stratified by setting (outpatient vs inpatient) and severity (nonsevere vs severe CAP per 2007/2019 IDSA/ATS criteria); IDSA did not approve this update.
+
   - **2025 · ATS/IDSA** — 2025 ATS/IDSA CAP Guideline
     - _Updates the 2019 document._
     - [canonical](https://academic.oup.com/ajrccm/article/212/1/24/8435770) · [html](https://academic.oup.com/ajrccm/article/212/1/24/8435770)
@@ -40,6 +46,8 @@ permalink: /pulmonary/
 ### COPD ⭐
 
 `copd` · society: **GOLD** · **high-yield**
+
+Updated annually.
 
   - **2026 · GOLD** — GOLD 2026 — Global Strategy for Prevention, Diagnosis and Management of COPD
     - _Updated annually._
@@ -87,6 +95,8 @@ permalink: /pulmonary/
 ### Sepsis & septic shock ⭐
 
 `sepsis` · society: **SCCM/ESICM** · **high-yield**
+
+Current international reference.
 
   - **2021 · SCCM/ESICM** — Surviving Sepsis Campaign 2021
     - _Current international reference._

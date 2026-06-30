@@ -1,0 +1,173 @@
+# Rheumatology.apkg tag cleanup mapping
+#
+# Drives scripts/rewrite_anki_tags.py. Every new tag is scoped under `rheum::`
+# so it sits in its own branch in the Anki tag tree and never collides with
+# the existing guidelines-flashcards tags (`system::*`, `society::*`, etc.).
+#
+# Five namespaces under rheum::
+#   dx::       diseases / diagnoses                         e.g. rheum::dx::sle
+#   tx::       drugs / drug classes / treatments            e.g. rheum::tx::biologic::tnfi
+#   topic::    cross-cutting academic content + modalities  e.g. rheum::topic::histology
+#   ctx::      patient context / special populations        e.g. rheum::ctx::pregnancy
+#   src::      provenance                                   e.g. rheum::src::acr
+#
+# Decisions:
+#   - lowercase, hyphens (not underscores) inside segments
+#   - acronyms when universally clinical (sle, ra, tnfi, gpa-mpa, cppd, ibd, ms)
+#   - full hyphenated names otherwise (ankylosing-spondylitis, polymyalgia-rheumatica)
+#   - one-to-many decomposition for tags that straddle two axes (split into
+#     multiple new tags — e.g. Bisphosphonates::osteoporosis → tx::bisphosphonate + dx::osteoporosis)
+#   - DROP tags that carry no signal (miscellaneous) or are redundant with
+#     specific tags (Medication, given a tx::* child is always added)
+
+mapping:
+  # ── Provenance ────────────────────────────────────────────────────────
+  ACR: rheum::src::acr
+  journal: rheum::src::journal
+
+  # ── Diseases: rheumatologic ───────────────────────────────────────────
+  Rheumatoid::arthritis: rheum::dx::ra
+  JIA: rheum::dx::ra::juvenile
+  SLE: rheum::dx::sle
+  Drug-induced::SLE: [rheum::dx::sle, rheum::ctx::drug-induced]
+  LN: rheum::dx::sle::lupus-nephritis
+  Sjogren's: rheum::dx::sjogrens
+  scleroderma: rheum::dx::scleroderma
+  scleroderma::mimic: [rheum::dx::scleroderma, rheum::topic::mimics]
+  MCTD: rheum::dx::mctd
+  APS: rheum::dx::aps
+  psoriatic: rheum::dx::psoriatic-arthritis
+  Ankylosing::spondylitis: rheum::dx::ankylosing-spondylitis
+  spondyloarthropathy: rheum::dx::spondyloarthropathy
+  PMR: rheum::dx::pmr
+  Behcets: rheum::dx::behcets
+  Relapsing::polychondritis: rheum::dx::relapsing-polychondritis
+  IgG4: rheum::dx::igg4
+  IgG4::histology: [rheum::dx::igg4, rheum::topic::histology]
+  sarcoidosis: rheum::dx::sarcoidosis
+  amyloidosis: rheum::dx::amyloidosis
+  arthritis: rheum::dx::arthritis
+  septic::arthritis: rheum::dx::septic-arthritis
+  osteoarthritis: rheum::dx::oa
+
+  # ── Diseases: vasculitis sub-tree ─────────────────────────────────────
+  vasculitis: rheum::dx::vasculitis
+  GCA: rheum::dx::vasculitis::gca
+  GPA/MPA: rheum::dx::vasculitis::gpa-mpa
+  EGPA: rheum::dx::vasculitis::egpa
+  PAN: rheum::dx::vasculitis::pan
+  LCV: rheum::dx::vasculitis::lcv
+  LCV::IgA: [rheum::dx::vasculitis::lcv, rheum::topic::serology::iga]
+  HSP: rheum::dx::vasculitis::hsp
+  cryoglobulinemia: rheum::dx::vasculitis::cryoglobulinemia
+
+  # ── Diseases: crystal / metabolic / bone ──────────────────────────────
+  gout: rheum::dx::gout
+  CPPD: rheum::dx::cppd
+  crystal: rheum::topic::crystal-arthropathy
+  osteoporosis: rheum::dx::osteoporosis
+  osteomalacia: rheum::dx::osteomalacia
+  osteopetrosis: rheum::dx::osteopetrosis
+  hyperparathyroidism: rheum::dx::hyperparathyroidism
+  hyperparathyroidism::osteoporosis: [rheum::dx::hyperparathyroidism, rheum::dx::osteoporosis]
+  Hypophosphatasia: rheum::dx::hypophosphatasia
+  hemochromatosis: rheum::dx::hemochromatosis
+  RTA: rheum::dx::rta
+
+  # ── Diseases: autoinflammatory / hereditary / misc ────────────────────
+  autoinflammatory: rheum::dx::autoinflammatory
+  CAPS: rheum::dx::caps
+  HPFS: rheum::dx::hereditary-periodic-fever
+  Fabry: rheum::dx::fabry
+  glycogen::storage::disease: rheum::dx::glycogen-storage-disease
+  MAS: rheum::dx::mas
+  SAPHO: rheum::dx::sapho
+  MRH: rheum::dx::mrh
+  CRPS: rheum::dx::crps
+
+  # ── Diseases: dermatologic / MSK / other ──────────────────────────────
+  psoriasis: rheum::dx::psoriasis
+  erythema::nodosum: rheum::dx::erythema-nodosum
+  panniculitis: rheum::dx::panniculitis
+  chilblains: rheum::dx::chilblains
+  tendinopathy: rheum::dx::tendinopathy
+  tendinopathy::rotator::cuff: [rheum::dx::tendinopathy, rheum::topic::msk::rotator-cuff]
+  rotator::cuff: rheum::topic::msk::rotator-cuff
+  SONK::knee::pain: [rheum::dx::sonk, rheum::topic::msk::knee-pain]
+  knee::pain: rheum::topic::msk::knee-pain
+
+  # ── Diseases: neuro / muscle ──────────────────────────────────────────
+  myopathy: rheum::dx::myopathy
+  myositis: rheum::dx::myositis
+  Neuropathy: rheum::dx::neuropathy
+  MSK::neuropathy: [rheum::topic::msk, rheum::dx::neuropathy]
+
+  # ── Diseases: GI / endocrine / heme (rheum-adjacent) ──────────────────
+  celiac: rheum::dx::celiac
+  IBD: rheum::dx::ibd
+  Thyroid: rheum::dx::thyroid-disorder
+  diabetes: rheum::dx::diabetes
+  anemia: rheum::dx::anemia
+  hematology: rheum::topic::heme
+
+  # ── Diseases: infectious ──────────────────────────────────────────────
+  infection: rheum::dx::infection
+  Lyme: rheum::dx::lyme
+  tuberculosis: rheum::dx::tb
+  HCV: rheum::dx::hcv
+  HIV: rheum::dx::hiv
+  Parvovirus: rheum::dx::parvovirus
+  virus: rheum::topic::virology
+
+  # ── Treatments / drugs ────────────────────────────────────────────────
+  Methotrexate: rheum::tx::csdmard::methotrexate
+  cyclophosphamide: rheum::tx::csdmard::cyclophosphamide
+  azathioprine: rheum::tx::csdmard::azathioprine
+  MMF: rheum::tx::csdmard::mmf
+  biologic: rheum::tx::biologic
+  TNFi: rheum::tx::biologic::tnfi
+  TNFi::neurology: [rheum::tx::biologic::tnfi, rheum::topic::neuro]
+  Rituximab: rheum::tx::biologic::rituximab
+  JAKi: rheum::tx::jak-inhibitor
+  checkpoint::inhibitors: rheum::tx::checkpoint-inhibitor
+  bisphosphonates: rheum::tx::bisphosphonate
+  Bisphosphonates::osteoporosis: [rheum::tx::bisphosphonate, rheum::dx::osteoporosis]
+
+  # ── Modality / cross-cutting topic ────────────────────────────────────
+  histology: rheum::topic::histology
+  radiology: rheum::topic::radiology
+  NCV/EMG: rheum::topic::ncv-emg
+  EMG: rheum::topic::ncv-emg
+  NCV/EMG::mulitple::sclerosis: [rheum::topic::ncv-emg, rheum::dx::multiple-sclerosis]   # typo fixed
+  maneuvers: rheum::topic::exam-maneuvers
+  gene: rheum::topic::genetics
+  immunology: rheum::topic::immunology
+  inflammation: rheum::topic::inflammation
+  metabolic: rheum::topic::metabolic
+  vaccine: rheum::topic::vaccine
+  ANCA: rheum::topic::serology::anca
+  IgA: rheum::topic::serology::iga
+
+  # ── Anatomical / subspecialty (folded into topic per codex's call) ────
+  MSK: rheum::topic::msk
+  neurology: rheum::topic::neuro
+  ophthalmology: rheum::topic::ophtho
+  orthopedic: rheum::topic::ortho
+  skin: rheum::topic::derm
+  surgery: rheum::topic::surgery
+  iliopsoas: rheum::topic::msk::iliopsoas
+  piriformis: rheum::topic::msk::piriformis
+  ILD: rheum::dx::ild
+
+  # ── Patient context ──────────────────────────────────────────────────
+  pregnancy: rheum::ctx::pregnancy
+  pediatric: rheum::ctx::pediatric
+  reproductive: rheum::ctx::reproductive
+  malignancy: rheum::ctx::malignancy
+  immunocompromised: rheum::ctx::immunocompromised
+  Immunocompromised::infection: [rheum::ctx::immunocompromised, rheum::dx::infection]
+
+# Tags to remove entirely (no replacement).
+drop:
+  - miscellaneous        # too vague to be useful; signal lives in the new specific tags
+  - Medication           # redundant — every drug card gets a rheum::tx::* tag instead

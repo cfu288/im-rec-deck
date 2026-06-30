@@ -21,12 +21,16 @@ permalink: /infectious-diseases/
 
 `antimicrobial-stewardship` · society: **IDSA/SHEA**
 
+IDSA/SHEA 2016 guideline on implementing antibiotic stewardship programs (ASPs) in acute inpatient, long-term care, and ED settings. Provides 28 GRADE-rated recommendations across interventions, optimization, microbiology/diagnostics, measurement, and special populations. Emphasizes preauthorization and/or prospective audit and feedback as core ASP activities led by ID physicians with pharmacist partners.
+
   - **2016 · IDSA/SHEA** — IDSA/SHEA 2016 Antimicrobial Stewardship Guideline
     - [canonical](https://academic.oup.com/cid/article/62/10/e51/2462846) · [html](https://academic.oup.com/cid/article/62/10/e51/2462846) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC5006285/)
 
 ### Candidiasis
 
 `candidiasis` · society: **IDSA**
+
+2016 IDSA update on management of candidiasis covering candidemia, invasive candidiasis, and mucosal disease across neutropenic, nonneutropenic, ICU, neonatal, and special-site populations. Major change from 2009 is the elevation of echinocandins to first-line therapy for most candidemia and invasive candidiasis, with fluconazole reserved for selected stable, azole-naive patients. Adds guidance on β-D-glucan and PCR diagnostics, and updates recommendations for endocarditis, endophthalmitis, CNS, intra-abdominal, and urinary tract candidiasis.
 
   - **2016 · IDSA** — IDSA 2016 Candidiasis Guideline
     - [canonical](https://academic.oup.com/cid/article/62/4/e1/2462830) · [html](https://academic.oup.com/cid/article/62/4/e1/2462830) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC4725385/)
@@ -45,6 +49,8 @@ permalink: /infectious-diseases/
 
 `hiv` · **high-yield**
 
+The IAS-USA 2024 panel updates recommendations for antiretroviral therapy and HIV prevention in adults. ART is recommended for all individuals with HIV, with bictegravir- or dolutegravir-based InSTI regimens plus 2 NRTIs (TXF/XTC) as preferred initial therapy; DTG/3TC is the only recommended 2-drug initial option. New elements include broader statin use for ASCVD primary prevention (per REPRIEVE), doxycycline PEP for bacterial STI prevention, long-acting cabotegravir for PrEP, and integrated management of substance use disorders, weight gain, and cardiometabolic comorbidities.
+
   - **HHS/DHHS** — HHS Guidelines for ARV in Adults & Adolescents
     - [canonical](https://clinicalinfo.hiv.gov/sites/default/files/guidelines/documents/adult-adolescent-arv/guidelines-adult-adolescent-arv.pdf) · [html](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv)
   - **2024 · IAS-USA** — IAS-USA 2024 Recommendations
@@ -53,6 +59,8 @@ permalink: /infectious-diseases/
 ### Infective endocarditis
 
 `infective-endocarditis`
+
+AHA 2023 Science Advisory revisiting the link between nondental invasive procedures (NDIPs) and infective endocarditis (IE) risk, prompted by large nationwide case-crossover studies from Sweden (Janszky 2018) and England (Thornhill 2022) showing temporal association between several NDIPs and subsequent IE in high-risk patients. The advisory does not change current AHA guidance (which since 2007 restricts antibiotic prophylaxis [AP] to invasive dental procedures in high-risk patients) but calls for future guideline committees to reconsider AP, infection-prevention measures, and clinician awareness for NDIPs in high-risk individuals. No new prophylaxis regimens are mandated.
 
   - **2023 · AHA** — AHA 2023 IE Update
     - [canonical](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001180) · [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001180) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001180)
@@ -67,6 +75,8 @@ permalink: /infectious-diseases/
 
 `ssti` · society: **IDSA**
 
+2014 IDSA update on diagnosis and management of skin and soft tissue infections (SSTIs), updating the 2005 guideline and aligned with IDSA's MRSA guideline. Stratifies purulent vs nonpurulent SSTIs into mild/moderate/severe categories driving incision-and-drainage and antibiotic selection. Covers impetigo, abscesses, cellulitis/erysipelas, necrotizing fasciitis, pyomyositis, gas gangrene, surgical site infections, animal/human bites, zoonotic SSTIs, and SSTIs in immunocompromised and neutropenic hosts.
+
   - **2014 · IDSA** — IDSA 2014 SSTI Guideline
     - [canonical](https://academic.oup.com/cid/article/59/2/e10/2895845) · [html](https://academic.oup.com/cid/article/59/2/e10/2895845)
 
@@ -74,12 +84,16 @@ permalink: /infectious-diseases/
 
 `sti` · society: **CDC**
 
+Comprehensive CDC update of the 2015 STD treatment guidelines covering screening, diagnosis, and treatment of STIs across populations. Key updates include single-dose ceftriaxone 500 mg for gonorrhea, doxycycline preferred over azithromycin for chlamydia, addition of metronidazole to PID regimens, multidose metronidazole for trichomoniasis in women, resistance-guided two-stage therapy for M. genitalium, expanded syphilis screening in pregnancy, universal one-time HCV screening, and two-step HSV serologic testing.
+
   - **2021 · CDC** — CDC STI Treatment Guidelines 2021
     - [canonical](https://www.cdc.gov/std/treatment-guidelines/STI-Guidelines-2021.pdf) · [html](https://www.cdc.gov/mmwr/volumes/70/rr/rr7004a1.htm) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC8344968/)
 
 ### Tuberculosis (active / latent)
 
 `tuberculosis`
+
+2020 NTCA/CDC update to the 2000 ATS/CDC latent TB infection (LTBI) treatment guidelines, based on GRADE systematic review and network meta-analysis. Short-course (3–4 month) rifamycin-based regimens are now preferred over 6–9 months of isoniazid monotherapy because of equivalent efficacy, lower hepatotoxicity, and higher completion rates. Applies only to LTBI presumed susceptible to isoniazid or rifampin (not MDR-TB contacts).
 
   - **2020 · NTCA/CDC** — 2020 NTCA/CDC Latent TB Guideline
     - [canonical](https://www.cdc.gov/mmwr/volumes/69/rr/pdfs/rr6901a1-H.pdf) · [html](https://www.cdc.gov/mmwr/volumes/69/rr/rr6901a1.htm) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC7041302/)
@@ -89,6 +103,8 @@ permalink: /infectious-diseases/
 ### Urinary tract infection ⭐
 
 `uti` · society: **IDSA** · **high-yield**
+
+2019 IDSA update on management of asymptomatic bacteriuria (ASB), defined as ≥10⁵ CFU/mL in urine without UTI symptoms. Updates the 2005 guideline and adds new populations (children, solid organ transplant, neutropenia, nonurologic surgery) plus guidance on interpreting nonlocalizing symptoms (delirium, falls) in older adults. Core message: do NOT screen or treat ASB except in pregnancy and before endoscopic urologic procedures involving mucosal trauma; emphasis on antimicrobial stewardship.
 
   - **2019 · IDSA** — IDSA 2019 Asymptomatic Bacteriuria
     - [canonical](https://www.idsociety.org/globalassets/idsa/practice-guidelines/2019-asymptomatic-bacteriuria.pdf) · [html](https://academic.oup.com/cid/article/68/10/e83/5407612)
