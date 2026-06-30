@@ -13,7 +13,7 @@ permalink: /neurology/
 
 `acute-ischemic-stroke` · society: **AHA/ASA** · **high-yield**
 
-The 2026 AHA/ASA guideline replaces the 2018 guideline and 2019 update for early management of acute ischemic stroke, spanning prehospital care through early in-hospital management. Major updates include endorsement of tenecteplase as equivalent to alteplase within 4.5 hours, expanded EVT eligibility (large cores, basilar occlusion to 24 h, selected pediatric patients), extended-window IVT (4.5–9 h with perfusion mismatch), abandonment of intensive glucose (80–130 mg/dL) and intensive post-EVT BP (<140 mm Hg) targets, mobile stroke unit endorsement, and first-time pediatric EVT/IVT recommendations.
+The 2026 AHA/ASA guideline replaces the 2018 guideline and 2019 update for early management of acute ischemic stroke, spanning prehospital care through early in-hospital management. Major updates include endorsement of tenecteplase as equivalent to alteplase within 4.5 hours, expanded EVT eligibility (large cores, basilar occlusion to 24 h, selected pediatric patients), extended-window IVT (4.5–9 h with perfusion mismatch), abandonment of intensive glucose (80–130 mg/dL) and intensive post-EVT BP (\<140 mm Hg) targets, mobile stroke unit endorsement, and first-time pediatric EVT/IVT recommendations.
 
   - **2026 · AHA/ASA** — 2026 AHA/ASA Early Management of AIS
     - [canonical](https://www.ahajournals.org/doi/10.1161/STR.0000000000000513) · [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000513) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000513)
@@ -61,7 +61,7 @@ AAN 2018 guideline on disease-modifying therapy (DMT) for adults with multiple s
 
 `secondary-stroke-prevention` · society: **AHA/ASA**
 
-Comprehensive AHA/ASA guideline on secondary prevention of ischemic stroke and TIA, organized by etiologic subtype with new sections on diagnostic evaluation and systems of care. Emphasizes intensive vascular risk factor management (BP <130/80, LDL-C <70 mg/dL), antithrombotic therapy tailored to mechanism, short-term DAPT for minor stroke/high-risk TIA, anticoagulation for AF, and PFO closure in selected patients age 18–60. Replaces 2014 guidelines and adds ESUS, carotid web, FMD, and health equity sections.
+Comprehensive AHA/ASA guideline on secondary prevention of ischemic stroke and TIA, organized by etiologic subtype with new sections on diagnostic evaluation and systems of care. Emphasizes intensive vascular risk factor management (BP \<130/80, LDL-C \<70 mg/dL), antithrombotic therapy tailored to mechanism, short-term DAPT for minor stroke/high-risk TIA, anticoagulation for AF, and PFO closure in selected patients age 18–60. Replaces 2014 guidelines and adds ESUS, carotid web, FMD, and health equity sections.
 
   - **2021 · AHA/ASA** — 2021 AHA/ASA Stroke/TIA Prevention Guideline
     - [canonical](https://www.ahajournals.org/doi/10.1161/STR.0000000000000375) · [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000375) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000375)

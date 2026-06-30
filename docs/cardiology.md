@@ -13,7 +13,7 @@ permalink: /cardiology/
 
 `acs` · society: **ACC/AHA/ACEP/NAEMSP/SCAI** · **high-yield**
 
-Comprehensive 2025 multisociety guideline for management of acute coronary syndromes (STEMI, NSTEMI, unstable angina), replacing the 2013 STEMI, 2014 NSTE-ACS, 2015 PPCI focused update, and 2016 DAPT duration focused update guidelines. Major updates include preference for ticagrelor/prasugrel over clopidogrel, ticagrelor monotherapy after 1 month of DAPT in select patients, more aggressive LDL-C targets (<70 mg/dL, intensify if 55–<70), complete revascularization (preferably single-setting) in STEMI, routine radial access, intracoronary imaging for complex PCI, microaxial flow pump for selected AMI cardiogenic shock, and a more liberal transfusion threshold (Hb ~10 g/dL) in ACS with anemia.
+Comprehensive 2025 multisociety guideline for management of acute coronary syndromes (STEMI, NSTEMI, unstable angina), replacing the 2013 STEMI, 2014 NSTE-ACS, 2015 PPCI focused update, and 2016 DAPT duration focused update guidelines. Major updates include preference for ticagrelor/prasugrel over clopidogrel, ticagrelor monotherapy after 1 month of DAPT in select patients, more aggressive LDL-C targets (\<70 mg/dL, intensify if 55–\<70), complete revascularization (preferably single-setting) in STEMI, routine radial access, intracoronary imaging for complex PCI, microaxial flow pump for selected AMI cardiogenic shock, and a more liberal transfusion threshold (Hb ~10 g/dL) in ACS with anemia.
 
   - **2025 · ACC/AHA/ACEP/NAEMSP/SCAI** — 2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS Guideline
     - _Consolidates prior STEMI and NSTEMI documents._
@@ -91,7 +91,7 @@ Comprehensive update replacing the 2013 and 2017 ACCF/AHA HF guidelines, coverin
 
 `hypertension` · society: **AHA/ACC** · **high-yield**
 
-Multisociety update replacing the 2017 hypertension guideline, redefining BP categories, treatment thresholds, and goals using the PREVENT 10-year CVD risk equation rather than pooled cohort equations. Universal BP target is <130/80 mm Hg, with risk-based initiation of pharmacotherapy at ≥130/80 mm Hg for high-risk patients and ≥140/90 mm Hg for all others. New recommendations address primary aldosteronism screening in resistant hypertension, potassium-based salt substitutes, pregnancy management (including aspirin prophylaxis), renal denervation, and management of acute ICH and stroke.
+Multisociety update replacing the 2017 hypertension guideline, redefining BP categories, treatment thresholds, and goals using the PREVENT 10-year CVD risk equation rather than pooled cohort equations. Universal BP target is \<130/80 mm Hg, with risk-based initiation of pharmacotherapy at ≥130/80 mm Hg for high-risk patients and ≥140/90 mm Hg for all others. New recommendations address primary aldosteronism screening in resistant hypertension, potassium-based salt substitutes, pregnancy management (including aspirin prophylaxis), renal denervation, and management of acute ICH and stroke.
 
   - **2025 · AHA/ACC** — 2025 AHA/ACC Multisociety Guideline for High Blood Pressure in Adults
     - _Uses PREVENT risk calculator; 130/80 threshold._

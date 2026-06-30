@@ -23,7 +23,7 @@ KDIGO's 2012 guideline establishes a unified definition and staging system for a
 
 `bp-in-ckd` · society: **KDIGO**
 
-Update to the 2012 KDIGO BP guideline covering BP measurement, lifestyle interventions, antihypertensive therapy in CKD (with/without diabetes), kidney transplant recipients, and children. Major changes from 2012: emphasis on standardized office BP measurement, lower SBP target of <120 mm Hg for most adults with non-dialysis CKD (largely from SPRINT), and a unified target irrespective of diabetes, proteinuria, or older age. Renin-angiotensin system inhibitors remain first-line for CKD with albuminuria; dual RAS blockade is to be avoided.
+Update to the 2012 KDIGO BP guideline covering BP measurement, lifestyle interventions, antihypertensive therapy in CKD (with/without diabetes), kidney transplant recipients, and children. Major changes from 2012: emphasis on standardized office BP measurement, lower SBP target of \<120 mm Hg for most adults with non-dialysis CKD (largely from SPRINT), and a unified target irrespective of diabetes, proteinuria, or older age. Renin-angiotensin system inhibitors remain first-line for CKD with albuminuria; dual RAS blockade is to be avoided.
 
   - **2021 · KDIGO** — KDIGO 2021 BP in CKD Guideline
     - [canonical](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2021-BP-GL.pdf) · [html](https://www.kidney-international.org/article/S0085-2538(20)31270-9/fulltext)
@@ -71,7 +71,7 @@ KDIGO 2021 updates the 2012 glomerulonephritis guideline, covering IgA nephropat
 
 `hyponatremia`
 
-Compilation review comparing the 2013 US expert panel and 2014 European hyponatremia guidelines on diagnosis and treatment of hyponatremia (SNa <136 mmol/L). Both guidelines converge on bolus hypertonic saline for acute/symptomatic hyponatremia and fluid restriction as first-line for chronic hyponatremia, but diverge on diagnostic algorithm (European prioritizes urine osmolality/sodium over volume status), pharmacologic second-line therapy for SIAD, correction-rate limits, and use of vaptans (US permits; European recommends against in profound hyponatremia). Emerging diagnostic markers include fractional uric acid excretion and plasma copeptin.
+Compilation review comparing the 2013 US expert panel and 2014 European hyponatremia guidelines on diagnosis and treatment of hyponatremia (SNa \<136 mmol/L). Both guidelines converge on bolus hypertonic saline for acute/symptomatic hyponatremia and fluid restriction as first-line for chronic hyponatremia, but diverge on diagnostic algorithm (European prioritizes urine osmolality/sodium over volume status), pharmacologic second-line therapy for SIAD, correction-rate limits, and use of vaptans (US permits; European recommends against in profound hyponatremia). Emerging diagnostic markers include fractional uric acid excretion and plasma copeptin.
 
   - **2017 · JASN** — Hoorn & Zietse 2017 — Diagnosis and Treatment of Hyponatremia (compilation review)
     - _JASN review compiling the 2014 European (ERBP/ESICM/ESE) and 2013 US expert panel guidelines into a single practical reference. Replaces the inaccessible 2014 European primary guideline as the working source._

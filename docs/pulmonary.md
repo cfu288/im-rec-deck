@@ -47,7 +47,7 @@ GINA 2026 is the annual update of the Global Strategy for Asthma Management and 
 
 `copd` · society: **GOLD** · **high-yield**
 
-Updated annually.
+GOLD 2026 is the 6th major revision of the global strategy for COPD diagnosis, management, and prevention. Key updates include lowering the threshold for GOLD group E to include even one moderate exacerbation, a new Disease Activity framework, clarified initial vs follow-up pharmacological algorithms, new biologic therapy guidance (dupilumab, mepolizumab), updated RSV/pneumococcal/influenza vaccination, completely revised exacerbation and multimorbidity chapters, and a new chapter on AI and emerging technologies. Diagnosis remains anchored on post-bronchodilator FEV1/FVC < 0.7 with active case-finding (not population screening) endorsed.
 
   - **2026 · GOLD** — GOLD 2026 — Global Strategy for Prevention, Diagnosis and Management of COPD
     - _Updated annually._
@@ -57,12 +57,16 @@ Updated annually.
 
 `hap-vap` · society: **IDSA/ATS**
 
+The 2016 IDSA/ATS guideline addresses diagnosis and management of hospital-acquired pneumonia (HAP, non-ventilated) and ventilator-associated pneumonia (VAP) in adults, treating them as two distinct entities. Major changes from the 2005 version include adoption of GRADE methodology, elimination of the healthcare-associated pneumonia (HCAP) category, mandated use of local antibiograms to guide empiric therapy, 7-day treatment durations for most patients, and de-escalation strategies to limit unnecessary antibiotic use and resistance.
+
   - **2016 · IDSA/ATS** — 2016 IDSA/ATS HAP/VAP Guideline
     - [canonical](https://www.thoracic.org/statements/resources/tb-opi/hap-vap-guidelines-2016.pdf) · [html](https://academic.oup.com/cid/article/63/5/e61/2237650)
 
 ### Idiopathic pulmonary fibrosis
 
 `ipf` · society: **ATS/ERS/JRS/ALAT**
+
+2022 ATS/ERS/JRS/ALAT guideline updates IPF diagnosis and management and introduces the new entity of progressive pulmonary fibrosis (PPF) in non-IPF fibrotic ILD. Key updates: transbronchial lung cryobiopsy (TBLC) is now an acceptable alternative to surgical lung biopsy in experienced centers; conditional recommendations against antacid medication and antireflux surgery for the sole purpose of improving respiratory outcomes in IPF; no recommendation on genomic classifier testing. PPF is defined by ≥2 of 3 criteria (symptoms, physiologic decline, radiologic progression) within 1 year, and nintedanib is conditionally recommended for PPF after failure of standard ILD-directed therapy, while pirfenidone requires further research.
 
   - **2022 · ATS/ERS/JRS/ALAT** — 2022 ATS/ERS/JRS/ALAT IPF Guideline
     - [canonical](https://www.atsjournals.org/doi/pdf/10.1164/rccm.202202-0399ST) · [html](https://academic.oup.com/ajrccm/article/205/9/e18/200689) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/)
@@ -78,6 +82,8 @@ Updated annually.
 
 `pe-vte-acute`
 
+Second update to the 9th edition CHEST guideline on antithrombotic therapy for VTE, providing 29 guidance statements (13 strong) across 17 PICO questions covering initial management, treatment-phase anticoagulation, extended-phase secondary prevention, and PTS prevention. Major changes from 2016 include strong preference for DOACs over VKA for treatment phase, preference for oral Xa inhibitors over LMWH in cancer-associated thrombosis, new guidance on cerebral vein thrombosis, antiphospholipid syndrome, reduced-dose DOACs for extended phase, and superficial vein thrombosis. New nomenclature defines three phases: initiation (5-21 days), treatment (3 months), and extended (no preplanned stop date).
+
   - **2021 · CHEST** — CHEST 2021 Antithrombotic Therapy for VTE
     - [canonical](https://journal.chestnet.org/article/S0012-3692(21)01506-3/fulltext) · [html](https://journal.chestnet.org/article/S0012-3692(21)01506-3/fulltext)
   - **2020 · ASH** — ASH 2020 VTE panels
@@ -89,6 +95,8 @@ Updated annually.
 
 `pulmonary-hypertension` · society: **ESC/ERS**
 
+Fourth-edition joint ESC/ERS guideline on diagnosis and treatment of pulmonary hypertension covering all five PH groups, with emphasis on PAH and CTEPH. Key changes from 2015: lowered hemodynamic definition (mPAP >20 mmHg, PVR >2 WU), introduction of exercise PH definition, four-strata follow-up risk model, simplified treatment algorithm distinguishing patients with vs without cardiopulmonary comorbidities, new CTEPD-without-PH concept, and upgraded role of balloon pulmonary angioplasty plus medical therapy in CTEPH.
+
   - **2022 · ESC/ERS** — 2022 ESC/ERS PH Guideline
     - [canonical](https://academic.oup.com/eurheartj/article/43/38/3618/6673929) · [html](https://academic.oup.com/eurheartj/article/43/38/3618/6673929)
 
@@ -96,7 +104,7 @@ Updated annually.
 
 `sepsis` · society: **SCCM/ESICM** · **high-yield**
 
-Current international reference.
+The 2021 Surviving Sepsis Campaign guidelines provide updated international recommendations for management of adults with sepsis and septic shock, covering screening, initial resuscitation, infection control, hemodynamic support, ventilation, adjunctive therapies, and long-term outcomes. Notable updates from 2016 include a strong recommendation against qSOFA as a sole screening tool, favoring balanced crystalloids over normal saline, suggesting peripheral vasopressor initiation, prolonged beta-lactam infusion, restrictive RRT timing, and new emphasis on post-sepsis recovery, peer support, and follow-up.
 
   - **2021 · SCCM/ESICM** — Surviving Sepsis Campaign 2021
     - _Current international reference._

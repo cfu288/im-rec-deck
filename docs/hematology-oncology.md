@@ -51,7 +51,7 @@ ASH 2019 guidelines provide 21 evidence-based recommendations for managing adult
 
 `rbc-transfusion` · society: **AABB** · **high-yield**
 
-The 2023 AABB international guideline updates RBC transfusion recommendations for hospitalized adults and children based on 45 adult RCTs (n=20,599) and 7 pediatric RCTs (n=2,730). For hemodynamically stable patients, restrictive thresholds (typically Hgb <7 g/dL) are non-inferior to liberal thresholds (9–10 g/dL) for mortality and major morbidity. New since 2016: explicit pediatric recommendations, including separate thresholds by cardiac repair stage in congenital heart disease, and extension of restrictive strategy to hematology/oncology inpatients.
+The 2023 AABB international guideline updates RBC transfusion recommendations for hospitalized adults and children based on 45 adult RCTs (n=20,599) and 7 pediatric RCTs (n=2,730). For hemodynamically stable patients, restrictive thresholds (typically Hgb \<7 g/dL) are non-inferior to liberal thresholds (9–10 g/dL) for mortality and major morbidity. New since 2016: explicit pediatric recommendations, including separate thresholds by cardiac repair stage in congenital heart disease, and extension of restrictive strategy to hematology/oncology inpatients.
 
   - **2023 · AABB** — AABB 2023 Red Blood Cell Transfusion Guideline
     - [canonical](https://jamanetwork.com/journals/jama/article-abstract/2810754) · [html](https://jamanetwork.com/journals/jama/fullarticle/2810754) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37824153/)
