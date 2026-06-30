@@ -13,6 +13,8 @@ permalink: /preventive-medicine/
 
 `adult-immunization-schedule` · society: **CDC/ACIP** · **high-yield**
 
+2025 ACIP Adult Immunization Schedule (addendum updated July 2, 2025) provides age-based vaccine recommendations for adults ≥19 years in the United States. Schedule is organized by age band (19–26, 27–49, 50–64, ≥65) and is paired with separate tables by medical condition, notes, appendix, and addendum for updated ACIP guidance. Notable 2025 features include the ≥65 recommendation for ≥2 doses of 2024–2025 COVID-19 vaccine, RSV vaccination at age ≥75 (and 50–74 with risk factors), and seasonal RSV in pregnancy.
+
   - **CDC/ACIP** — CDC/ACIP Adult Immunization Schedule
     - _Updated annually._
     - [canonical](https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html) · [html](https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html)

@@ -13,6 +13,8 @@ permalink: /infectious-diseases/
 
 `adult-immunization` · society: **CDC/ACIP** · **high-yield**
 
+2025 CDC/ACIP Adult Immunization Schedule (addendum updated July 2, 2025) for adults aged ≥19 years. Organized by age group (19–26, 27–49, 50–64, ≥65) and by medical condition, covering routine, risk-based, and shared clinical decision-making vaccines including COVID-19, influenza, RSV, Tdap, MMR, varicella, zoster, HPV, pneumococcal, hepatitis A/B, meningococcal, Hib, mpox, and IPV.
+
   - **CDC/ACIP** — CDC/ACIP Adult Immunization Schedule
     - _Updated annually._
     - [canonical](https://www.cdc.gov/vaccines/hcp/imz-schedules/downloads/adult/adult-combined-schedule.pdf) · [html](https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html)
@@ -38,6 +40,8 @@ IDSA/SHEA 2016 guideline on implementing antibiotic stewardship programs (ASPs) 
 ### COVID-19
 
 `covid-19`
+
+IDSA living guideline on pharmacologic treatment and prevention of COVID-19, updated through October 2025. Covers antiviral selection for mild-to-moderate disease (nirmatrelvir/ritonavir preferred, then remdesivir, then molnupiravir), immunomodulator selection for severe/critical hospitalized disease (corticosteroids plus baricitinib or tocilizumab; abatacept or infliximab as alternatives), and pre-exposure prophylaxis with pemivibart in immunocompromised hosts. Recommendations against hydroxychloroquine, lopinavir/ritonavir, ivermectin, colchicine, famotidine, and routine convalescent plasma in immunocompetent hospitalized patients.
 
   - **IDSA** — IDSA COVID-19 Treatment Guidelines
     - [canonical](https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/) · [html](https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/)

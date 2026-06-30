@@ -17,4 +17,4 @@ Society guidelines for pulmonary and critical care conditions.
 - [ARDS](ards/) — current: 2023 ATS/ESICM/SCCM
 - [Pulmonary hypertension](pulmonary-hypertension/) — current: 2022 ESC/ERS
 - [Idiopathic pulmonary fibrosis](ipf/) — current: 2022 ATS/ERS/JRS/ALAT
-- [Obstructive sleep apnea](osa/) — living
+- [Obstructive sleep apnea](osa/) — current: None AASM

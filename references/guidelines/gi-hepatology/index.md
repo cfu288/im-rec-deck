@@ -17,7 +17,7 @@ Society guidelines for GI and liver conditions.
 - [Upper GI bleeding](upper-gi-bleeding/) — current: 2021 ACG
 - [Irritable bowel syndrome](ibs/) — current: 2021 ACG
 - [Celiac disease](celiac/) — current: 2023 ACG
-- [Hepatitis C](hepatitis-c/) — living
+- [Hepatitis C](hepatitis-c/) — current: None AASLD/IDSA
 - [Hepatitis B](hepatitis-b/) — current: 2018 AASLD
 - [Cirrhosis — ascites / SBP / HRS](cirrhosis-ascites/) — current: 2021 AASLD
 - [Portal hypertension / varices](portal-hypertension/) — current: 2024 AASLD

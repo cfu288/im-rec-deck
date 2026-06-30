@@ -75,6 +75,8 @@ The 2016 IDSA/ATS guideline addresses diagnosis and management of hospital-acqui
 
 `osa` · society: **AASM**
 
+This document is the Bylaws of the American Academy of Sleep Medicine (updated January 2025), governing the corporate structure of the AASM as a Minnesota nonprofit. It is an organizational/governance document — not a clinical practice guideline — and contains no clinical recommendations, drug dosing, or diagnostic thresholds for sleep disorders. Content covers membership categories, Board of Directors composition and elections, Officer roles, and committee structure.
+
   - **AASM** — AASM clinical practice guidelines
     - [canonical](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/)
 

@@ -3,7 +3,7 @@ type: Knowledge Bundle
 title: Internal Medicine Guidelines
 description: System-by-system index of current society guidelines for internal medicine practice.
 okf_version: '0.1'
-timestamp: '2026-06-21'
+timestamp: '2026-06-30'
 ---
 
 # Internal Medicine Guidelines

@@ -72,8 +72,21 @@ def write_md(path: Path, frontmatter: dict, body: str = "") -> None:
 
 
 def current_version(topic: Topic) -> Optional[Version]:
+    """Pick the version this topic represents as 'current'.
+
+    Year-pinned: the latest dated version.
+    Yearless (live guidelines — HCV AASLD/IDSA, CDC/ACIP, NIH COVID-19, etc.):
+      the first listed version — manifest order is intentional and
+      authoritative when no year is present.
+
+    Without the yearless fallback, every topic whose newest version lacks a
+    year silently drops out of card_eligible, the deck, and docs summaries —
+    even when it's high-yield (e.g., the CDC adult immunization schedule).
+    """
     dated = [v for v in topic.versions if v.year is not None]
-    return max(dated, key=lambda v: v.year) if dated else None
+    if dated:
+        return max(dated, key=lambda v: v.year)
+    return topic.versions[0] if topic.versions else None
 
 
 def build_bundle_root_index(manifest: Manifest) -> None:
@@ -137,6 +150,10 @@ def build_topic_index(sys_slug: str, topic_slug: str, topic: Topic) -> None:
         lines.append(f"Current: [{cur.title or slug}]({slug}.md)")
         lines.append("")
     lines.append("# Versions")
+    # Match mdformat's canonical "blank line before list under a heading" so
+    # rerunning the script doesn't churn against the pre-commit-hook-formatted
+    # files already in git.
+    lines.append("")
     for v in dated:
         slug = version_slug(v, topic.society)
         label = v.title or f"{v.year} {v.society or topic.society or ''}".strip()
@@ -212,7 +229,12 @@ def build_version_concept(
     if body_is_enriched:
         if existing_fm.get("_source_hash"):
             frontmatter["_source_hash"] = existing_fm["_source_hash"]
-        body_text = existing_body.rstrip() + "\n"
+        # .strip() (not .rstrip()) removes both leading and trailing whitespace.
+        # FRONTMATTER_RE's group(2) starts with the \n that separates the closing
+        # `---` from the body; without lstripping it, write_md's own `---\n\n{body}`
+        # template doubles the blank line, drifting body bytes and busting
+        # generate_cards.py's body_hash idempotency on a no-op rebuild.
+        body_text = existing_body.strip() + "\n"
     else:
         body_text = "\n".join(
             [

@@ -26,6 +26,8 @@ The 2026 AHA/ASA guideline replaces the 2018 guideline and 2019 update for early
 
 `epilepsy` · society: **AAN/AES**
 
+Evidence-based AAN/AES guideline on management of an unprovoked first seizure in adults, addressing recurrence risk, the effect of immediate antiepileptic drug (AED) therapy on short- and long-term prognosis, and AED adverse-event rates. Immediate AED treatment reduces 2-year recurrence risk but does not improve long-term seizure remission or quality of life. Decisions should be individualized, weighing recurrence risk factors against AED adverse effects and patient preferences.
+
   - **AAN/AES** — AAN/AES Practice Guidelines
     - [canonical](https://www.neurology.org/doi/10.1212/WNL.0000000000001487) · [html](https://www.neurology.org/doi/full/10.1212/WNL.0000000000001487) · [pdf](https://www.neurology.org/doi/pdf/10.1212/WNL.0000000000001487)
 
@@ -69,6 +71,8 @@ Comprehensive AHA/ASA guideline on secondary prevention of ischemic stroke and T
 ### Status epilepticus
 
 `status-epilepticus` · society: **Neurocritical Care Society**
+
+The 2012 Neurocritical Care Society guideline provides evidence-based and expert-consensus recommendations for evaluation and acute management of status epilepticus (SE) in critically ill adults and children. SE is operationally defined as ≥5 minutes of continuous seizure activity or recurrent seizures without recovery, and treatment is structured into emergent initial therapy (benzodiazepine), urgent control therapy (IV AED), and refractory SE therapy (continuous IV anesthetic infusion with EEG monitoring). The document emphasizes simultaneous diagnostic workup, early cEEG in patients who do not return to baseline, and protocolized escalation to improve outcomes.
 
   - **Neurocritical Care Society** — NCS + AES Status Epilepticus Treatment Guidance
     - [canonical](https://link.springer.com/article/10.1007/s12028-012-9695-z) · [html](https://link.springer.com/article/10.1007/s12028-012-9695-z)

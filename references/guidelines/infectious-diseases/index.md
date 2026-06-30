@@ -16,5 +16,5 @@ IDSA, CDC, and international ID guidelines.
 - [Candidiasis](candidiasis/) — current: 2016 IDSA
 - [Tuberculosis (active / latent)](tuberculosis/) — current: 2020 NTCA/CDC
 - [Sexually transmitted infections](sti/) — current: 2021 CDC
-- [Adult immunization](adult-immunization/) — living
-- [COVID-19](covid-19/) — living
+- [Adult immunization](adult-immunization/) — current: None CDC/ACIP
+- [COVID-19](covid-19/) — current: None IDSA

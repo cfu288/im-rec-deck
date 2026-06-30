@@ -17,4 +17,4 @@ USPSTF and ACIP recommendations for screening and prevention.
 - [Aspirin for primary prevention](aspirin-primary-prevention/) — current: 2022 USPSTF
 - [Tobacco cessation](tobacco-cessation/) — current: 2021 USPSTF
 - [Depression / anxiety screening](depression-anxiety-screening/) — current: 2023 USPSTF
-- [Adult immunization schedule](adult-immunization-schedule/) — living
+- [Adult immunization schedule](adult-immunization-schedule/) — current: None CDC/ACIP

@@ -63,12 +63,21 @@ def reference_summary(
         show "_Body pending..._" to readers).
     """
     dated = [v for v in versions if v.get("year") is not None]
-    if not dated:
+    if dated:
+        current = max(dated, key=lambda v: v["year"])
+    elif versions:
+        # Yearless live guidelines (HCV, CDC/ACIP, etc.) — first listed wins.
+        # Mirrors build_references.py:current_version logic.
+        current = versions[0]
+    else:
         return None
-    current = max(dated, key=lambda v: v["year"])
     society = current.get("society") or topic_society
     society_slug = slugify_society(society) if society else "unknown"
-    slug = f"{current['year']}-{society_slug}"
+    slug = (
+        f"{current['year']}-{society_slug}"
+        if current.get("year") is not None
+        else society_slug
+    )
     path = REFERENCES / system_slug / topic_slug / f"{slug}.md"
     if not path.is_file():
         return None

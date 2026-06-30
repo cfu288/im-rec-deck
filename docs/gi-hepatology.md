@@ -100,6 +100,8 @@ AASLD 2018 guidance updates the 2016 Hepatitis B Treatment Guidelines, adding te
 
 `hepatitis-c` · society: **AASLD/IDSA**
 
+AASLD/IDSA simplified HCV "test and treat" algorithm for initial and follow-up visits in treatment-naive patients without cirrhosis or other complicating conditions. Outlines point-of-care HCV RNA testing, pretreatment labs, criteria triggering specialist referral, and post-treatment SVR assessment. Patients with prior DAA treatment, HBsAg positivity, HCC, or decompensated cirrhosis require specialist referral rather than simplified treatment.
+
   - **AASLD/IDSA** — AASLD/IDSA HCV Guidance
     - [canonical](https://www.hcvguidelines.org)
 
