@@ -37,5 +37,5 @@ _Totals: 10 systems · 103 topics · 132 versions · 36 high-yield_
 
 ## Study guides
 
-- **Highest-yield named guidelines to know cold** — The flagship guidelines an attending will expect on rounds.
+- [Highest-yield named guidelines to know cold]({{ '/study-guides/highest-yield-named-guidelines/' | relative_url }}) — The flagship guidelines an attending will expect on rounds.
 

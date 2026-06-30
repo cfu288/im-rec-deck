@@ -291,12 +291,43 @@ def render_index(manifest: dict) -> str:
         lines.append("## Study guides")
         lines.append("")
         for slug, body in sg.items():
-            lines.append(
-                f"- **{body.get('title', slug)}**"
-                + (f" — {body['description']}" if body.get("description") else "")
-            )
+            title = body.get("title", slug)
+            href = site_url(f"/study-guides/{slug}/")
+            entry = f"- [{title}]({href})"
+            if body.get("description"):
+                entry += f" — {body['description']}"
+            lines.append(entry)
         lines.append("")
     return "\n".join(lines) + "\n"
+
+
+STUDY_GUIDE_DIR = REFERENCES / "study-guides"
+# Rewrite "](/sys/topic/)" → Liquid relative_url so the link resolves on both
+# project sites (https://user.github.io/repo/) and root-domain hosting.
+INTERNAL_LINK_RE = re.compile(r"\]\((/[a-z][a-z0-9-]*/[a-z0-9-]+/)\)")
+
+
+def render_study_guide(slug: str, sg_block: dict) -> str | None:
+    """Read the matching study-guide reference file, rewrite its internal
+    topic links to be baseurl-aware, and wrap in Jekyll frontmatter so it
+    becomes a real page at /study-guides/<slug>/."""
+    src = STUDY_GUIDE_DIR / f"{slug}.md"
+    if not src.is_file():
+        return None
+    text = src.read_text()
+    m = FRONTMATTER_RE.match(text)
+    body = (m.group(2) if m else text).strip()
+    body = INTERNAL_LINK_RE.sub(
+        lambda mm: "](" + site_url(mm.group(1)) + ")", body
+    )
+    fm_lines = [
+        "---",
+        f'title: {sg_block.get("title", slug)}',
+        f"permalink: /study-guides/{slug}/",
+        "---",
+        "",
+    ]
+    return "\n".join(fm_lines) + body + "\n"
 
 
 def main():
@@ -308,7 +339,16 @@ def main():
     for system_slug, sys_block in (manifest.get("systems") or {}).items():
         (DOCS / f"{system_slug}.md").write_text(render_system(system_slug, sys_block))
         n_systems += 1
-    print(f"wrote docs/index.md and {n_systems} per-system pages")
+    n_sg = 0
+    sg_out = DOCS / "study-guides"
+    for slug, body in (manifest.get("study_guides") or {}).items():
+        page = render_study_guide(slug, body)
+        if page is None:
+            continue
+        sg_out.mkdir(parents=True, exist_ok=True)
+        (sg_out / f"{slug}.md").write_text(page)
+        n_sg += 1
+    print(f"wrote docs/index.md, {n_systems} per-system pages, {n_sg} study-guide pages")
 
 
 if __name__ == "__main__":
