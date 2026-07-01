@@ -9,7 +9,7 @@ permalink: /neurology/migraine/2021-american-headache-society/
 
 **Read the guideline:** [html](https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.14153) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34160823/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/neurology/migraine/2021-american-headache-society.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/neurology/migraine/2021-american-headache-society.apkg)
 
 # Summary
 

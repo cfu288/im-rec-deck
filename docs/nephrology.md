@@ -19,7 +19,7 @@ KDIGO's 2012 guideline establishes a unified definition and staging system for a
 
   - **2012 · KDIGO** — [KDIGO 2012 AKI Guideline]({{ '/nephrology/aki/2012-kdigo/' | relative_url }})
     - _Still the reference._
-    - Read the guideline: [html](https://www.sciencedirect.com/journal/kidney-international-supplements/vol/2/issue/1) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/imrecdeck/raw/main/build/decks/nephrology/aki/2012-kdigo.apkg)
+    - Read the guideline: [html](https://www.sciencedirect.com/journal/kidney-international-supplements/vol/2/issue/1) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/nephrology/aki/2012-kdigo.apkg)
 
 ### Blood pressure in CKD
 
@@ -28,7 +28,7 @@ KDIGO's 2012 guideline establishes a unified definition and staging system for a
 Update to the 2012 KDIGO BP guideline covering BP measurement, lifestyle interventions, antihypertensive therapy in CKD (with/without diabetes), kidney transplant recipients, and children. Major changes from 2012: emphasis on standardized office BP measurement, lower SBP target of \<120 mm Hg for most adults with non-dialysis CKD (largely from SPRINT), and a unified target irrespective of diabetes, proteinuria, or older age. Renin-angiotensin system inhibitors remain first-line for CKD with albuminuria; dual RAS blockade is to be avoided.
 
   - **2021 · KDIGO** — [KDIGO 2021 BP in CKD Guideline]({{ '/nephrology/bp-in-ckd/2021-kdigo/' | relative_url }})
-    - Read the guideline: [html](https://www.kidney-international.org/article/S0085-2538(20)31270-9/fulltext) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/imrecdeck/raw/main/build/decks/nephrology/bp-in-ckd/2021-kdigo.apkg)
+    - Read the guideline: [html](https://www.kidney-international.org/article/S0085-2538(20)31270-9/fulltext) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/nephrology/bp-in-ckd/2021-kdigo.apkg)
 
 ### Chronic kidney disease ⭐
 
@@ -38,7 +38,7 @@ KDIGO 2024 updates the 2012 CKD guideline with major changes including endorseme
 
   - **2024 · KDIGO** — [KDIGO 2024 CKD Guideline]({{ '/nephrology/ckd/2024-kdigo/' | relative_url }})
     - _SGLT2i, finerenone, GLP-1._
-    - Read the guideline: [html](https://www.kidney-international.org/article/S0085-2538(23)00766-4/fulltext) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/imrecdeck/raw/main/build/decks/nephrology/ckd/2024-kdigo.apkg)
+    - Read the guideline: [html](https://www.kidney-international.org/article/S0085-2538(23)00766-4/fulltext) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/nephrology/ckd/2024-kdigo.apkg)
   - **2012 · KDIGO** — (no title)
     - Read the guideline: [html](https://www.sciencedirect.com/journal/kidney-international-supplements/vol/3/issue/1)
 
@@ -49,7 +49,7 @@ KDIGO 2024 updates the 2012 CKD guideline with major changes including endorseme
 Selective update of the 2009 KDIGO CKD-MBD guideline addressing diagnosis and treatment of mineral and bone disorders in CKD G3a–G5D and kidney transplant recipients. Key revisions: BMD testing is now recommended (rather than discouraged) because newer cohort data show DXA predicts fracture in CKD; phosphate-lowering therapy is reserved for overt/progressive hyperphosphatemia rather than preventive normalization; calcium-based phosphate binders should be restricted across all CKD stages (not only with hypercalcemia); routine calcitriol/vitamin D analogs are not recommended in CKD G3a–G5 non-dialysis due to hypercalcemia risk; and calcimimetics, calcitriol, or vitamin D analogs are all acceptable first-line PTH-lowering options in CKD G5D.
 
   - **2017 · KDIGO** — [KDIGO 2017 CKD-MBD Update]({{ '/nephrology/ckd-mbd/2017-kdigo/' | relative_url }})
-    - Read the guideline: [html](https://kdigo.org/wp-content/uploads/2017/02/2017-KDIGO-CKD-MBD-GL-Update.pdf) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/imrecdeck/raw/main/build/decks/nephrology/ckd-mbd/2017-kdigo.apkg)
+    - Read the guideline: [html](https://kdigo.org/wp-content/uploads/2017/02/2017-KDIGO-CKD-MBD-GL-Update.pdf) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/nephrology/ckd-mbd/2017-kdigo.apkg)
 
 ### Diabetes in CKD
 
@@ -58,7 +58,7 @@ Selective update of the 2009 KDIGO CKD-MBD guideline addressing diagnosis and tr
 KDIGO 2022 is a focused update of the 2020 guideline on diabetes management in CKD, with major revisions to Chapter 1 (comprehensive care) and Chapter 4 (glucose-lowering therapies in T2D); chapters on glycemic monitoring/targets, lifestyle, and care delivery remain unchanged. Key updates expand SGLT2i use down to eGFR ≥20 ml/min/1.73 m² and add a new recommendation for nonsteroidal MRA (finerenone) in T2D with albuminuria despite maximally tolerated RAS inhibition. The guideline emphasizes a layered comprehensive approach: lifestyle therapy plus first-line metformin + SGLT2i + RAS inhibitor + statin, with GLP-1 RA and ns-MRA added based on residual risk.
 
   - **2022 · KDIGO** — [KDIGO 2022 Diabetes in CKD Guideline]({{ '/nephrology/diabetes-in-ckd/2022-kdigo/' | relative_url }})
-    - Read the guideline: [html](https://kdigo.org/wp-content/uploads/2022/10/KDIGO-2022-Clinical-Practice-Guideline-for-Diabetes-Management-in-CKD.pdf) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/imrecdeck/raw/main/build/decks/nephrology/diabetes-in-ckd/2022-kdigo.apkg)
+    - Read the guideline: [html](https://kdigo.org/wp-content/uploads/2022/10/KDIGO-2022-Clinical-Practice-Guideline-for-Diabetes-Management-in-CKD.pdf) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/nephrology/diabetes-in-ckd/2022-kdigo.apkg)
 
 ### Glomerular diseases
 
@@ -67,7 +67,7 @@ KDIGO 2022 is a focused update of the 2020 guideline on diabetes management in C
 KDIGO 2021 updates the 2012 glomerulonephritis guideline, covering IgA nephropathy/vasculitis, membranous nephropathy, nephrotic syndrome in children, MCD and FSGS in adults, infection-related GN, MPGN/C3 glomerulopathy, ANCA vasculitis, lupus nephritis, and anti-GBM disease. New features include practice points (consensus guidance where evidence is insufficient), risk-stratified treatment for MN, expanded role of rituximab, and recognition that anti-PLA2R serology can diagnose MN without biopsy. Treatment paradigms shift toward minimizing glucocorticoid exposure and individualized risk-based immunosuppression.
 
   - **2021 · KDIGO** — [KDIGO 2021 Glomerular Diseases Guideline]({{ '/nephrology/glomerular-diseases/2021-kdigo/' | relative_url }})
-    - Read the guideline: [html](https://kdigo.org/wp-content/uploads/2017/02/KDIGO-Glomerular-Diseases-Guideline-2021-English.pdf) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/imrecdeck/raw/main/build/decks/nephrology/glomerular-diseases/2021-kdigo.apkg)
+    - Read the guideline: [html](https://kdigo.org/wp-content/uploads/2017/02/KDIGO-Glomerular-Diseases-Guideline-2021-English.pdf) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/nephrology/glomerular-diseases/2021-kdigo.apkg)
 
 ### Hyponatremia
 
@@ -77,7 +77,7 @@ Compilation review comparing the 2013 US expert panel and 2014 European hyponatr
 
   - **2017 · JASN** — [Hoorn & Zietse 2017 — Diagnosis and Treatment of Hyponatremia (compilation review)]({{ '/nephrology/hyponatremia/2017-jasn/' | relative_url }})
     - _JASN review compiling the 2014 European (ERBP/ESICM/ESE) and 2013 US expert panel guidelines into a single practical reference. Replaces the inaccessible 2014 European primary guideline as the working source._
-    - Read the guideline: [html](https://journals.lww.com/jasn/fulltext/2017/05000/diagnosis_and_treatment_of_hyponatremia_.6.aspx) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC5407738/) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/imrecdeck/raw/main/build/decks/nephrology/hyponatremia/2017-jasn.apkg)
+    - Read the guideline: [html](https://journals.lww.com/jasn/fulltext/2017/05000/diagnosis_and_treatment_of_hyponatremia_.6.aspx) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC5407738/) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/nephrology/hyponatremia/2017-jasn.apkg)
   - **2013 · US expert panel** — 2013 US Expert Panel on Hyponatremia
     - Read the guideline: [html](https://www.amjmed.com/article/S0002-9343(13)00605-0/fulltext)
 

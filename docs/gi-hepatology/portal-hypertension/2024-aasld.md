@@ -9,7 +9,7 @@ permalink: /gi-hepatology/portal-hypertension/2024-aasld/
 
 **Read the guideline:** [html](https://journals.lww.com/hep/fulltext/2024/05000/aasld_practice_guidance_on_risk_stratification_and.22.aspx)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/gi-hepatology/portal-hypertension/2024-aasld.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/gi-hepatology/portal-hypertension/2024-aasld.apkg)
 
 # Summary
 

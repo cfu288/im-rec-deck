@@ -9,7 +9,7 @@ permalink: /rheumatology/sle/2024-kdigo/
 
 **Read the guideline:** [html](https://kdigo.org/guidelines/lupus-nephritis/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/rheumatology/sle/2024-kdigo.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/rheumatology/sle/2024-kdigo.apkg)
 
 # Summary
 

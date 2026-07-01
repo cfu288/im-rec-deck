@@ -2,23 +2,23 @@
 
 An internal-medicine recommendation deck — a pipeline that turns a curated catalog of clinical practice guidelines into an importable Anki deck.
 
-🌐 **Browse the manifest:** <https://cfu288.github.io/imrecdeck/>
+🌐 **Browse the manifest:** <https://cfu288.github.io/im-rec-deck/>
 
 > [!NOTE]
 > This repo is an experiment to see if I can utilize AI agents to help me stay up to date on medical guidelines by automatically parsing them and building out an Anki deck. I don't pretend to have manually curated any of this. This blurb here is probably the only thing written by a human in this repo. Use at your own risk. Copyrighted material is not included in this repo - you'll need to source that yourself.
 
 ## What it produces
 
-`build/imrecdeck.apkg` — a self-contained Anki package containing:
+`build/im-rec-deck.apkg` — a self-contained Anki package containing:
 
 - A custom `GuidelinesCloze` notetype (7 fields: Text, Back Extra, Source, System, Topic, Society, Year)
 - Cloze cards extracted from each enriched guideline body
 - Hierarchical deck tree (`IMRecDeck::<System>::<Topic> (<Year> <Society>)`) — tap-into one guideline at a time on mobile, study the parent for the unified queue
-- Namespaced tags under a single root: `imrecdeck::system::<slug>`, `imrecdeck::topic::<slug>`, `imrecdeck::society::<slug>`, `imrecdeck::year::<n>`, `imrecdeck::status::superseded`, `imrecdeck::high-yield`
+- Namespaced tags under a single root: `im-rec-deck::system::<slug>`, `im-rec-deck::topic::<slug>`, `im-rec-deck::society::<slug>`, `im-rec-deck::year::<n>`, `im-rec-deck::status::superseded`, `im-rec-deck::high-yield`
 - A styled card template
 - Stable GUIDs derived from the manifest key, so re-importing future regenerations updates existing notes in place (preserves FSRS review history)
 
-Import via Anki → `File → Import` → select `build/imrecdeck.apkg`.
+Import via Anki → `File → Import` → select `build/im-rec-deck.apkg`.
 
 ## Pipeline at a glance
 
@@ -36,7 +36,7 @@ flowchart TD
     gen_cards["generate_cards.py<br/><i>Anthropic batch, PAID</i>"]
     cards_jsonl["<b>build/cards.jsonl</b>"]
     build_apkg["build_apkg.py"]
-    apkg["<b>build/imrecdeck.apkg</b><br/>📥 IMPORT INTO ANKI"]
+    apkg["<b>build/im-rec-deck.apkg</b><br/>📥 IMPORT INTO ANKI"]
 
     manifest --> validate
     manifest --> build_refs
@@ -74,7 +74,7 @@ just enrich                # ~$10 for a full run on ~100 concepts
 just cards                 # ~$1.50 for ~1500 cards
 just apkg                  # re-package — instant, free
 
-# Then import build/imrecdeck.apkg in Anki.
+# Then import build/im-rec-deck.apkg in Anki.
 ```
 
 `just` (run with no args) lists every target with its docstring.

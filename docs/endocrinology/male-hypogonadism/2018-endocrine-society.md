@@ -9,7 +9,7 @@ permalink: /endocrinology/male-hypogonadism/2018-endocrine-society/
 
 **Read the guideline:** [html](https://academic.oup.com/jcem/article/103/5/1715/4939465)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/endocrinology/male-hypogonadism/2018-endocrine-society.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/endocrinology/male-hypogonadism/2018-endocrine-society.apkg)
 
 # Summary
 

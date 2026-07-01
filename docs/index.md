@@ -30,15 +30,15 @@ _Totals: 10 systems · 103 topics · 132 versions · 36 high-yield_
 
 Two ways to get started — pick one now, add more later. Every download stays in sync: cards you've already reviewed keep your progress, and nothing gets duplicated when you import an updated or additional deck.
 
-- **Everything at once** — [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">`imrecdeck.apkg`](https://github.com/cfu288/imrecdeck/raw/main/build/imrecdeck.apkg) (132 guidelines, 103 topics).
+- **Everything at once** — [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">`im-rec-deck.apkg`](https://github.com/cfu288/im-rec-deck/raw/main/build/im-rec-deck.apkg) (132 guidelines, 103 topics).
 - **One guideline at a time** — open any system from the left sidebar, then click the **<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck** link next to the guideline you want.
 
 In Anki: **File → Import**.
 
 **Don't grind the whole deck dry.** It's broad on purpose (every topic above, every flagged recommendation), and front-loading the long tail will bury you. Suggested first pass:
 
-1. **Suspend dosing cards.** Specific drug doses are reference-lookup material, not spaced-repetition material. In the Anki browser, search `deck:"IMRecDeck" tag:imrecdeck::dosing` → select all → **Notes → Suspend**.
-2. **Suspend non-high-yield cards.** Start with the ~36 ⭐ topics. Search `deck:"IMRecDeck" -tag:imrecdeck::high-yield` → select all → **Notes → Suspend**.
+1. **Suspend dosing cards.** Specific drug doses are reference-lookup material, not spaced-repetition material. In the Anki browser, search `deck:"IMRecDeck" tag:im-rec-deck::dosing` → select all → **Notes → Suspend**.
+2. **Suspend non-high-yield cards.** Start with the ~36 ⭐ topics. Search `deck:"IMRecDeck" -tag:im-rec-deck::high-yield` → select all → **Notes → Suspend**.
 3. Unsuspend the rest as you encounter the underlying topics on service or in study blocks.
 
 ## Study guides

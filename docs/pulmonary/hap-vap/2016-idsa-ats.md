@@ -9,7 +9,7 @@ permalink: /pulmonary/hap-vap/2016-idsa-ats/
 
 **Read the guideline:** [html](https://academic.oup.com/cid/article/63/5/e61/2237650)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/pulmonary/hap-vap/2016-idsa-ats.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/pulmonary/hap-vap/2016-idsa-ats.apkg)
 
 # Summary
 

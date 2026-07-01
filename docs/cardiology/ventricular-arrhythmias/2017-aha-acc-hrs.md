@@ -9,7 +9,7 @@ permalink: /cardiology/ventricular-arrhythmias/2017-aha-acc-hrs/
 
 **Read the guideline:** [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000000549) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000000549)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/cardiology/ventricular-arrhythmias/2017-aha-acc-hrs.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/cardiology/ventricular-arrhythmias/2017-aha-acc-hrs.apkg)
 
 # Summary
 

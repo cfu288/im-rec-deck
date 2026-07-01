@@ -9,7 +9,7 @@ permalink: /cardiology/atrial-fibrillation/2023-acc-aha-accp-hrs/
 
 **Read the guideline:** [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001193) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001193)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/cardiology/atrial-fibrillation/2023-acc-aha-accp-hrs.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/cardiology/atrial-fibrillation/2023-acc-aha-accp-hrs.apkg)
 
 # Summary
 

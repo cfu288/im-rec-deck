@@ -11,7 +11,7 @@ plugins:
 # Override to "" for root-domain hosting (CNAME / user pages):
 #   jekyll serve --baseurl ""
 # All internal links are emitted via {{ ... | relative_url }} so they work either way.
-baseurl: "/imrecdeck"
+baseurl: "/im-rec-deck"
 url: "https://cfu288.github.io"
 
 markdown: kramdown
@@ -32,19 +32,19 @@ heading_anchors: true
 # Header-right auxiliary links — replaces the cayman-override "Download Anki Deck" button.
 aux_links:
   "Download Anki Deck":
-    - "https://github.com/cfu288/imrecdeck/raw/main/build/imrecdeck.apkg"
+    - "https://github.com/cfu288/im-rec-deck/raw/main/build/im-rec-deck.apkg"
 aux_links_new_tab: false
 
 # Show the "Edit this page on GitHub" footer link
 gh_edit_link: true
 gh_edit_link_text: "View source on GitHub"
-gh_edit_repository: "https://github.com/cfu288/imrecdeck"
+gh_edit_repository: "https://github.com/cfu288/im-rec-deck"
 gh_edit_branch: "main"
 gh_edit_source: docs
 gh_edit_view_mode: "tree"
 
 # Footer content
-footer_content: 'IMRecDeck · <a href="https://github.com/cfu288/imrecdeck">source</a>'
+footer_content: 'IMRecDeck · <a href="https://github.com/cfu288/im-rec-deck">source</a>'
 
 exclude:
   - README.md

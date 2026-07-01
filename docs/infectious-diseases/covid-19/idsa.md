@@ -9,7 +9,7 @@ permalink: /infectious-diseases/covid-19/idsa/
 
 **Read the guideline:** [html](https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/infectious-diseases/covid-19/idsa.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/infectious-diseases/covid-19/idsa.apkg)
 
 # Summary
 

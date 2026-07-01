@@ -2,7 +2,7 @@
 # requires-python = ">=3.10"
 # dependencies = ["genanki", "pyyaml"]
 # ///
-"""Build build/imrecdeck.apkg — a self-contained Anki package containing the
+"""Build build/im-rec-deck.apkg — a self-contained Anki package containing the
 custom GuidelinesCloze notetype + all generated cards.
 
 Reads build/cards.jsonl (one card per line, produced by generate_cards.py) and
@@ -24,12 +24,12 @@ Deck hierarchy (Anki uses :: as separator, auto-creates missing parents):
 Tags applied to every note (all nested under a single root namespace so they
 don't pollute the user's global tag tree):
 
-    imrecdeck::system::<slug>              imrecdeck::system::cardiology
-    imrecdeck::topic::<slug>               imrecdeck::topic::hypertension
-    imrecdeck::society::<slug>             imrecdeck::society::aha-acc
-    imrecdeck::year::<n>                   imrecdeck::year::2025              (omitted for living docs)
-    imrecdeck::status::superseded          when this isn't the latest year for its (topic, society)
-    imrecdeck::high-yield                  when manifest flags the topic as high_yield
+    im-rec-deck::system::<slug>              im-rec-deck::system::cardiology
+    im-rec-deck::topic::<slug>               im-rec-deck::topic::hypertension
+    im-rec-deck::society::<slug>             im-rec-deck::society::aha-acc
+    im-rec-deck::year::<n>                   im-rec-deck::year::2025              (omitted for living docs)
+    im-rec-deck::status::superseded          when this isn't the latest year for its (topic, society)
+    im-rec-deck::high-yield                  when manifest flags the topic as high_yield
 
 Usage:
     uv run scripts/build_apkg.py
@@ -58,7 +58,7 @@ def escape_field(s: str) -> str:
 
 
 INPUT_PATH = Path("build/cards.jsonl")
-OUTPUT_PATH = Path("build/imrecdeck.apkg")
+OUTPUT_PATH = Path("build/im-rec-deck.apkg")
 SUBDECK_ROOT = Path("build/decks")
 CLASSIFICATIONS_PATH = Path("build/card-classifications.jsonl")
 BUNDLE_ROOT = Path("references/guidelines")
@@ -67,7 +67,7 @@ MANIFEST_PATH = Path("manifest.yaml")
 # Root namespace for ALL tags this script emits — keeps them collapsed under a
 # single entry in Anki's tag tree instead of polluting the user's top level
 # with multiple flat groups (system::, topic::, year::, etc.).
-TAG_ROOT = "imrecdeck"
+TAG_ROOT = "im-rec-deck"
 HIGH_YIELD_TAG = f"{TAG_ROOT}::high-yield"
 DOSING_TAG = f"{TAG_ROOT}::dosing"
 
@@ -287,7 +287,7 @@ def main() -> int:
     )
 
     # Load per-card dosing classifications if available (optional — produced by
-    # scripts/classify_dosing.py). Used to add the imrecdeck::dosing tag.
+    # scripts/classify_dosing.py). Used to add the im-rec-deck::dosing tag.
     dosing_guids: set[str] = set()
     if CLASSIFICATIONS_PATH.is_file():
         with CLASSIFICATIONS_PATH.open() as f:
@@ -382,7 +382,7 @@ def main() -> int:
             # URL (not relative) so the link works when a card is reviewed
             # inside Anki — the client renders HTML but has no baseurl context.
             site_url = (
-                f"https://cfu288.github.io/imrecdeck/"
+                f"https://cfu288.github.io/im-rec-deck/"
                 f"{system}/{topic}/{version}/"
                 if system and topic and version
                 else ""

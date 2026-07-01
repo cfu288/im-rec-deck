@@ -9,7 +9,7 @@ permalink: /endocrinology/dka-hhs/2024-ada-easd/
 
 **Read the guideline:** [html](https://diabetesjournals.org/care/article/47/8/1257/156808/Hyperglycemic-Crises-in-Adults-With-Diabetes-A) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/endocrinology/dka-hhs/2024-ada-easd.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/endocrinology/dka-hhs/2024-ada-easd.apkg)
 
 # Summary
 

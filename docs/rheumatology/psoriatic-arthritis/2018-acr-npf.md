@@ -9,7 +9,7 @@ permalink: /rheumatology/psoriatic-arthritis/2018-acr-npf/
 
 **Read the guideline:** [html](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.23789) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC8218333/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/rheumatology/psoriatic-arthritis/2018-acr-npf.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/rheumatology/psoriatic-arthritis/2018-acr-npf.apkg)
 
 # Summary
 

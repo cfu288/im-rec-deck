@@ -161,7 +161,7 @@ scripts/build_apkg.py reads:
   references/guidelines/**   (concept frontmatter for Society / Year lookup)
 
 scripts/build_apkg.py writes:
-  build/imrecdeck.apkg      (importable artifact)
+  build/im-rec-deck.apkg      (importable artifact)
 ```
 
 No API calls. Pure local. Idempotent: run any time after `generate_cards.py` to refresh the `.apkg` against the current `build/cards.jsonl`.

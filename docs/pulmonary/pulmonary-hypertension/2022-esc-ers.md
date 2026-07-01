@@ -9,7 +9,7 @@ permalink: /pulmonary/pulmonary-hypertension/2022-esc-ers/
 
 **Read the guideline:** [html](https://academic.oup.com/eurheartj/article/43/38/3618/6673929)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/pulmonary/pulmonary-hypertension/2022-esc-ers.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/pulmonary/pulmonary-hypertension/2022-esc-ers.apkg)
 
 # Summary
 

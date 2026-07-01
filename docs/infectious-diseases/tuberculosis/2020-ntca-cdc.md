@@ -9,7 +9,7 @@ permalink: /infectious-diseases/tuberculosis/2020-ntca-cdc/
 
 **Read the guideline:** [html](https://www.cdc.gov/mmwr/volumes/69/rr/rr6901a1.htm) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC7041302/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/infectious-diseases/tuberculosis/2020-ntca-cdc.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/im-rec-deck/raw/main/build/decks/infectious-diseases/tuberculosis/2020-ntca-cdc.apkg)
 
 # Summary
 

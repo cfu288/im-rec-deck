@@ -28,7 +28,7 @@ build:
 report:
     uv run scripts/needs_attention_report.py
 
-# Package build/cards.jsonl + manifest into build/imrecdeck.apkg.
+# Package build/cards.jsonl + manifest into build/im-rec-deck.apkg.
 apkg:
     uv run scripts/build_apkg.py
 
@@ -39,7 +39,7 @@ qa-cards:
     uv run scripts/validate_cards.py
 
 # Regenerate docs/index.md + docs/<system>.md from manifest.yaml.
-# The deck download links to build/imrecdeck.apkg on GitHub directly (build/
+# The deck download links to build/im-rec-deck.apkg on GitHub directly (build/
 # is committed), so nothing to stage into docs/.
 publish-docs:
     uv run scripts/build_docs.py
@@ -70,7 +70,7 @@ qa-cards-deep:
     uv run scripts/validate_cards_deep.py
 
 # Classify each card as dosing vs concept; writes build/card-classifications.jsonl.
-# build_apkg.py reads it and adds `imrecdeck::dosing` tag to flagged cards.
+# build_apkg.py reads it and adds `im-rec-deck::dosing` tag to flagged cards.
 # Cheap Haiku run (~$0.05).
 qa-dosing:
     uv run scripts/classify_dosing.py
