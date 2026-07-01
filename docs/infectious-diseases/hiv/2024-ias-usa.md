@@ -6,9 +6,9 @@ permalink: /infectious-diseases/hiv/2024-ias-usa/
 
 **2024 · IAS-USA** · HIV (antiretroviral therapy)
 
-**Source:** [canonical](https://jamanetwork.com/journals/jama/fullarticle/2827545) · [html](https://jamanetwork.com/journals/jama/fullarticle/2827545) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39616496/)
+**Read the guideline:** [html](https://jamanetwork.com/journals/jama/fullarticle/2827545) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39616496/)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/hiv/2024-ias-usa.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/hiv/2024-ias-usa.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

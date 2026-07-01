@@ -6,9 +6,9 @@ permalink: /infectious-diseases/antimicrobial-stewardship/2016-idsa-shea/
 
 **2016 · IDSA/SHEA** · Antimicrobial stewardship
 
-**Source:** [canonical](https://academic.oup.com/cid/article/62/10/e51/2462846) · [html](https://academic.oup.com/cid/article/62/10/e51/2462846) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC5006285/)
+**Read the guideline:** [html](https://academic.oup.com/cid/article/62/10/e51/2462846) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC5006285/)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/antimicrobial-stewardship/2016-idsa-shea.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/antimicrobial-stewardship/2016-idsa-shea.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

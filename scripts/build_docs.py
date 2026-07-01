@@ -26,6 +26,16 @@ REFERENCES = REPO / "references" / "guidelines"
 yaml = YAML()
 
 SKELETON_BODY_MARKER = "_Body pending Stage 2 enrichment from parsed source._"
+
+# Inline Anki icon used next to every download link. Height matches text so it
+# reads as a bullet marker, not a graphic. alt="" because the link text is
+# already descriptive — screen readers should skip the img. Uses Liquid inline
+# so Jekyll resolves baseurl at render time (works under the /guidelines-flashcards/
+# project-page path AND under root-domain hosting without changes).
+ANKI_ICON = (
+    "<img src=\"{{ '/assets/anki.png' | relative_url }}\" alt=\"\" "
+    "style=\"height:1.1em;vertical-align:-0.2em;margin-right:0.25em\">"
+)
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n?(.*)$", re.DOTALL)
 SUMMARY_SECTION_RE = re.compile(
     r"^#\s+Summary\s*\n+(.*?)(?=\n#\s|\Z)", re.MULTILINE | re.DOTALL
@@ -175,27 +185,41 @@ def render_version(
         out.append(f"    - _{notes}_")
 
     src = v.get("source") or {}
-    # Collect just the publisher URLs per format (no local paths — gitignored)
-    url_links: list[str] = []
-    if v.get("url"):
-        url_links.append(f"[canonical]({v['url']})")
+    # Publisher URLs, labeled in reader language (no "canonical" — that's a
+    # web-metadata term). v['url'] (usually the DOI landing page) collapses
+    # into the "html" slot when no format-specific html URL is on file;
+    # otherwise the format-specific one wins because it's usually the full-text
+    # version instead of a stub.
+    format_urls: dict[str, str] = {}
     if isinstance(src, dict):
         for fmt in ("html", "pdf", "epub", "pmc", "xml"):
             entry = src.get(fmt)
             if isinstance(entry, dict) and entry.get("url"):
-                url_links.append(f"[{fmt}]({entry['url']})")
+                format_urls[fmt] = entry["url"]
+    if v.get("url") and "html" not in format_urls:
+        format_urls["html"] = v["url"]
+
+    source_links: list[str] = [
+        f"[{fmt}]({url})" for fmt, url in format_urls.items()
+    ]
     if v.get("pmid"):
-        url_links.append(f"[PubMed](https://pubmed.ncbi.nlm.nih.gov/{v['pmid']}/)")
-    # Anki sub-deck download alongside the publisher links — only when the
+        source_links.append(
+            f"[PubMed](https://pubmed.ncbi.nlm.nih.gov/{v['pmid']}/)"
+        )
+
+    row_parts: list[str] = []
+    if source_links:
+        row_parts.append("Read the guideline: " + " · ".join(source_links))
+    # Anki sub-deck download alongside the source links — only when the
     # version is enriched (which means build_apkg.py emitted a matching .apkg).
     if is_enriched and vslug and system_slug and topic_slug:
         subdeck_url = (
             "https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/"
             f"{system_slug}/{topic_slug}/{vslug}.apkg"
         )
-        url_links.append(f"[Anki deck]({subdeck_url})")
-    if url_links:
-        out.append(f"    - {' · '.join(url_links)}")
+        row_parts.append(f"[{ANKI_ICON}Anki deck]({subdeck_url})")
+    if row_parts:
+        out.append(f"    - {' · '.join(row_parts)}")
     return out
 
 
@@ -311,12 +335,12 @@ def render_index(manifest: dict) -> str:
     lines.append("")
     lines.append(
         "- **Everything at once** — "
-        "[`guidelines.apkg`](https://github.com/cfu288/guidelines-flashcards/raw/main/build/guidelines.apkg) "
+        f"[{ANKI_ICON}`guidelines.apkg`](https://github.com/cfu288/guidelines-flashcards/raw/main/build/guidelines.apkg) "
         f"({total_versions} guidelines, {total_topics} topics)."
     )
     lines.append(
         "- **One guideline at a time** — open any system from the left sidebar, then "
-        "click the **Anki deck** link next to the guideline you want."
+        f"click the **{ANKI_ICON}Anki deck** link next to the guideline you want."
     )
     lines.append("")
     lines.append("In Anki: **File → Import**.")
@@ -387,16 +411,18 @@ def render_version_page(
 
     # Publisher links row — same set the system-page bullet has, promoted to
     # first-class on the deep-dive header since this page is where a reader
-    # who wants the primary source would jump out.
-    url_links: list[str] = []
-    if v.get("url"):
-        url_links.append(f"[canonical]({v['url']})")
+    # who wants the primary source would jump out. See render_version() for
+    # the same collapse-canonical-into-html rationale.
     src = v.get("source") or {}
+    format_urls: dict[str, str] = {}
     if isinstance(src, dict):
         for fmt in ("html", "pdf", "epub", "pmc", "xml"):
             entry = src.get(fmt)
             if isinstance(entry, dict) and entry.get("url"):
-                url_links.append(f"[{fmt}]({entry['url']})")
+                format_urls[fmt] = entry["url"]
+    if v.get("url") and "html" not in format_urls:
+        format_urls["html"] = v["url"]
+    url_links = [f"[{fmt}]({url})" for fmt, url in format_urls.items()]
     if v.get("pmid"):
         url_links.append(f"[PubMed](https://pubmed.ncbi.nlm.nih.gov/{v['pmid']}/)")
 
@@ -414,7 +440,7 @@ def render_version_page(
         "",
     ]
     if url_links:
-        header_lines.append("**Source:** " + " · ".join(url_links))
+        header_lines.append("**Read the guideline:** " + " · ".join(url_links))
         header_lines.append("")
     # Per-guideline Anki sub-deck (produced by build_apkg.py). Stable GUIDs +
     # deck IDs mean a user can import this on its own OR alongside the mega
@@ -424,7 +450,7 @@ def render_version_page(
         f"{system_slug}/{topic_slug}/{vslug}.apkg"
     )
     header_lines.append(
-        f"**Anki deck:** [Download just this guideline (.apkg)]({subdeck_url}) — "
+        f"[{ANKI_ICON}Download this guideline's Anki deck (.apkg)]({subdeck_url}) — "
         "safe to import on its own or alongside the full deck. Nothing gets "
         "duplicated and any reviews you've already done stay intact."
     )

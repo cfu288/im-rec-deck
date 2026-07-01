@@ -6,9 +6,9 @@ permalink: /preventive-medicine/aspirin-primary-prevention/2022-uspstf/
 
 **2022 · USPSTF** · Aspirin for primary prevention
 
-**Source:** [canonical](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication) · [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication)
+**Read the guideline:** [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/aspirin-primary-prevention/2022-uspstf.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/aspirin-primary-prevention/2022-uspstf.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

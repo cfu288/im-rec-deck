@@ -6,9 +6,9 @@ permalink: /rheumatology/osteoarthritis/2019-acr-arthritis-foundation/
 
 **2019 · ACR/Arthritis Foundation** · Osteoarthritis
 
-**Source:** [canonical](https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt6aa092f0134cac9a/63320f4750c8e90e3bf512c2/osteoarthritis-guideline-2019.pdf) · [html](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24131) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC11488261/)
+**Read the guideline:** [html](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24131) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC11488261/)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/osteoarthritis/2019-acr-arthritis-foundation.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/osteoarthritis/2019-acr-arthritis-foundation.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

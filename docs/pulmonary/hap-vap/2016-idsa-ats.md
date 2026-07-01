@@ -6,9 +6,9 @@ permalink: /pulmonary/hap-vap/2016-idsa-ats/
 
 **2016 · IDSA/ATS** · Hospital-acquired / ventilator-associated pneumonia
 
-**Source:** [canonical](https://www.thoracic.org/statements/resources/tb-opi/hap-vap-guidelines-2016.pdf) · [html](https://academic.oup.com/cid/article/63/5/e61/2237650)
+**Read the guideline:** [html](https://academic.oup.com/cid/article/63/5/e61/2237650)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/hap-vap/2016-idsa-ats.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/hap-vap/2016-idsa-ats.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

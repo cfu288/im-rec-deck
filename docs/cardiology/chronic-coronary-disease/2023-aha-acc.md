@@ -6,9 +6,9 @@ permalink: /cardiology/chronic-coronary-disease/2023-aha-acc/
 
 **2023 · AHA/ACC** · Chronic coronary disease (stable IHD)
 
-**Source:** [canonical](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001168) · [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001168) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001168)
+**Read the guideline:** [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001168) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001168)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/chronic-coronary-disease/2023-aha-acc.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/chronic-coronary-disease/2023-aha-acc.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

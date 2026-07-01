@@ -18,11 +18,11 @@ has_children: true
 The 2026 AHA/ASA guideline replaces the 2018 guideline and 2019 update for early management of acute ischemic stroke, spanning prehospital care through early in-hospital management. Major updates include endorsement of tenecteplase as equivalent to alteplase within 4.5 hours, expanded EVT eligibility (large cores, basilar occlusion to 24 h, selected pediatric patients), extended-window IVT (4.5–9 h with perfusion mismatch), abandonment of intensive glucose (80–130 mg/dL) and intensive post-EVT BP (\<140 mm Hg) targets, mobile stroke unit endorsement, and first-time pediatric EVT/IVT recommendations.
 
   - **2026 · AHA/ASA** — [2026 AHA/ASA Early Management of AIS]({{ '/neurology/acute-ischemic-stroke/2026-aha-asa/' | relative_url }})
-    - [canonical](https://www.ahajournals.org/doi/10.1161/STR.0000000000000513) · [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000513) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000513) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/acute-ischemic-stroke/2026-aha-asa.apkg)
+    - Read the guideline: [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000513) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000513) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/acute-ischemic-stroke/2026-aha-asa.apkg)
   - **2019 · AHA/ASA** — (no title)
-    - [canonical](https://www.ahajournals.org/doi/10.1161/STR.0000000000000211) · [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000211) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000211)
+    - Read the guideline: [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000211) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000211)
   - **2018 · AHA/ASA** — (no title)
-    - [canonical](https://www.ahajournals.org/doi/10.1161/str.0000000000000158) · [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000158) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/str.0000000000000158)
+    - Read the guideline: [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000158) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/str.0000000000000158)
 
 ### Epilepsy / first seizure
 
@@ -31,7 +31,7 @@ The 2026 AHA/ASA guideline replaces the 2018 guideline and 2019 update for early
 Evidence-based AAN/AES guideline on management of an unprovoked first seizure in adults, addressing recurrence risk, the effect of immediate antiepileptic drug (AED) therapy on short- and long-term prognosis, and AED adverse-event rates. Immediate AED treatment reduces 2-year recurrence risk but does not improve long-term seizure remission or quality of life. Decisions should be individualized, weighing recurrence risk factors against AED adverse effects and patient preferences.
 
   - **AAN/AES** — [AAN/AES Practice Guidelines]({{ '/neurology/epilepsy/aan-aes/' | relative_url }})
-    - [canonical](https://www.neurology.org/doi/10.1212/WNL.0000000000001487) · [html](https://www.neurology.org/doi/full/10.1212/WNL.0000000000001487) · [pdf](https://www.neurology.org/doi/pdf/10.1212/WNL.0000000000001487) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/epilepsy/aan-aes.apkg)
+    - Read the guideline: [html](https://www.neurology.org/doi/full/10.1212/WNL.0000000000001487) · [pdf](https://www.neurology.org/doi/pdf/10.1212/WNL.0000000000001487) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/epilepsy/aan-aes.apkg)
 
 ### Intracerebral hemorrhage
 
@@ -40,7 +40,7 @@ Evidence-based AAN/AES guideline on management of an unprovoked first seizure in
 2022 AHA/ASA guideline for management of spontaneous (nontraumatic, non-structural) intracerebral hemorrhage in adults, updating the 2015 version. Key updates include refined acute BP targets emphasizing smooth sustained control, expanded anticoagulation reversal recommendations (4F-PCC, idarucizumab, andexanet alfa), evidence against prophylactic corticosteroids/hyperosmolar therapy/platelet transfusions/antiseizure prophylaxis, support for minimally invasive hematoma evacuation to reduce mortality, and broader criteria for cerebellar ICH surgery (now including volume >15 mL).
 
   - **2022 · AHA/ASA** — [2022 AHA/ASA ICH Guideline]({{ '/neurology/ich/2022-aha-asa/' | relative_url }})
-    - [canonical](https://www.ahajournals.org/doi/10.1161/STR.0000000000000407) · [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000407) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000407) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/ich/2022-aha-asa.apkg)
+    - Read the guideline: [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000407) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000407) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/ich/2022-aha-asa.apkg)
 
 ### Migraine
 
@@ -50,7 +50,7 @@ Updated AHS consensus on integrating newer acute and preventive migraine therapi
 
   - **2021 · American Headache Society** — [AHS 2021 Migraine Consensus]({{ '/neurology/migraine/2021-american-headache-society/' | relative_url }})
     - _Plus AAN._
-    - [canonical](https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.14153) · [html](https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.14153) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34160823/) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/migraine/2021-american-headache-society.apkg)
+    - Read the guideline: [html](https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.14153) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34160823/) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/migraine/2021-american-headache-society.apkg)
 
 ### Multiple sclerosis (DMTs)
 
@@ -59,7 +59,7 @@ Updated AHS consensus on integrating newer acute and preventive migraine therapi
 AAN 2018 guideline on disease-modifying therapy (DMT) for adults with multiple sclerosis, replacing the 2002 AAN DMT guideline. Thirty consensus recommendations address starting (17), switching (10), and stopping (3) DMTs across RRMS, SPMS, PPMS, and clinically isolated syndrome (CIS), emphasizing shared decision-making, adherence, comorbidity management, and PML risk counseling. Ocrelizumab is endorsed for ambulatory PPMS, and specific guidance is given for natalizumab JCV-antibody risk stratification and pregnancy-related DMT decisions.
 
   - **2018 · AAN** — [AAN 2018 MS Disease-Modifying Therapy Guideline]({{ '/neurology/multiple-sclerosis/2018-aan/' | relative_url }})
-    - [canonical](https://www.neurology.org/doi/10.1212/WNL.0000000000005347) · [html](https://www.neurology.org/doi/full/10.1212/WNL.0000000000005347) · [pdf](https://www.neurology.org/doi/pdf/10.1212/WNL.0000000000005347) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/multiple-sclerosis/2018-aan.apkg)
+    - Read the guideline: [html](https://www.neurology.org/doi/full/10.1212/WNL.0000000000005347) · [pdf](https://www.neurology.org/doi/pdf/10.1212/WNL.0000000000005347) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/multiple-sclerosis/2018-aan.apkg)
 
 ### Secondary stroke prevention
 
@@ -68,7 +68,7 @@ AAN 2018 guideline on disease-modifying therapy (DMT) for adults with multiple s
 Comprehensive AHA/ASA guideline on secondary prevention of ischemic stroke and TIA, organized by etiologic subtype with new sections on diagnostic evaluation and systems of care. Emphasizes intensive vascular risk factor management (BP \<130/80, LDL-C \<70 mg/dL), antithrombotic therapy tailored to mechanism, short-term DAPT for minor stroke/high-risk TIA, anticoagulation for AF, and PFO closure in selected patients age 18–60. Replaces 2014 guidelines and adds ESUS, carotid web, FMD, and health equity sections.
 
   - **2021 · AHA/ASA** — [2021 AHA/ASA Stroke/TIA Prevention Guideline]({{ '/neurology/secondary-stroke-prevention/2021-aha-asa/' | relative_url }})
-    - [canonical](https://www.ahajournals.org/doi/10.1161/STR.0000000000000375) · [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000375) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000375) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/secondary-stroke-prevention/2021-aha-asa.apkg)
+    - Read the guideline: [html](https://www.ahajournals.org/doi/full/10.1161/STR.0000000000000375) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000375) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/secondary-stroke-prevention/2021-aha-asa.apkg)
 
 ### Status epilepticus
 
@@ -77,5 +77,5 @@ Comprehensive AHA/ASA guideline on secondary prevention of ischemic stroke and T
 The 2012 Neurocritical Care Society guideline provides evidence-based and expert-consensus recommendations for evaluation and acute management of status epilepticus (SE) in critically ill adults and children. SE is operationally defined as ≥5 minutes of continuous seizure activity or recurrent seizures without recovery, and treatment is structured into emergent initial therapy (benzodiazepine), urgent control therapy (IV AED), and refractory SE therapy (continuous IV anesthetic infusion with EEG monitoring). The document emphasizes simultaneous diagnostic workup, early cEEG in patients who do not return to baseline, and protocolized escalation to improve outcomes.
 
   - **Neurocritical Care Society** — [NCS + AES Status Epilepticus Treatment Guidance]({{ '/neurology/status-epilepticus/neurocritical-care-society/' | relative_url }})
-    - [canonical](https://link.springer.com/article/10.1007/s12028-012-9695-z) · [html](https://link.springer.com/article/10.1007/s12028-012-9695-z) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/status-epilepticus/neurocritical-care-society.apkg)
+    - Read the guideline: [html](https://link.springer.com/article/10.1007/s12028-012-9695-z) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/status-epilepticus/neurocritical-care-society.apkg)
 

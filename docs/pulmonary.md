@@ -18,7 +18,7 @@ has_children: true
 2023 ESICM update of the 2017 ATS/ESICM/SCCM ARDS guideline covering adult patients and non-pharmacological respiratory support (plus neuromuscular blockade) for ARDS including COVID-19 ARDS. The guideline addresses 21 PICO questions across nine domains: definition, phenotyping, HFNO, NIV/CPAP, low tidal volume ventilation, PEEP and recruitment maneuvers, prone positioning, neuromuscular blockade, and extracorporeal life support. New since 2017: explicit recommendations for HFNO over conventional oxygen, awake prone positioning in COVID-19, against routine recruitment maneuvers, and stronger guidance on VV-ECMO in EOLIA-eligible patients.
 
   - **2023 · ATS/ESICM/SCCM** — [2023 ATS/ESICM/SCCM ARDS Guideline]({{ '/pulmonary/ards/2023-ats-esicm-sccm/' | relative_url }})
-    - [canonical](https://pmc.ncbi.nlm.nih.gov/articles/PMC10354163/) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/ards/2023-ats-esicm-sccm.apkg)
+    - Read the guideline: [html](https://pmc.ncbi.nlm.nih.gov/articles/PMC10354163/) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/ards/2023-ats-esicm-sccm.apkg)
 
 ### Asthma ⭐
 
@@ -28,10 +28,10 @@ GINA 2026 is the annual update of the Global Strategy for Asthma Management and 
 
   - **2026 · GINA** — [GINA 2026 — Global Strategy for Asthma Management and Prevention]({{ '/pulmonary/asthma/2026-gina/' | relative_url }})
     - _Updated annually._
-    - [canonical](https://ginasthma.org/wp-content/uploads/2026/05/GINA-2026-Strategy-Report-WMS.pdf) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/asthma/2026-gina.apkg)
+    - Read the guideline: [html](https://ginasthma.org/wp-content/uploads/2026/05/GINA-2026-Strategy-Report-WMS.pdf) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/asthma/2026-gina.apkg)
   - **2020 · NAEPP/NHLBI** — NAEPP/NHLBI 2020 Focused Updates
     - _US adjunct to GINA._
-    - [canonical](https://www.jacionline.org/article/S0091-6749(20)31404-4/fulltext) · [html](https://www.jacionline.org/article/S0091-6749(20)31404-4/fulltext) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC7924476/)
+    - Read the guideline: [html](https://www.jacionline.org/article/S0091-6749(20)31404-4/fulltext) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC7924476/)
 
 ### Community-acquired pneumonia ⭐
 
@@ -41,9 +41,9 @@ GINA 2026 is the annual update of the Global Strategy for Asthma Management and 
 
   - **2025 · ATS/IDSA** — [2025 ATS/IDSA CAP Guideline]({{ '/pulmonary/cap/2025-ats-idsa/' | relative_url }})
     - _Updates the 2019 document._
-    - [canonical](https://academic.oup.com/ajrccm/article/212/1/24/8435770) · [html](https://academic.oup.com/ajrccm/article/212/1/24/8435770) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/cap/2025-ats-idsa.apkg)
+    - Read the guideline: [html](https://academic.oup.com/ajrccm/article/212/1/24/8435770) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/cap/2025-ats-idsa.apkg)
   - **2019 · ATS/IDSA** — (no title)
-    - [canonical](https://www.atsjournals.org/doi/10.1164/rccm.201908-1581ST) · [html](https://academic.oup.com/ajrccm/article/200/7/e45/200727) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC6812437/)
+    - Read the guideline: [html](https://academic.oup.com/ajrccm/article/200/7/e45/200727) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC6812437/)
 
 ### COPD ⭐
 
@@ -53,7 +53,7 @@ GOLD 2026 is the 6th major revision of the global strategy for COPD diagnosis, m
 
   - **2026 · GOLD** — [GOLD 2026 — Global Strategy for Prevention, Diagnosis and Management of COPD]({{ '/pulmonary/copd/2026-gold/' | relative_url }})
     - _Updated annually._
-    - [canonical](https://goldcopd.org/wp-content/uploads/2026/01/GOLD-REPORT-2026-v1.3-8Dec2025_WMV2.pdf) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/copd/2026-gold.apkg)
+    - Read the guideline: [html](https://goldcopd.org/wp-content/uploads/2026/01/GOLD-REPORT-2026-v1.3-8Dec2025_WMV2.pdf) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/copd/2026-gold.apkg)
 
 ### Hospital-acquired / ventilator-associated pneumonia
 
@@ -62,7 +62,7 @@ GOLD 2026 is the 6th major revision of the global strategy for COPD diagnosis, m
 The 2016 IDSA/ATS guideline addresses diagnosis and management of hospital-acquired pneumonia (HAP, non-ventilated) and ventilator-associated pneumonia (VAP) in adults, treating them as two distinct entities. Major changes from the 2005 version include adoption of GRADE methodology, elimination of the healthcare-associated pneumonia (HCAP) category, mandated use of local antibiograms to guide empiric therapy, 7-day treatment durations for most patients, and de-escalation strategies to limit unnecessary antibiotic use and resistance.
 
   - **2016 · IDSA/ATS** — [2016 IDSA/ATS HAP/VAP Guideline]({{ '/pulmonary/hap-vap/2016-idsa-ats/' | relative_url }})
-    - [canonical](https://www.thoracic.org/statements/resources/tb-opi/hap-vap-guidelines-2016.pdf) · [html](https://academic.oup.com/cid/article/63/5/e61/2237650) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/hap-vap/2016-idsa-ats.apkg)
+    - Read the guideline: [html](https://academic.oup.com/cid/article/63/5/e61/2237650) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/hap-vap/2016-idsa-ats.apkg)
 
 ### Idiopathic pulmonary fibrosis
 
@@ -71,7 +71,7 @@ The 2016 IDSA/ATS guideline addresses diagnosis and management of hospital-acqui
 2022 ATS/ERS/JRS/ALAT guideline updates IPF diagnosis and management and introduces the new entity of progressive pulmonary fibrosis (PPF) in non-IPF fibrotic ILD. Key updates: transbronchial lung cryobiopsy (TBLC) is now an acceptable alternative to surgical lung biopsy in experienced centers; conditional recommendations against antacid medication and antireflux surgery for the sole purpose of improving respiratory outcomes in IPF; no recommendation on genomic classifier testing. PPF is defined by ≥2 of 3 criteria (symptoms, physiologic decline, radiologic progression) within 1 year, and nintedanib is conditionally recommended for PPF after failure of standard ILD-directed therapy, while pirfenidone requires further research.
 
   - **2022 · ATS/ERS/JRS/ALAT** — [2022 ATS/ERS/JRS/ALAT IPF Guideline]({{ '/pulmonary/ipf/2022-ats-ers-jrs-alat/' | relative_url }})
-    - [canonical](https://www.atsjournals.org/doi/pdf/10.1164/rccm.202202-0399ST) · [html](https://academic.oup.com/ajrccm/article/205/9/e18/200689) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/ipf/2022-ats-ers-jrs-alat.apkg)
+    - Read the guideline: [html](https://academic.oup.com/ajrccm/article/205/9/e18/200689) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/ipf/2022-ats-ers-jrs-alat.apkg)
 
 ### Obstructive sleep apnea
 
@@ -80,7 +80,7 @@ The 2016 IDSA/ATS guideline addresses diagnosis and management of hospital-acqui
 This document is the Bylaws of the American Academy of Sleep Medicine (updated January 2025), governing the corporate structure of the AASM as a Minnesota nonprofit. It is an organizational/governance document — not a clinical practice guideline — and contains no clinical recommendations, drug dosing, or diagnostic thresholds for sleep disorders. Content covers membership categories, Board of Directors composition and elections, Officer roles, and committee structure.
 
   - **AASM** — [AASM clinical practice guidelines]({{ '/pulmonary/osa/aasm/' | relative_url }})
-    - [canonical](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/osa/aasm.apkg)
+    - Read the guideline: [html](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/osa/aasm.apkg)
 
 ### Pulmonary embolism / VTE (acute)
 
@@ -89,11 +89,11 @@ This document is the Bylaws of the American Academy of Sleep Medicine (updated J
 Second update to the 9th edition CHEST guideline on antithrombotic therapy for VTE, providing 29 guidance statements (13 strong) across 17 PICO questions covering initial management, treatment-phase anticoagulation, extended-phase secondary prevention, and PTS prevention. Major changes from 2016 include strong preference for DOACs over VKA for treatment phase, preference for oral Xa inhibitors over LMWH in cancer-associated thrombosis, new guidance on cerebral vein thrombosis, antiphospholipid syndrome, reduced-dose DOACs for extended phase, and superficial vein thrombosis. New nomenclature defines three phases: initiation (5-21 days), treatment (3 months), and extended (no preplanned stop date).
 
   - **2021 · CHEST** — [CHEST 2021 Antithrombotic Therapy for VTE]({{ '/pulmonary/pe-vte-acute/2021-chest/' | relative_url }})
-    - [canonical](https://journal.chestnet.org/article/S0012-3692(21)01506-3/fulltext) · [html](https://journal.chestnet.org/article/S0012-3692(21)01506-3/fulltext) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/pe-vte-acute/2021-chest.apkg)
+    - Read the guideline: [html](https://journal.chestnet.org/article/S0012-3692(21)01506-3/fulltext) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/pe-vte-acute/2021-chest.apkg)
   - **2020 · ASH** — ASH 2020 VTE panels
-    - [canonical](https://www.hematology.org/-/media/hematology/files/clinicians/guidelines/vte/ash-vte-treatment_pdf.pdf) · [html](https://ashpublications.org/bloodadvances/article/4/19/4693/463998) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/)
+    - Read the guideline: [html](https://ashpublications.org/bloodadvances/article/4/19/4693/463998) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC7556153/)
   - **2019 · ESC** — ESC 2019 Acute PE Guideline
-    - [canonical](https://academic.oup.com/eurheartj/article/41/4/543/5556136) · [html](https://academic.oup.com/eurheartj/article/41/4/543/5556136)
+    - Read the guideline: [html](https://academic.oup.com/eurheartj/article/41/4/543/5556136)
 
 ### Pulmonary hypertension
 
@@ -102,7 +102,7 @@ Second update to the 9th edition CHEST guideline on antithrombotic therapy for V
 Fourth-edition joint ESC/ERS guideline on diagnosis and treatment of pulmonary hypertension covering all five PH groups, with emphasis on PAH and CTEPH. Key changes from 2015: lowered hemodynamic definition (mPAP >20 mmHg, PVR >2 WU), introduction of exercise PH definition, four-strata follow-up risk model, simplified treatment algorithm distinguishing patients with vs without cardiopulmonary comorbidities, new CTEPD-without-PH concept, and upgraded role of balloon pulmonary angioplasty plus medical therapy in CTEPH.
 
   - **2022 · ESC/ERS** — [2022 ESC/ERS PH Guideline]({{ '/pulmonary/pulmonary-hypertension/2022-esc-ers/' | relative_url }})
-    - [canonical](https://academic.oup.com/eurheartj/article/43/38/3618/6673929) · [html](https://academic.oup.com/eurheartj/article/43/38/3618/6673929) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/pulmonary-hypertension/2022-esc-ers.apkg)
+    - Read the guideline: [html](https://academic.oup.com/eurheartj/article/43/38/3618/6673929) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/pulmonary-hypertension/2022-esc-ers.apkg)
 
 ### Sepsis & septic shock ⭐
 
@@ -112,5 +112,5 @@ The 2021 Surviving Sepsis Campaign guidelines provide updated international reco
 
   - **2021 · SCCM/ESICM** — [Surviving Sepsis Campaign 2021]({{ '/pulmonary/sepsis/2021-sccm-esicm/' | relative_url }})
     - _Current international reference._
-    - [canonical](https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-guidelines-2021) · [html](https://journals.lww.com/ccmjournal/fulltext/2021/11000/surviving_sepsis_campaign__international.21.aspx) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC8486643/) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/sepsis/2021-sccm-esicm.apkg)
+    - Read the guideline: [html](https://journals.lww.com/ccmjournal/fulltext/2021/11000/surviving_sepsis_campaign__international.21.aspx) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC8486643/) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/sepsis/2021-sccm-esicm.apkg)
 

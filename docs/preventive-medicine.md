@@ -19,7 +19,7 @@ has_children: true
 
   - **CDC/ACIP** — [CDC/ACIP Adult Immunization Schedule]({{ '/preventive-medicine/adult-immunization-schedule/cdc-acip/' | relative_url }})
     - _Updated annually._
-    - [canonical](https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html) · [html](https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/adult-immunization-schedule/cdc-acip.apkg)
+    - Read the guideline: [html](https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/adult-immunization-schedule/cdc-acip.apkg)
 
 ### Aspirin for primary prevention ⭐
 
@@ -29,7 +29,7 @@ USPSTF 2022 recommendation on low-dose aspirin for primary prevention of cardiov
 
   - **2022 · USPSTF** — [USPSTF 2022 Aspirin for Primary Prevention]({{ '/preventive-medicine/aspirin-primary-prevention/2022-uspstf/' | relative_url }})
     - _Individualized, ages 40–59 at higher risk._
-    - [canonical](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication) · [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/aspirin-primary-prevention/2022-uspstf.apkg)
+    - Read the guideline: [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/aspirin-primary-prevention/2022-uspstf.apkg)
 
 ### Breast cancer screening ⭐
 
@@ -39,7 +39,7 @@ The 2024 USPSTF recommends biennial screening mammography for all women aged 40 
 
   - **2024 · USPSTF** — [USPSTF 2024 Breast Cancer Screening]({{ '/preventive-medicine/breast-cancer-screening/2024-uspstf/' | relative_url }})
     - _Biennial mammography, ages 40–74 (B)._
-    - [canonical](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening) · [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/breast-cancer-screening/2024-uspstf.apkg)
+    - Read the guideline: [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/breast-cancer-screening/2024-uspstf.apkg)
 
 ### Cervical cancer screening ⭐
 
@@ -49,7 +49,7 @@ USPSTF cervical cancer screening recommendation for asymptomatic individuals wit
 
   - **2024 · USPSTF** — [USPSTF Cervical Cancer Screening (2024 update)]({{ '/preventive-medicine/cervical-cancer-screening/2024-uspstf/' | relative_url }})
     - _Cytology 21–65 q3y or co-testing/primary HPV 30–65 q5y; HPV self-collection added 2024._
-    - [canonical](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening) · [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/cervical-cancer-screening/2024-uspstf.apkg)
+    - Read the guideline: [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/cervical-cancer-screening/2024-uspstf.apkg)
 
 ### Colorectal cancer screening ⭐
 
@@ -59,7 +59,7 @@ USPSTF 2021 recommendations on colorectal cancer screening in average-risk asymp
 
   - **2021 · USPSTF** — [USPSTF 2021 Colorectal Cancer Screening]({{ '/preventive-medicine/colorectal-cancer-screening/2021-uspstf/' | relative_url }})
     - _Ages 45–75 (lowered from 50)._
-    - [canonical](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening) · [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/colorectal-cancer-screening/2021-uspstf.apkg)
+    - Read the guideline: [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/colorectal-cancer-screening/2021-uspstf.apkg)
 
 ### Depression / anxiety screening ⭐
 
@@ -68,7 +68,7 @@ USPSTF 2021 recommendations on colorectal cancer screening in average-risk asymp
 USPSTF 2023 recommends screening all adults ≥19 years, including pregnant/postpartum persons and older adults ≥65, for major depressive disorder (Grade B). Evidence remains insufficient to recommend for or against routine suicide risk screening in asymptomatic adults (I statement). Recommendation is consistent with prior 2016 (depression) and 2014 (suicide) statements; screening must be coupled with systems to ensure diagnosis, treatment, and follow-up.
 
   - **2023 · USPSTF** — [USPSTF 2023 Depression / Anxiety Screening]({{ '/preventive-medicine/depression-anxiety-screening/2023-uspstf/' | relative_url }})
-    - [canonical](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-depression-suicide-risk-adults) · [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-depression-suicide-risk-adults) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/depression-anxiety-screening/2023-uspstf.apkg)
+    - Read the guideline: [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-depression-suicide-risk-adults) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/depression-anxiety-screening/2023-uspstf.apkg)
 
 ### Lung cancer screening ⭐
 
@@ -78,7 +78,7 @@ USPSTF 2021 Grade B recommendation for annual lung cancer screening with low-dos
 
   - **2021 · USPSTF** — [USPSTF 2021 Lung Cancer Screening]({{ '/preventive-medicine/lung-cancer-screening/2021-uspstf/' | relative_url }})
     - _LDCT ages 50–80, ≥20 pack-years, current/quit <15 yr._
-    - [canonical](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening) · [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/lung-cancer-screening/2021-uspstf.apkg)
+    - Read the guideline: [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/lung-cancer-screening/2021-uspstf.apkg)
 
 ### Prostate cancer screening ⭐
 
@@ -88,7 +88,7 @@ USPSTF 2018 recommendation on PSA-based screening for prostate cancer in asympto
 
   - **2018 · USPSTF** — [USPSTF 2018 Prostate Cancer Screening]({{ '/preventive-medicine/prostate-cancer-screening/2018-uspstf/' | relative_url }})
     - _Shared decision-making, ages 55–69 (C)._
-    - [canonical](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prostate-cancer-screening) · [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prostate-cancer-screening) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/prostate-cancer-screening/2018-uspstf.apkg)
+    - Read the guideline: [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prostate-cancer-screening) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/prostate-cancer-screening/2018-uspstf.apkg)
 
 ### Statins / lipid screening (primary prevention) ⭐
 
@@ -97,9 +97,9 @@ USPSTF 2018 recommendation on PSA-based screening for prostate cancer in asympto
 The 2026 ACC/AHA dyslipidemia guideline replaces the 2018 cholesterol guideline and broadens scope to include hypertriglyceridemia and elevated Lp(a). Major changes include adoption of the PREVENT-ASCVD risk equations (replacing the Pooled Cohort Equations) with lower treatment thresholds, reinstatement of explicit LDL-C and non–HDL-C goals, universal once-in-a-lifetime Lp(a) measurement, expanded role for apoB testing, and incorporation of newer agents (bempedoic acid, inclisiran, evinacumab, olezarsen) alongside statins, ezetimibe, and PCSK9 mAbs. The guideline emphasizes the "CPR" framework (Calculate–Personalize–Reclassify with CAC) and earlier intervention to reduce lifetime atherogenic lipoprotein exposure.
 
   - **2026 · ACC/AHA** — [2026 ACC/AHA Dyslipidemia Guideline]({{ '/preventive-medicine/statins-primary-prevention/2026-acc-aha/' | relative_url }})
-    - [canonical](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001423) · [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001423) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001423) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/statins-primary-prevention/2026-acc-aha.apkg)
+    - Read the guideline: [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001423) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001423) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/statins-primary-prevention/2026-acc-aha.apkg)
   - **2022 · USPSTF** — USPSTF 2022 Statin Use for Primary Prevention
-    - [canonical](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication) · [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication)
+    - Read the guideline: [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication)
 
 ### Tobacco cessation ⭐
 
@@ -108,5 +108,5 @@ The 2026 ACC/AHA dyslipidemia guideline replaces the 2018 cholesterol guideline 
 USPSTF 2021 recommends clinicians ask all adults, including pregnant persons, about tobacco use, advise cessation, and provide interventions (Grade A). Nonpregnant adults should receive both behavioral counseling and FDA-approved pharmacotherapy (NRT, bupropion SR, varenicline); pregnant persons should receive behavioral counseling. Evidence is insufficient (I statement) for pharmacotherapy in pregnancy and for e-cigarettes as a cessation aid in any adult. Recommendations are consistent with the 2015 statement, with new commentary on e-cigarettes and the 2019 EVALI outbreak.
 
   - **2021 · USPSTF** — [USPSTF 2021 Tobacco Cessation]({{ '/preventive-medicine/tobacco-cessation/2021-uspstf/' | relative_url }})
-    - [canonical](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions) · [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions) · [Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/tobacco-cessation/2021-uspstf.apkg)
+    - Read the guideline: [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Anki deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/tobacco-cessation/2021-uspstf.apkg)
 

@@ -6,9 +6,9 @@ permalink: /pulmonary/ipf/2022-ats-ers-jrs-alat/
 
 **2022 · ATS/ERS/JRS/ALAT** · Idiopathic pulmonary fibrosis
 
-**Source:** [canonical](https://www.atsjournals.org/doi/pdf/10.1164/rccm.202202-0399ST) · [html](https://academic.oup.com/ajrccm/article/205/9/e18/200689) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/)
+**Read the guideline:** [html](https://academic.oup.com/ajrccm/article/205/9/e18/200689) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/ipf/2022-ats-ers-jrs-alat.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/ipf/2022-ats-ers-jrs-alat.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

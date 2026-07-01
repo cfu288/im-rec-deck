@@ -6,9 +6,9 @@ permalink: /nephrology/aki/2012-kdigo/
 
 **2012 · KDIGO** · Acute kidney injury
 
-**Source:** [canonical](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf) · [html](https://www.sciencedirect.com/journal/kidney-international-supplements/vol/2/issue/1)
+**Read the guideline:** [html](https://www.sciencedirect.com/journal/kidney-international-supplements/vol/2/issue/1)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/nephrology/aki/2012-kdigo.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/nephrology/aki/2012-kdigo.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

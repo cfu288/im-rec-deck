@@ -6,9 +6,9 @@ permalink: /endocrinology/adrenal-insufficiency/2016-endocrine-society/
 
 **2016 · Endocrine Society** · Adrenal insufficiency
 
-**Source:** [canonical](https://academic.oup.com/jcem/article/101/2/364/2810222) · [html](https://academic.oup.com/jcem/article/101/2/364/2810222)
+**Read the guideline:** [html](https://academic.oup.com/jcem/article/101/2/364/2810222)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/endocrinology/adrenal-insufficiency/2016-endocrine-society.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/endocrinology/adrenal-insufficiency/2016-endocrine-society.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

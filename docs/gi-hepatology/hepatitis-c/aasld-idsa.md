@@ -6,9 +6,9 @@ permalink: /gi-hepatology/hepatitis-c/aasld-idsa/
 
 **AASLD/IDSA** · Hepatitis C
 
-**Source:** [canonical](https://www.hcvguidelines.org)
+**Read the guideline:** [html](https://www.hcvguidelines.org)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/gi-hepatology/hepatitis-c/aasld-idsa.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/gi-hepatology/hepatitis-c/aasld-idsa.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

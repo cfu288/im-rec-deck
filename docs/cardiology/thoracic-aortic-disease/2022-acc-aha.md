@@ -6,9 +6,9 @@ permalink: /cardiology/thoracic-aortic-disease/2022-acc-aha/
 
 **2022 · ACC/AHA** · Thoracic aortic disease
 
-**Source:** [canonical](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106) · [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001106) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001106)
+**Read the guideline:** [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001106) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001106)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/thoracic-aortic-disease/2022-acc-aha.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/thoracic-aortic-disease/2022-acc-aha.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

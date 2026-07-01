@@ -6,9 +6,9 @@ permalink: /cardiology/atrial-fibrillation/2023-acc-aha-accp-hrs/
 
 **2023 · ACC/AHA/ACCP/HRS** · Atrial fibrillation
 
-**Source:** [canonical](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001193) · [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001193) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001193)
+**Read the guideline:** [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001193) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001193)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/atrial-fibrillation/2023-acc-aha-accp-hrs.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/atrial-fibrillation/2023-acc-aha-accp-hrs.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

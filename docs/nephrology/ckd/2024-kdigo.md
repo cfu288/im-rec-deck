@@ -6,9 +6,9 @@ permalink: /nephrology/ckd/2024-kdigo/
 
 **2024 · KDIGO** · Chronic kidney disease
 
-**Source:** [canonical](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf) · [html](https://www.kidney-international.org/article/S0085-2538(23)00766-4/fulltext)
+**Read the guideline:** [html](https://www.kidney-international.org/article/S0085-2538(23)00766-4/fulltext)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/nephrology/ckd/2024-kdigo.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/nephrology/ckd/2024-kdigo.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

@@ -6,9 +6,9 @@ permalink: /rheumatology/sle/2024-kdigo/
 
 **2024 · KDIGO** · SLE / lupus nephritis
 
-**Source:** [canonical](https://kdigo.org/wp-content/uploads/2024/01/KDIGO-2024-Lupus-Nephritis-Guideline.pdf) · [html](https://kdigo.org/guidelines/lupus-nephritis/)
+**Read the guideline:** [html](https://kdigo.org/guidelines/lupus-nephritis/)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/sle/2024-kdigo.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/sle/2024-kdigo.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 

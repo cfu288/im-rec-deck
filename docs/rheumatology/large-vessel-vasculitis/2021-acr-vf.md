@@ -6,9 +6,9 @@ permalink: /rheumatology/large-vessel-vasculitis/2021-acr-vf/
 
 **2021 · ACR/VF** · Giant cell arteritis / Takayasu
 
-**Source:** [canonical](https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt2da0b446917ba8b8/6331df5f2b80434a8b6920e3/giant-cell-arteritis-takayasu-arteritis-guideline-2021.pdf) · [html](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632)
+**Read the guideline:** [html](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632)
 
-**Anki deck:** [Download just this guideline (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/large-vessel-vasculitis/2021-acr-vf.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/large-vessel-vasculitis/2021-acr-vf.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
 
 # Summary
 
