@@ -1,9 +1,8 @@
 ---
-title: 'AASLD 2024 Guidance'
+title: '2024 · AASLD — Portal hypertension / varices'
+parent: 'Gastroenterology & Hepatology'
 permalink: /gi-hepatology/portal-hypertension/2024-aasld/
 ---
-
-[← Gastroenterology & Hepatology]({{ '/gi-hepatology/' | relative_url }})
 
 **2024 · AASLD** · Portal hypertension / varices
 

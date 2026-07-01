@@ -1,9 +1,8 @@
 ---
-title: 'Surviving Sepsis Campaign 2021'
+title: '2021 · SCCM/ESICM — Sepsis & septic shock'
+parent: 'Pulmonary & Critical Care'
 permalink: /pulmonary/sepsis/2021-sccm-esicm/
 ---
-
-[← Pulmonary & Critical Care]({{ '/pulmonary/' | relative_url }})
 
 **2021 · SCCM/ESICM** · Sepsis & septic shock
 

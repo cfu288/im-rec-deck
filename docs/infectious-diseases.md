@@ -1,6 +1,8 @@
 ---
-title: Infectious Diseases
+title: 'Infectious Diseases'
 permalink: /infectious-diseases/
+nav_order: 6
+has_children: true
 ---
 
 > IDSA, CDC, and international ID guidelines.

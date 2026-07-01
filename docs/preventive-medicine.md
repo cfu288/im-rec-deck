@@ -1,6 +1,8 @@
 ---
-title: Preventive & Ambulatory Medicine
+title: 'Preventive & Ambulatory Medicine'
 permalink: /preventive-medicine/
+nav_order: 9
+has_children: true
 ---
 
 > USPSTF and ACIP recommendations for screening and prevention.

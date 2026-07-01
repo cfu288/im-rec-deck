@@ -1,9 +1,8 @@
 ---
-title: 'CDC/ACIP Adult Immunization Schedule'
+title: 'CDC/ACIP — Adult immunization schedule'
+parent: 'Preventive & Ambulatory Medicine'
 permalink: /preventive-medicine/adult-immunization-schedule/cdc-acip/
 ---
-
-[← Preventive & Ambulatory Medicine]({{ '/preventive-medicine/' | relative_url }})
 
 **CDC/ACIP** · Adult immunization schedule
 

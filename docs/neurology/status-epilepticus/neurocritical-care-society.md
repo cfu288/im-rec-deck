@@ -1,9 +1,8 @@
 ---
-title: 'NCS + AES Status Epilepticus Treatment Guidance'
+title: 'Neurocritical Care Society — Status epilepticus'
+parent: 'Neurology'
 permalink: /neurology/status-epilepticus/neurocritical-care-society/
 ---
-
-[← Neurology]({{ '/neurology/' | relative_url }})
 
 **Neurocritical Care Society** · Status epilepticus
 

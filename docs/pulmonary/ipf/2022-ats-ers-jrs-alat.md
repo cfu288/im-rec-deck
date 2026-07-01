@@ -1,9 +1,8 @@
 ---
-title: '2022 ATS/ERS/JRS/ALAT IPF Guideline'
+title: '2022 · ATS/ERS/JRS/ALAT — Idiopathic pulmonary fibrosis'
+parent: 'Pulmonary & Critical Care'
 permalink: /pulmonary/ipf/2022-ats-ers-jrs-alat/
 ---
-
-[← Pulmonary & Critical Care]({{ '/pulmonary/' | relative_url }})
 
 **2022 · ATS/ERS/JRS/ALAT** · Idiopathic pulmonary fibrosis
 

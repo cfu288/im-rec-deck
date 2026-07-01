@@ -1,9 +1,8 @@
 ---
-title: '2022 AHA/ASA ICH Guideline'
+title: '2022 · AHA/ASA — Intracerebral hemorrhage'
+parent: 'Neurology'
 permalink: /neurology/ich/2022-aha-asa/
 ---
-
-[← Neurology]({{ '/neurology/' | relative_url }})
 
 **2022 · AHA/ASA** · Intracerebral hemorrhage
 

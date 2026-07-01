@@ -1,9 +1,8 @@
 ---
-title: '2022 ESC/ERS PH Guideline'
+title: '2022 · ESC/ERS — Pulmonary hypertension'
+parent: 'Pulmonary & Critical Care'
 permalink: /pulmonary/pulmonary-hypertension/2022-esc-ers/
 ---
-
-[← Pulmonary & Critical Care]({{ '/pulmonary/' | relative_url }})
 
 **2022 · ESC/ERS** · Pulmonary hypertension
 

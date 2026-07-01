@@ -1,6 +1,7 @@
 ---
-title: Highest-yield named guidelines to know cold
+title: 'Highest-yield named guidelines to know cold'
 permalink: /study-guides/highest-yield-named-guidelines/
+parent: 'Study guides'
 ---
 # Highest-yield named guidelines to know cold
 

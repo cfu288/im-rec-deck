@@ -1,9 +1,8 @@
 ---
-title: '2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS Guideline'
+title: '2025 · ACC/AHA/ACEP/NAEMSP/SCAI — Acute coronary syndrome (STEMI + NSTE-ACS)'
+parent: 'Cardiology'
 permalink: /cardiology/acs/2025-acc-aha-acep-naemsp-scai/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2025 · ACC/AHA/ACEP/NAEMSP/SCAI** · Acute coronary syndrome (STEMI + NSTE-ACS)
 

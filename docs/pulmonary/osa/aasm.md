@@ -1,9 +1,8 @@
 ---
-title: 'AASM clinical practice guidelines'
+title: 'AASM — Obstructive sleep apnea'
+parent: 'Pulmonary & Critical Care'
 permalink: /pulmonary/osa/aasm/
 ---
-
-[← Pulmonary & Critical Care]({{ '/pulmonary/' | relative_url }})
 
 **AASM** · Obstructive sleep apnea
 

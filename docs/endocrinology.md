@@ -1,6 +1,8 @@
 ---
-title: Endocrinology
+title: 'Endocrinology'
 permalink: /endocrinology/
+nav_order: 3
+has_children: true
 ---
 
 > ADA, ATA, Endocrine Society and related guidelines.

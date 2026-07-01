@@ -1,9 +1,8 @@
 ---
-title: 'IDSA/SHEA 2021 Focused Update'
+title: '2021 · IDSA/SHEA — C. difficile infection'
+parent: 'Gastroenterology & Hepatology'
 permalink: /gi-hepatology/c-difficile/2021-idsa-shea/
 ---
-
-[← Gastroenterology & Hepatology]({{ '/gi-hepatology/' | relative_url }})
 
 **2021 · IDSA/SHEA** · C. difficile infection
 

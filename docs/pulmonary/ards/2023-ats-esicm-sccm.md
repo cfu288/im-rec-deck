@@ -1,9 +1,8 @@
 ---
-title: '2023 ATS/ESICM/SCCM ARDS Guideline'
+title: '2023 · ATS/ESICM/SCCM — ARDS'
+parent: 'Pulmonary & Critical Care'
 permalink: /pulmonary/ards/2023-ats-esicm-sccm/
 ---
-
-[← Pulmonary & Critical Care]({{ '/pulmonary/' | relative_url }})
 
 **2023 · ATS/ESICM/SCCM** · ARDS
 

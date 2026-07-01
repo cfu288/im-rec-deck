@@ -1,9 +1,8 @@
 ---
-title: '2024 ACC/AHA PAD Guideline'
+title: '2024 · ACC/AHA — Peripheral artery disease'
+parent: 'Cardiology'
 permalink: /cardiology/peripheral-artery-disease/2024-acc-aha/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2024 · ACC/AHA** · Peripheral artery disease
 

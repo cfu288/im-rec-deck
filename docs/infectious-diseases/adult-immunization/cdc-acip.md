@@ -1,9 +1,8 @@
 ---
-title: 'CDC/ACIP Adult Immunization Schedule'
+title: 'CDC/ACIP — Adult immunization'
+parent: 'Infectious Diseases'
 permalink: /infectious-diseases/adult-immunization/cdc-acip/
 ---
-
-[← Infectious Diseases]({{ '/infectious-diseases/' | relative_url }})
 
 **CDC/ACIP** · Adult immunization
 

@@ -1,9 +1,8 @@
 ---
-title: 'AASLD 2018 Hepatitis B Guidance'
+title: '2018 · AASLD — Hepatitis B'
+parent: 'Gastroenterology & Hepatology'
 permalink: /gi-hepatology/hepatitis-b/2018-aasld/
 ---
-
-[← Gastroenterology & Hepatology]({{ '/gi-hepatology/' | relative_url }})
 
 **2018 · AASLD** · Hepatitis B
 

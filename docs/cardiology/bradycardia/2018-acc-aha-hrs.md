@@ -1,9 +1,8 @@
 ---
-title: '2018 ACC/AHA/HRS Bradycardia Guideline'
+title: '2018 · ACC/AHA/HRS — Bradycardia / conduction delay'
+parent: 'Cardiology'
 permalink: /cardiology/bradycardia/2018-acc-aha-hrs/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2018 · ACC/AHA/HRS** · Bradycardia / conduction delay
 

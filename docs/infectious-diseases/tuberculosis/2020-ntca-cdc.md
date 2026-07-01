@@ -1,9 +1,8 @@
 ---
-title: '2020 NTCA/CDC Latent TB Guideline'
+title: '2020 · NTCA/CDC — Tuberculosis (active / latent)'
+parent: 'Infectious Diseases'
 permalink: /infectious-diseases/tuberculosis/2020-ntca-cdc/
 ---
-
-[← Infectious Diseases]({{ '/infectious-diseases/' | relative_url }})
 
 **2020 · NTCA/CDC** · Tuberculosis (active / latent)
 

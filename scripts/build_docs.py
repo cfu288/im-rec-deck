@@ -217,10 +217,19 @@ def render_topic(system_slug: str, topic_slug: str, topic_block: dict) -> list[s
     return out
 
 
+SYSTEM_NAV_ORDER: dict[str, int] = {}
+
+
 def render_system(system_slug: str, sys_block: dict) -> str:
+    title = sys_block.get("title", system_slug)
+    # nav_order for just-the-docs sidebar. Assigned in first-seen order from the
+    # caller, so main() controls the ordering (alphabetical by slug currently).
+    nav_order = SYSTEM_NAV_ORDER.get(system_slug, 99)
     lines: list[str] = ["---"]
-    lines.append(f'title: {sys_block.get("title", system_slug)}')
+    lines.append(f"title: {title!r}")
     lines.append(f"permalink: {system_permalink(system_slug)}")
+    lines.append(f"nav_order: {nav_order}")
+    lines.append("has_children: true")
     lines.append("---")
     lines.append("")
     if sys_block.get("description"):
@@ -242,7 +251,8 @@ def render_system(system_slug: str, sys_block: dict) -> str:
 
 
 def render_index(manifest: dict) -> str:
-    lines = ["---", "title: Home", "---", ""]
+    # just-the-docs: title + nav_order place this at the top of the sidebar.
+    lines = ["---", "title: Home", "nav_order: 1", "---", ""]
     lines.append(
         f"# {manifest.get('title', 'Internal Medicine Guidelines') if isinstance(manifest, dict) else 'Internal Medicine Guidelines'}"
     )
@@ -369,14 +379,15 @@ def render_version_page(
     if v.get("pmid"):
         url_links.append(f"[PubMed](https://pubmed.ncbi.nlm.nih.gov/{v['pmid']}/)")
 
+    # just-the-docs uses parent (the system title) to place this in the sidebar
+    # under its system. Deep-dive pages are 2 levels deep in nav.
     header_lines = [
         "---",
         # YAML titles can contain colons / quotes — quote to be safe.
-        "title: " + repr(title),
+        "title: " + repr(f"{subtitle} — {topic_title}"),
+        f"parent: {system_title!r}",
         f"permalink: /{system_slug}/{topic_slug}/{vslug}/",
         "---",
-        "",
-        f"[← {system_title}]({site_url(f'/{system_slug}/')})",
         "",
         f"**{subtitle}** · {topic_title}",
         "",
@@ -410,12 +421,33 @@ def render_study_guide(slug: str, sg_block: dict) -> str | None:
     )
     fm_lines = [
         "---",
-        f'title: {sg_block.get("title", slug)}',
+        f"title: {sg_block.get('title', slug)!r}",
         f"permalink: /study-guides/{slug}/",
+        "parent: 'Study guides'",
         "---",
         "",
     ]
     return "\n".join(fm_lines) + body + "\n"
+
+
+def render_study_guides_parent(count: int, systems_count: int) -> str:
+    """Landing page for the Study guides nav section (parent of each
+    individual guide). just-the-docs needs a parent page so has_children
+    resolves correctly and the section is browsable directly."""
+    lines = [
+        "---",
+        "title: 'Study guides'",
+        "permalink: /study-guides/",
+        f"nav_order: {systems_count + 2}",  # after Home + all system pages
+        "has_children: true",
+        "---",
+        "",
+        "# Study guides",
+        "",
+        "Curated cross-cutting lists that pull together the most important",
+        "material from across systems.",
+    ]
+    return "\n".join(lines) + "\n"
 
 
 def main():
@@ -423,6 +455,10 @@ def main():
         manifest = yaml.load(f)
     DOCS.mkdir(parents=True, exist_ok=True)
     (DOCS / "index.md").write_text(render_index(manifest))
+    # Assign nav_order to each system alphabetically, starting at 2 (Home is 1).
+    # SYSTEM_NAV_ORDER is read by render_system.
+    for i, system_slug in enumerate(sorted((manifest.get("systems") or {}).keys()), start=2):
+        SYSTEM_NAV_ORDER[system_slug] = i
     n_systems = 0
     n_versions = 0
     for system_slug, sys_block in (manifest.get("systems") or {}).items():
@@ -445,11 +481,16 @@ def main():
                 n_versions += 1
     n_sg = 0
     sg_out = DOCS / "study-guides"
-    for slug, body in (manifest.get("study_guides") or {}).items():
+    sg_map = manifest.get("study_guides") or {}
+    if sg_map:
+        sg_out.mkdir(parents=True, exist_ok=True)
+        (sg_out / "index.md").write_text(
+            render_study_guides_parent(len(sg_map), n_systems)
+        )
+    for slug, body in sg_map.items():
         page = render_study_guide(slug, body)
         if page is None:
             continue
-        sg_out.mkdir(parents=True, exist_ok=True)
         (sg_out / f"{slug}.md").write_text(page)
         n_sg += 1
     print(

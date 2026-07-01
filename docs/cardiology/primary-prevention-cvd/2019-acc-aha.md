@@ -1,9 +1,8 @@
 ---
-title: '2019 ACC/AHA Primary Prevention Guideline'
+title: '2019 · ACC/AHA — Primary prevention of CVD'
+parent: 'Cardiology'
 permalink: /cardiology/primary-prevention-cvd/2019-acc-aha/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2019 · ACC/AHA** · Primary prevention of CVD
 

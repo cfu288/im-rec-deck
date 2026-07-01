@@ -1,9 +1,8 @@
 ---
-title: 'KDIGO 2021 BP in CKD Guideline'
+title: '2021 · KDIGO — Blood pressure in CKD'
+parent: 'Nephrology'
 permalink: /nephrology/bp-in-ckd/2021-kdigo/
 ---
-
-[← Nephrology]({{ '/nephrology/' | relative_url }})
 
 **2021 · KDIGO** · Blood pressure in CKD
 

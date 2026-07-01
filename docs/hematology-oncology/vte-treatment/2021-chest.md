@@ -1,9 +1,8 @@
 ---
-title: 'CHEST 2021 Antithrombotic Therapy for VTE'
+title: '2021 · CHEST — VTE treatment & prophylaxis'
+parent: 'Hematology & Oncology'
 permalink: /hematology-oncology/vte-treatment/2021-chest/
 ---
-
-[← Hematology & Oncology]({{ '/hematology-oncology/' | relative_url }})
 
 **2021 · CHEST** · VTE treatment & prophylaxis
 

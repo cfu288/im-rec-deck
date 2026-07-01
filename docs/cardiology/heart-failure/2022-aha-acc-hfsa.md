@@ -1,9 +1,8 @@
 ---
-title: '2022 AHA/ACC/HFSA Heart Failure Guideline'
+title: '2022 · AHA/ACC/HFSA — Heart failure'
+parent: 'Cardiology'
 permalink: /cardiology/heart-failure/2022-aha-acc-hfsa/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2022 · AHA/ACC/HFSA** · Heart failure
 

@@ -1,9 +1,8 @@
 ---
-title: 'CHEST 2021 Antithrombotic Therapy for VTE'
+title: '2021 · CHEST — Pulmonary embolism / VTE (acute)'
+parent: 'Pulmonary & Critical Care'
 permalink: /pulmonary/pe-vte-acute/2021-chest/
 ---
-
-[← Pulmonary & Critical Care]({{ '/pulmonary/' | relative_url }})
 
 **2021 · CHEST** · Pulmonary embolism / VTE (acute)
 

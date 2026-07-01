@@ -1,9 +1,8 @@
 ---
-title: 'ACR/NPF 2018 Psoriatic Arthritis Guideline'
+title: '2018 · ACR/NPF — Psoriatic arthritis'
+parent: 'Rheumatology'
 permalink: /rheumatology/psoriatic-arthritis/2018-acr-npf/
 ---
-
-[← Rheumatology]({{ '/rheumatology/' | relative_url }})
 
 **2018 · ACR/NPF** · Psoriatic arthritis
 

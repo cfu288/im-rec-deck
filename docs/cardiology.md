@@ -1,6 +1,8 @@
 ---
-title: Cardiology
+title: 'Cardiology'
 permalink: /cardiology/
+nav_order: 2
+has_children: true
 ---
 
 > Society guidelines for cardiovascular conditions.

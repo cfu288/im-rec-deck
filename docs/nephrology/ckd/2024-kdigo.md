@@ -1,9 +1,8 @@
 ---
-title: 'KDIGO 2024 CKD Guideline'
+title: '2024 · KDIGO — Chronic kidney disease'
+parent: 'Nephrology'
 permalink: /nephrology/ckd/2024-kdigo/
 ---
-
-[← Nephrology]({{ '/nephrology/' | relative_url }})
 
 **2024 · KDIGO** · Chronic kidney disease
 

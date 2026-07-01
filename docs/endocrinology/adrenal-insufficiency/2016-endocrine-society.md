@@ -1,9 +1,8 @@
 ---
-title: 'Endocrine Society 2016 Adrenal Insufficiency Guideline'
+title: '2016 · Endocrine Society — Adrenal insufficiency'
+parent: 'Endocrinology'
 permalink: /endocrinology/adrenal-insufficiency/2016-endocrine-society/
 ---
-
-[← Endocrinology]({{ '/endocrinology/' | relative_url }})
 
 **2016 · Endocrine Society** · Adrenal insufficiency
 

@@ -1,9 +1,8 @@
 ---
-title: '2017 ACC/AHA/HRS Syncope Guideline'
+title: '2017 · ACC/AHA/HRS — Syncope'
+parent: 'Cardiology'
 permalink: /cardiology/syncope/2017-acc-aha-hrs/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2017 · ACC/AHA/HRS** · Syncope
 

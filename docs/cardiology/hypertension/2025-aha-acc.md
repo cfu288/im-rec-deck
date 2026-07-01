@@ -1,9 +1,8 @@
 ---
-title: '2025 AHA/ACC Multisociety Guideline for High Blood Pressure in Adults'
+title: '2025 · AHA/ACC — Hypertension'
+parent: 'Cardiology'
 permalink: /cardiology/hypertension/2025-aha-acc/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2025 · AHA/ACC** · Hypertension
 

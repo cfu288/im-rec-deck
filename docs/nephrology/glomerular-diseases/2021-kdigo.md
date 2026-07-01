@@ -1,9 +1,8 @@
 ---
-title: 'KDIGO 2021 Glomerular Diseases Guideline'
+title: '2021 · KDIGO — Glomerular diseases'
+parent: 'Nephrology'
 permalink: /nephrology/glomerular-diseases/2021-kdigo/
 ---
-
-[← Nephrology]({{ '/nephrology/' | relative_url }})
 
 **2021 · KDIGO** · Glomerular diseases
 

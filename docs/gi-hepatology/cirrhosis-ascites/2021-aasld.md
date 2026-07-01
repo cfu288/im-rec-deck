@@ -1,9 +1,8 @@
 ---
-title: 'AASLD 2021 Guidance'
+title: '2021 · AASLD — Cirrhosis — ascites / SBP / HRS'
+parent: 'Gastroenterology & Hepatology'
 permalink: /gi-hepatology/cirrhosis-ascites/2021-aasld/
 ---
-
-[← Gastroenterology & Hepatology]({{ '/gi-hepatology/' | relative_url }})
 
 **2021 · AASLD** · Cirrhosis — ascites / SBP / HRS
 

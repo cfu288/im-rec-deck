@@ -1,9 +1,8 @@
 ---
-title: 'KDIGO 2024 Lupus Nephritis Guideline'
+title: '2024 · KDIGO — SLE / lupus nephritis'
+parent: 'Rheumatology'
 permalink: /rheumatology/sle/2024-kdigo/
 ---
-
-[← Rheumatology]({{ '/rheumatology/' | relative_url }})
 
 **2024 · KDIGO** · SLE / lupus nephritis
 

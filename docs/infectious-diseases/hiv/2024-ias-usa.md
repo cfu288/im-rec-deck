@@ -1,9 +1,8 @@
 ---
-title: 'IAS-USA 2024 Recommendations'
+title: '2024 · IAS-USA — HIV (antiretroviral therapy)'
+parent: 'Infectious Diseases'
 permalink: /infectious-diseases/hiv/2024-ias-usa/
 ---
-
-[← Infectious Diseases]({{ '/infectious-diseases/' | relative_url }})
 
 **2024 · IAS-USA** · HIV (antiretroviral therapy)
 

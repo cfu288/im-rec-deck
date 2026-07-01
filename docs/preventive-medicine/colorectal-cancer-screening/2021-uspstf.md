@@ -1,9 +1,8 @@
 ---
-title: 'USPSTF 2021 Colorectal Cancer Screening'
+title: '2021 · USPSTF — Colorectal cancer screening'
+parent: 'Preventive & Ambulatory Medicine'
 permalink: /preventive-medicine/colorectal-cancer-screening/2021-uspstf/
 ---
-
-[← Preventive & Ambulatory Medicine]({{ '/preventive-medicine/' | relative_url }})
 
 **2021 · USPSTF** · Colorectal cancer screening
 

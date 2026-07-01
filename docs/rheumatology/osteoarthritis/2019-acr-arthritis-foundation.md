@@ -1,9 +1,8 @@
 ---
-title: 'ACR/AF 2019 Osteoarthritis Guideline'
+title: '2019 · ACR/Arthritis Foundation — Osteoarthritis'
+parent: 'Rheumatology'
 permalink: /rheumatology/osteoarthritis/2019-acr-arthritis-foundation/
 ---
-
-[← Rheumatology]({{ '/rheumatology/' | relative_url }})
 
 **2019 · ACR/Arthritis Foundation** · Osteoarthritis
 

@@ -1,6 +1,8 @@
 ---
-title: Gastroenterology & Hepatology
+title: 'Gastroenterology & Hepatology'
 permalink: /gi-hepatology/
+nav_order: 4
+has_children: true
 ---
 
 > Society guidelines for GI and liver conditions.

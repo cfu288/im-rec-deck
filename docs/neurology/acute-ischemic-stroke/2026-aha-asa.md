@@ -1,9 +1,8 @@
 ---
-title: '2026 AHA/ASA Early Management of AIS'
+title: '2026 · AHA/ASA — Acute ischemic stroke (early management)'
+parent: 'Neurology'
 permalink: /neurology/acute-ischemic-stroke/2026-aha-asa/
 ---
-
-[← Neurology]({{ '/neurology/' | relative_url }})
 
 **2026 · AHA/ASA** · Acute ischemic stroke (early management)
 

@@ -1,9 +1,8 @@
 ---
-title: 'Endocrine Society 2016 Primary Aldosteronism Guideline'
+title: '2016 · Endocrine Society — Primary aldosteronism'
+parent: 'Endocrinology'
 permalink: /endocrinology/primary-aldosteronism/2016-endocrine-society/
 ---
-
-[← Endocrinology]({{ '/endocrinology/' | relative_url }})
 
 **2016 · Endocrine Society** · Primary aldosteronism
 

@@ -1,9 +1,8 @@
 ---
-title: '2017 AHA/ACC/HRS VA/SCD Guideline'
+title: '2017 · AHA/ACC/HRS — Ventricular arrhythmias / SCD'
+parent: 'Cardiology'
 permalink: /cardiology/ventricular-arrhythmias/2017-aha-acc-hrs/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2017 · AHA/ACC/HRS** · Ventricular arrhythmias / SCD
 

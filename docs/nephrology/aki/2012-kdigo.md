@@ -1,9 +1,8 @@
 ---
-title: 'KDIGO 2012 AKI Guideline'
+title: '2012 · KDIGO — Acute kidney injury'
+parent: 'Nephrology'
 permalink: /nephrology/aki/2012-kdigo/
 ---
-
-[← Nephrology]({{ '/nephrology/' | relative_url }})
 
 **2012 · KDIGO** · Acute kidney injury
 

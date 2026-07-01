@@ -1,9 +1,8 @@
 ---
-title: 'ACR/VF 2021 ANCA-Associated Vasculitis Guideline'
+title: '2021 · ACR/VF — ANCA-associated vasculitis'
+parent: 'Rheumatology'
 permalink: /rheumatology/anca-vasculitis/2021-acr-vf/
 ---
-
-[← Rheumatology]({{ '/rheumatology/' | relative_url }})
 
 **2021 · ACR/VF** · ANCA-associated vasculitis
 

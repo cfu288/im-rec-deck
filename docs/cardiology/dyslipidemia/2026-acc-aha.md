@@ -1,9 +1,8 @@
 ---
-title: '2026 ACC/AHA Multisociety Guideline on the Management of Dyslipidemia'
+title: '2026 · ACC/AHA — Dyslipidemia / cholesterol'
+parent: 'Cardiology'
 permalink: /cardiology/dyslipidemia/2026-acc-aha/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2026 · ACC/AHA** · Dyslipidemia / cholesterol
 

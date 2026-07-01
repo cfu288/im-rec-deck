@@ -1,9 +1,8 @@
 ---
-title: '2016 IDSA/ATS HAP/VAP Guideline'
+title: '2016 · IDSA/ATS — Hospital-acquired / ventilator-associated pneumonia'
+parent: 'Pulmonary & Critical Care'
 permalink: /pulmonary/hap-vap/2016-idsa-ats/
 ---
-
-[← Pulmonary & Critical Care]({{ '/pulmonary/' | relative_url }})
 
 **2016 · IDSA/ATS** · Hospital-acquired / ventilator-associated pneumonia
 

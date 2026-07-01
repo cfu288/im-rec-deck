@@ -1,6 +1,8 @@
 ---
-title: Nephrology
+title: 'Nephrology'
 permalink: /nephrology/
+nav_order: 7
+has_children: true
 ---
 
 > KDIGO and related kidney guidelines.

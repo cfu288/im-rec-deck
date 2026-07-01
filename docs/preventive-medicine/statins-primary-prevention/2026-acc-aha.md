@@ -1,9 +1,8 @@
 ---
-title: '2026 ACC/AHA Dyslipidemia Guideline'
+title: '2026 · ACC/AHA — Statins / lipid screening (primary prevention)'
+parent: 'Preventive & Ambulatory Medicine'
 permalink: /preventive-medicine/statins-primary-prevention/2026-acc-aha/
 ---
-
-[← Preventive & Ambulatory Medicine]({{ '/preventive-medicine/' | relative_url }})
 
 **2026 · ACC/AHA** · Statins / lipid screening (primary prevention)
 

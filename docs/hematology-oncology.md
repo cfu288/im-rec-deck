@@ -1,6 +1,8 @@
 ---
-title: Hematology & Oncology
+title: 'Hematology & Oncology'
 permalink: /hematology-oncology/
+nav_order: 5
+has_children: true
 ---
 
 > ASH, CHEST, AABB, and related heme/onc guidelines.

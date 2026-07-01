@@ -1,9 +1,8 @@
 ---
-title: 'AAN/AES Practice Guidelines'
+title: 'AAN/AES — Epilepsy / first seizure'
+parent: 'Neurology'
 permalink: /neurology/epilepsy/aan-aes/
 ---
-
-[← Neurology]({{ '/neurology/' | relative_url }})
 
 **AAN/AES** · Epilepsy / first seizure
 

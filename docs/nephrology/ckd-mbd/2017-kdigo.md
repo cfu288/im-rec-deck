@@ -1,9 +1,8 @@
 ---
-title: 'KDIGO 2017 CKD-MBD Update'
+title: '2017 · KDIGO — CKD-mineral & bone disorder'
+parent: 'Nephrology'
 permalink: /nephrology/ckd-mbd/2017-kdigo/
 ---
-
-[← Nephrology]({{ '/nephrology/' | relative_url }})
 
 **2017 · KDIGO** · CKD-mineral & bone disorder
 

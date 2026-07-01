@@ -1,6 +1,8 @@
 ---
-title: Pulmonary & Critical Care
+title: 'Pulmonary & Critical Care'
 permalink: /pulmonary/
+nav_order: 10
+has_children: true
 ---
 
 > Society guidelines for pulmonary and critical care conditions.

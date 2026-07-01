@@ -1,9 +1,8 @@
 ---
-title: '2023 AHA/ACC Multisociety Chronic Coronary Disease Guideline'
+title: '2023 · AHA/ACC — Chronic coronary disease (stable IHD)'
+parent: 'Cardiology'
 permalink: /cardiology/chronic-coronary-disease/2023-aha-acc/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2023 · AHA/ACC** · Chronic coronary disease (stable IHD)
 

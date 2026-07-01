@@ -1,9 +1,8 @@
 ---
-title: '2020 ACC/AHA VHD Guideline'
+title: '2020 · ACC/AHA — Valvular heart disease'
+parent: 'Cardiology'
 permalink: /cardiology/valvular-heart-disease/2020-acc-aha/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2020 · ACC/AHA** · Valvular heart disease
 

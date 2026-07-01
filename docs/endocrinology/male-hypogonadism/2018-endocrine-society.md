@@ -1,9 +1,8 @@
 ---
-title: 'Endocrine Society 2018 Testosterone Guideline'
+title: '2018 · Endocrine Society — Male hypogonadism'
+parent: 'Endocrinology'
 permalink: /endocrinology/male-hypogonadism/2018-endocrine-society/
 ---
-
-[← Endocrinology]({{ '/endocrinology/' | relative_url }})
 
 **2018 · Endocrine Society** · Male hypogonadism
 

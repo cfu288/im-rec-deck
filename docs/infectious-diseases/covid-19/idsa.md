@@ -1,9 +1,8 @@
 ---
-title: 'IDSA COVID-19 Treatment Guidelines'
+title: 'IDSA — COVID-19'
+parent: 'Infectious Diseases'
 permalink: /infectious-diseases/covid-19/idsa/
 ---
-
-[← Infectious Diseases]({{ '/infectious-diseases/' | relative_url }})
 
 **IDSA** · COVID-19
 

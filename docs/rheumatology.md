@@ -1,6 +1,8 @@
 ---
-title: Rheumatology
+title: 'Rheumatology'
 permalink: /rheumatology/
+nav_order: 11
+has_children: true
 ---
 
 > ACR and EULAR rheumatologic guidelines.

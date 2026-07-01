@@ -1,9 +1,8 @@
 ---
-title: 'ACR/EULAR 2015 PMR Guideline'
+title: '2015 · ACR/EULAR — Polymyalgia rheumatica'
+parent: 'Rheumatology'
 permalink: /rheumatology/polymyalgia-rheumatica/2015-acr-eular/
 ---
-
-[← Rheumatology]({{ '/rheumatology/' | relative_url }})
 
 **2015 · ACR/EULAR** · Polymyalgia rheumatica
 

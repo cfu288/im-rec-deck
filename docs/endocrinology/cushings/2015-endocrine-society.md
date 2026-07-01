@@ -1,9 +1,8 @@
 ---
-title: "Endocrine Society 2015 Cushing's Syndrome Guideline"
+title: "2015 · Endocrine Society — Cushing's syndrome"
+parent: 'Endocrinology'
 permalink: /endocrinology/cushings/2015-endocrine-society/
 ---
-
-[← Endocrinology]({{ '/endocrinology/' | relative_url }})
 
 **2015 · Endocrine Society** · Cushing's syndrome
 

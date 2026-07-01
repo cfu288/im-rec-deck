@@ -1,9 +1,8 @@
 ---
-title: '2021 ACC/AHA/SCAI Revascularization Guideline'
+title: '2021 · ACC/AHA/SCAI — Coronary revascularization'
+parent: 'Cardiology'
 permalink: /cardiology/coronary-revascularization/2021-acc-aha-scai/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2021 · ACC/AHA/SCAI** · Coronary revascularization
 

@@ -1,6 +1,8 @@
 ---
-title: Neurology
+title: 'Neurology'
 permalink: /neurology/
+nav_order: 8
+has_children: true
 ---
 
 > AHA/ASA, AAN, and related neurology guidelines.

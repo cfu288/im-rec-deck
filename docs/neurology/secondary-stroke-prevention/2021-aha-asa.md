@@ -1,9 +1,8 @@
 ---
-title: '2021 AHA/ASA Stroke/TIA Prevention Guideline'
+title: '2021 · AHA/ASA — Secondary stroke prevention'
+parent: 'Neurology'
 permalink: /neurology/secondary-stroke-prevention/2021-aha-asa/
 ---
-
-[← Neurology]({{ '/neurology/' | relative_url }})
 
 **2021 · AHA/ASA** · Secondary stroke prevention
 

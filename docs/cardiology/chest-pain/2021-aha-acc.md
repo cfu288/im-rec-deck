@@ -1,9 +1,8 @@
 ---
-title: '2021 AHA/ACC Chest Pain Guideline'
+title: '2021 · AHA/ACC — Chest pain evaluation'
+parent: 'Cardiology'
 permalink: /cardiology/chest-pain/2021-aha-acc/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2021 · AHA/ACC** · Chest pain evaluation
 

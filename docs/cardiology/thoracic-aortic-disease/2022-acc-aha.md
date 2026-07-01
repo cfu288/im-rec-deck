@@ -1,9 +1,8 @@
 ---
-title: '2022 ACC/AHA Aortic Disease Guideline'
+title: '2022 · ACC/AHA — Thoracic aortic disease'
+parent: 'Cardiology'
 permalink: /cardiology/thoracic-aortic-disease/2022-acc-aha/
 ---
-
-[← Cardiology]({{ '/cardiology/' | relative_url }})
 
 **2022 · ACC/AHA** · Thoracic aortic disease
 

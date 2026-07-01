@@ -1,12 +1,50 @@
 title: Internal Medicine Guidelines
 description: System-by-system index of current society guidelines for internal medicine practice.
-theme: jekyll-theme-cayman
-permalink: pretty
-markdown: kramdown
+
+# just-the-docs delivered via remote_theme (no Gemfile needed on GH Pages).
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
 # baseurl is for GH Pages project sites (https://<user>.github.io/<repo>/).
 # Override to "" for root-domain hosting (CNAME / user pages):
 #   jekyll serve --baseurl ""
 # All internal links are emitted via {{ ... | relative_url }} so they work either way.
 baseurl: "/guidelines-flashcards"
+url: "https://cfu288.github.io"
+
+markdown: kramdown
+
+# just-the-docs settings
+color_scheme: light
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+heading_anchors: true
+
+# Header-right auxiliary links — replaces the cayman-override "Download Anki Deck" button.
+aux_links:
+  "Download Anki Deck":
+    - "https://github.com/cfu288/guidelines-flashcards/raw/main/build/guidelines.apkg"
+aux_links_new_tab: false
+
+# Show the "Edit this page on GitHub" footer link
+gh_edit_link: true
+gh_edit_link_text: "View source on GitHub"
+gh_edit_repository: "https://github.com/cfu288/guidelines-flashcards"
+gh_edit_branch: "main"
+gh_edit_source: docs
+gh_edit_view_mode: "tree"
+
+# Footer content
+footer_content: 'Internal Medicine Guidelines · <a href="https://github.com/cfu288/guidelines-flashcards">source</a>'
+
 exclude:
   - README.md

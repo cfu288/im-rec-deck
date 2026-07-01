@@ -1,9 +1,8 @@
 ---
-title: 'AHS 2021 Migraine Consensus'
+title: '2021 · American Headache Society — Migraine'
+parent: 'Neurology'
 permalink: /neurology/migraine/2021-american-headache-society/
 ---
-
-[← Neurology]({{ '/neurology/' | relative_url }})
 
 **2021 · American Headache Society** · Migraine
 
