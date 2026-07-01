@@ -9,7 +9,7 @@ permalink: /infectious-diseases/hiv/2024-ias-usa/
 
 **Read the guideline:** [html](https://jamanetwork.com/journals/jama/fullarticle/2827545) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39616496/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/hiv/2024-ias-usa.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/infectious-diseases/hiv/2024-ias-usa.apkg)
 
 # Summary
 

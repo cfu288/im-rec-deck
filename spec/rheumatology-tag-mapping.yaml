@@ -2,7 +2,7 @@
 #
 # Drives scripts/rewrite_anki_tags.py. Every new tag is scoped under `rheum::`
 # so it sits in its own branch in the Anki tag tree and never collides with
-# the existing guidelines-flashcards tags (`system::*`, `society::*`, etc.).
+# the existing imrecdeck tags (`system::*`, `society::*`, etc.).
 #
 # Five namespaces under rheum::
 #   dx::       diseases / diagnoses                         e.g. rheum::dx::sle

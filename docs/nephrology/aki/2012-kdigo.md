@@ -9,7 +9,7 @@ permalink: /nephrology/aki/2012-kdigo/
 
 **Read the guideline:** [html](https://www.sciencedirect.com/journal/kidney-international-supplements/vol/2/issue/1)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/nephrology/aki/2012-kdigo.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/nephrology/aki/2012-kdigo.apkg)
 
 # Summary
 

@@ -2,7 +2,7 @@
 # requires-python = ">=3.10"
 # dependencies = ["genanki", "pyyaml"]
 # ///
-"""Build build/guidelines.apkg — a self-contained Anki package containing the
+"""Build build/imrecdeck.apkg — a self-contained Anki package containing the
 custom GuidelinesCloze notetype + all generated cards.
 
 Reads build/cards.jsonl (one card per line, produced by generate_cards.py) and
@@ -14,7 +14,7 @@ overwrites existing notes in place per genanki's same-GUID-same-fields rule.
 
 Deck hierarchy (Anki uses :: as separator, auto-creates missing parents):
 
-    Internal Medicine Guidelines           ← parent (study for unified queue)
+    IMRecDeck                              ← parent (study for unified queue)
     ├── Cardiology                         ← per-system auto-created on import
     │   ├── Hypertension (2025 AHA/ACC)    ← one leaf per (topic, year, society)
     │   ├── Hypertension (2017 AHA/ACC)
@@ -24,12 +24,12 @@ Deck hierarchy (Anki uses :: as separator, auto-creates missing parents):
 Tags applied to every note (all nested under a single root namespace so they
 don't pollute the user's global tag tree):
 
-    im-guidelines::system::<slug>          im-guidelines::system::cardiology
-    im-guidelines::topic::<slug>           im-guidelines::topic::hypertension
-    im-guidelines::society::<slug>         im-guidelines::society::aha-acc
-    im-guidelines::year::<n>               im-guidelines::year::2025          (omitted for living docs)
-    im-guidelines::status::superseded      when this isn't the latest year for its (topic, society)
-    im-guidelines::high-yield              when manifest flags the topic as high_yield
+    imrecdeck::system::<slug>              imrecdeck::system::cardiology
+    imrecdeck::topic::<slug>               imrecdeck::topic::hypertension
+    imrecdeck::society::<slug>             imrecdeck::society::aha-acc
+    imrecdeck::year::<n>                   imrecdeck::year::2025              (omitted for living docs)
+    imrecdeck::status::superseded          when this isn't the latest year for its (topic, society)
+    imrecdeck::high-yield                  when manifest flags the topic as high_yield
 
 Usage:
     uv run scripts/build_apkg.py
@@ -58,7 +58,7 @@ def escape_field(s: str) -> str:
 
 
 INPUT_PATH = Path("build/cards.jsonl")
-OUTPUT_PATH = Path("build/guidelines.apkg")
+OUTPUT_PATH = Path("build/imrecdeck.apkg")
 SUBDECK_ROOT = Path("build/decks")
 CLASSIFICATIONS_PATH = Path("build/card-classifications.jsonl")
 BUNDLE_ROOT = Path("references/guidelines")
@@ -67,7 +67,7 @@ MANIFEST_PATH = Path("manifest.yaml")
 # Root namespace for ALL tags this script emits — keeps them collapsed under a
 # single entry in Anki's tag tree instead of polluting the user's top level
 # with multiple flat groups (system::, topic::, year::, etc.).
-TAG_ROOT = "im-guidelines"
+TAG_ROOT = "imrecdeck"
 HIGH_YIELD_TAG = f"{TAG_ROOT}::high-yield"
 DOSING_TAG = f"{TAG_ROOT}::dosing"
 
@@ -81,7 +81,7 @@ MODEL_NAME = "GuidelinesCloze"
 # pre-hierarchy .apkg get a seamless rename (Anki resolves by ID, applies the
 # new name).
 PARENT_DECK_ID = 2_059_400_111
-PARENT_DECK_NAME = "Internal Medicine Guidelines"
+PARENT_DECK_NAME = "IMRecDeck"
 
 
 def _slug(s: str) -> str:
@@ -169,7 +169,7 @@ FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n?(.*)$", re.DOTALL)
 class Recipe(NamedTuple):
     guid: str
     deck_path: str
-    system_title_deck: str  # "Internal Medicine Guidelines::Cardiology"
+    system_title_deck: str  # "IMRecDeck::Cardiology"
     concept_key: tuple[str, str, str]  # (system_slug, topic_slug, version_slug)
     fields: list[str]
     tags: list[str]
@@ -225,7 +225,7 @@ def load_manifest_context() -> dict:
 def deck_name_for(system: str, topic: str, society: str, year: Optional[int],
                   ctx: dict) -> str:
     """Build the full leaf deck path, e.g.
-        Internal Medicine Guidelines::Cardiology::Hypertension (2025 AHA/ACC)
+        IMRecDeck::Cardiology::Hypertension (2025 AHA/ACC)
     """
     sys_title = ctx["system_titles"].get(system, system)
     topic_title = ctx["topic_titles"].get((system, topic), topic)
@@ -287,7 +287,7 @@ def main() -> int:
     )
 
     # Load per-card dosing classifications if available (optional — produced by
-    # scripts/classify_dosing.py). Used to add the im-guidelines::dosing tag.
+    # scripts/classify_dosing.py). Used to add the imrecdeck::dosing tag.
     dosing_guids: set[str] = set()
     if CLASSIFICATIONS_PATH.is_file():
         with CLASSIFICATIONS_PATH.open() as f:
@@ -382,7 +382,7 @@ def main() -> int:
             # URL (not relative) so the link works when a card is reviewed
             # inside Anki — the client renders HTML but has no baseurl context.
             site_url = (
-                f"https://cfu288.github.io/guidelines-flashcards/"
+                f"https://cfu288.github.io/imrecdeck/"
                 f"{system}/{topic}/{version}/"
                 if system and topic and version
                 else ""

@@ -1,4 +1,4 @@
-# Internal Medicine Guidelines — Manifest
+# IMRecDeck — Manifest
 #
 # Source of truth for `references/guidelines/`. The generator reads this and
 # produces the OKF bundle. NEVER edit files under `references/` by hand —

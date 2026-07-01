@@ -9,7 +9,7 @@ permalink: /rheumatology/axial-spondyloarthritis/2019-acr-saa-spartan/
 
 **Read the guideline:** [html](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24025) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC6764857/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/axial-spondyloarthritis/2019-acr-saa-spartan.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/rheumatology/axial-spondyloarthritis/2019-acr-saa-spartan.apkg)
 
 # Summary
 

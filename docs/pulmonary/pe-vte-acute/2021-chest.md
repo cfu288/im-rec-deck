@@ -9,7 +9,7 @@ permalink: /pulmonary/pe-vte-acute/2021-chest/
 
 **Read the guideline:** [html](https://journal.chestnet.org/article/S0012-3692(21)01506-3/fulltext)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/pe-vte-acute/2021-chest.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/pulmonary/pe-vte-acute/2021-chest.apkg)
 
 # Summary
 

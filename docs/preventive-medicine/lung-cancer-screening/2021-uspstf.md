@@ -9,7 +9,7 @@ permalink: /preventive-medicine/lung-cancer-screening/2021-uspstf/
 
 **Read the guideline:** [html](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/lung-cancer-screening/2021-uspstf.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/preventive-medicine/lung-cancer-screening/2021-uspstf.apkg)
 
 # Summary
 

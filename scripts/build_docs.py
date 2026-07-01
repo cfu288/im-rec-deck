@@ -30,7 +30,7 @@ SKELETON_BODY_MARKER = "_Body pending Stage 2 enrichment from parsed source._"
 # Inline Anki icon used next to every download link. Height matches text so it
 # reads as a bullet marker, not a graphic. alt="" because the link text is
 # already descriptive — screen readers should skip the img. Uses Liquid inline
-# so Jekyll resolves baseurl at render time (works under the /guidelines-flashcards/
+# so Jekyll resolves baseurl at render time (works under the /imrecdeck/
 # project-page path AND under root-domain hosting without changes).
 ANKI_ICON = (
     "<img src=\"{{ '/assets/anki.png' | relative_url }}\" alt=\"\" "
@@ -115,7 +115,7 @@ def site_url(path: str) -> str:
     """Emit a Liquid expression that resolves to a baseurl-aware site URL.
 
     Jekyll processes Liquid before kramdown, so `[label]({{ '/x/' | relative_url }})`
-    is rewritten to the correct href whether baseurl is `/guidelines-flashcards`
+    is rewritten to the correct href whether baseurl is `/imrecdeck`
     or empty. Works on GH Pages project sites AND root-domain hosting.
 
     NOT suitable for `permalink:` frontmatter — Jekyll doesn't expand Liquid
@@ -214,7 +214,7 @@ def render_version(
     # version is enriched (which means build_apkg.py emitted a matching .apkg).
     if is_enriched and vslug and system_slug and topic_slug:
         subdeck_url = (
-            "https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/"
+            "https://github.com/cfu288/imrecdeck/raw/main/build/decks/"
             f"{system_slug}/{topic_slug}/{vslug}.apkg"
         )
         row_parts.append(f"[{ANKI_ICON}Anki deck]({subdeck_url})")
@@ -289,7 +289,7 @@ def render_index(manifest: dict) -> str:
     # just-the-docs: title + nav_order place this at the top of the sidebar.
     lines = ["---", "title: Home", "nav_order: 1", "---", ""]
     lines.append(
-        f"# {manifest.get('title', 'Internal Medicine Guidelines') if isinstance(manifest, dict) else 'Internal Medicine Guidelines'}"
+        f"# {manifest.get('title', 'IMRecDeck') if isinstance(manifest, dict) else 'IMRecDeck'}"
     )
     lines.append("")
     lines.append(
@@ -335,7 +335,7 @@ def render_index(manifest: dict) -> str:
     lines.append("")
     lines.append(
         "- **Everything at once** — "
-        f"[{ANKI_ICON}`guidelines.apkg`](https://github.com/cfu288/guidelines-flashcards/raw/main/build/guidelines.apkg) "
+        f"[{ANKI_ICON}`imrecdeck.apkg`](https://github.com/cfu288/imrecdeck/raw/main/build/imrecdeck.apkg) "
         f"({total_versions} guidelines, {total_topics} topics)."
     )
     lines.append(
@@ -354,13 +354,13 @@ def render_index(manifest: dict) -> str:
     lines.append(
         "1. **Suspend dosing cards.** Specific drug doses are reference-lookup material, "
         "not spaced-repetition material. In the Anki browser, search "
-        "`deck:\"Internal Medicine Guidelines\" tag:im-guidelines::dosing` → select all → "
+        "`deck:\"IMRecDeck\" tag:imrecdeck::dosing` → select all → "
         "**Notes → Suspend**."
     )
     lines.append(
         f"2. **Suspend non-high-yield cards.** Start with the ~{total_hy} ⭐ topics. "
         "Search "
-        "`deck:\"Internal Medicine Guidelines\" -tag:im-guidelines::high-yield` → select "
+        "`deck:\"IMRecDeck\" -tag:imrecdeck::high-yield` → select "
         "all → **Notes → Suspend**."
     )
     lines.append(
@@ -449,7 +449,7 @@ def render_version_page(
     # deck IDs mean a user can import this on its own OR alongside the mega
     # deck without duplicate notes / dupe deck tree / lost FSRS history.
     subdeck_url = (
-        "https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/"
+        "https://github.com/cfu288/imrecdeck/raw/main/build/decks/"
         f"{system_slug}/{topic_slug}/{vslug}.apkg"
     )
     header_lines.append(
@@ -536,7 +536,7 @@ def render_topic_index_page(
                 is_enriched = True
         if is_enriched:
             subdeck_url = (
-                "https://github.com/cfu288/guidelines-flashcards/raw/main/"
+                "https://github.com/cfu288/imrecdeck/raw/main/"
                 f"build/decks/{system_slug}/{topic_slug}/{vslug}.apkg"
             )
             deep_link = site_url(f"/{system_slug}/{topic_slug}/{vslug}/")

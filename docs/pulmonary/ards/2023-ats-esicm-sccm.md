@@ -9,7 +9,7 @@ permalink: /pulmonary/ards/2023-ats-esicm-sccm/
 
 **Read the guideline:** [html](https://pmc.ncbi.nlm.nih.gov/articles/PMC10354163/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/ards/2023-ats-esicm-sccm.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/pulmonary/ards/2023-ats-esicm-sccm.apkg)
 
 # Summary
 

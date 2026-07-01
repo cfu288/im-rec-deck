@@ -1,4 +1,4 @@
-# Architecture Review — guidelines-flashcards
+# Architecture Review — imrecdeck
 
 *Generated 2026-06-21. Combines a self-review with an independent codex review of `scripts/`, `spec/`, `manifest.yaml`, `.claude/`, `references/`, `build/`, `sources/`.*
 
@@ -32,7 +32,7 @@ spec/ (rules + conventions) │   (mostly; one auto-generated exception below)
                   generate_cards.py     →  build/cards.jsonl  (Anthropic batch — PAID)
                             │
                             ▼
-                  build_apkg.py         →  build/guidelines.apkg
+                  build_apkg.py         →  build/imrecdeck.apkg
                                                   │
                                                   ▼
                                             USER IMPORTS INTO ANKI
@@ -45,7 +45,7 @@ spec/ (rules + conventions) │   (mostly; one auto-generated exception below)
 | `manifest.yaml` (the catalog)                                               | `sources/**/*.md` (parsed sidecars)                                                                 |
 | `sources/**/*.pdf`/`.html`/`.epub` (raw documents — dropped or downloaded)  | `references/guidelines/**` (entire OKF bundle)                                                      |
 | `spec/conventions.md`, `spec/anki-*.md`, `spec/knowledge-catalog/` (cloned) | `spec/manifest-needs-attention.md` (written by `needs_attention_report.py` — exception to the rule) |
-| `.env`                                                                      | `build/cards.jsonl`, `build/guidelines.apkg`                                                        |
+| `.env`                                                                      | `build/cards.jsonl`, `build/imrecdeck.apkg`                                                         |
 | Importing into Anki                                                         | All scripts in `scripts/`                                                                           |
 
 ## Single sources of truth

@@ -1,4 +1,4 @@
-title: Internal Medicine Guidelines
+title: IMRecDeck
 description: System-by-system index of current society guidelines for internal medicine practice.
 
 # just-the-docs delivered via remote_theme (no Gemfile needed on GH Pages).
@@ -11,7 +11,7 @@ plugins:
 # Override to "" for root-domain hosting (CNAME / user pages):
 #   jekyll serve --baseurl ""
 # All internal links are emitted via {{ ... | relative_url }} so they work either way.
-baseurl: "/guidelines-flashcards"
+baseurl: "/imrecdeck"
 url: "https://cfu288.github.io"
 
 markdown: kramdown
@@ -32,19 +32,19 @@ heading_anchors: true
 # Header-right auxiliary links — replaces the cayman-override "Download Anki Deck" button.
 aux_links:
   "Download Anki Deck":
-    - "https://github.com/cfu288/guidelines-flashcards/raw/main/build/guidelines.apkg"
+    - "https://github.com/cfu288/imrecdeck/raw/main/build/imrecdeck.apkg"
 aux_links_new_tab: false
 
 # Show the "Edit this page on GitHub" footer link
 gh_edit_link: true
 gh_edit_link_text: "View source on GitHub"
-gh_edit_repository: "https://github.com/cfu288/guidelines-flashcards"
+gh_edit_repository: "https://github.com/cfu288/imrecdeck"
 gh_edit_branch: "main"
 gh_edit_source: docs
 gh_edit_view_mode: "tree"
 
 # Footer content
-footer_content: 'Internal Medicine Guidelines · <a href="https://github.com/cfu288/guidelines-flashcards">source</a>'
+footer_content: 'IMRecDeck · <a href="https://github.com/cfu288/imrecdeck">source</a>'
 
 exclude:
   - README.md

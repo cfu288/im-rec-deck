@@ -9,7 +9,7 @@ permalink: /gi-hepatology/hepatitis-c/aasld-idsa/
 
 **Read the guideline:** [html](https://www.hcvguidelines.org)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/gi-hepatology/hepatitis-c/aasld-idsa.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/gi-hepatology/hepatitis-c/aasld-idsa.apkg)
 
 # Summary
 

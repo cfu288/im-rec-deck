@@ -9,7 +9,7 @@ permalink: /endocrinology/adrenal-insufficiency/2016-endocrine-society/
 
 **Read the guideline:** [html](https://academic.oup.com/jcem/article/101/2/364/2810222)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/endocrinology/adrenal-insufficiency/2016-endocrine-society.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/endocrinology/adrenal-insufficiency/2016-endocrine-society.apkg)
 
 # Summary
 

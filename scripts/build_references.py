@@ -90,7 +90,7 @@ def current_version(topic: Topic) -> Optional[Version]:
 
 
 def build_bundle_root_index(manifest: Manifest) -> None:
-    lines = ["# Internal Medicine Guidelines", ""]
+    lines = ["# IMRecDeck", ""]
     lines.append("Generated from `/manifest.yaml`. Do not edit by hand.")
     lines.append("")
     for sys_slug, system in manifest.systems.items():
@@ -102,7 +102,7 @@ def build_bundle_root_index(manifest: Manifest) -> None:
         BUNDLE_ROOT / "index.md",
         {
             "type": "Knowledge Bundle",
-            "title": "Internal Medicine Guidelines",
+            "title": "IMRecDeck",
             "description": "System-by-system index of current society guidelines for internal medicine practice.",
             "okf_version": "0.1",
             "timestamp": TIMESTAMP,

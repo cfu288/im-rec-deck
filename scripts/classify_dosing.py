@@ -7,7 +7,7 @@
 A "dosing" card is one whose primary learning value is recalling a specific
 dose / regimen / titration number. The user has signaled these are lower-yield
 ("memorizing dosing for CrCl isn't super helpful"). Classifying lets the
-build add an `im-guidelines::dosing` tag so they can be suspended/filtered.
+build add an `imrecdeck::dosing` tag so they can be suspended/filtered.
 
 What counts as DOSING (true):
   - "Standard apixaban for VTE is 10 mg BID × 7 days, then 5 mg BID."

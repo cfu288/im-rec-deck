@@ -9,7 +9,7 @@ permalink: /cardiology/acs/2025-acc-aha-acep-naemsp-scai/
 
 **Read the guideline:** [html](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001309) · [pdf](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001309)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/acs/2025-acc-aha-acep-naemsp-scai.apkg)
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/imrecdeck/raw/main/build/decks/cardiology/acs/2025-acc-aha-acep-naemsp-scai.apkg)
 
 # Summary
 
