@@ -15,7 +15,7 @@ has_children: true
 
 ACG 2018 guideline on management of adult Crohn's disease covers diagnosis, disease activity assessment, induction and maintenance therapy, fistulizing disease, and postoperative prevention. Therapy is stratified by disease severity and risk for progression, with emphasis on objective monitoring (endoscopy, cross-sectional imaging, fecal calprotectin, CRP) rather than symptoms alone. Anti-TNF agents (especially combination with thiopurine) are the cornerstone for moderate-to-severe disease, while 5-ASAs are largely discouraged. Vedolizumab and ustekinumab are endorsed as effective biologic alternatives, and biosimilars of infliximab/adalimumab are accepted for induction and maintenance.
 
-**Current guideline:** [ACG 2018 Crohn's Guideline]({{ '/gi-hepatology/crohns/2018-acg/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/gi-hepatology/crohns/2018-acg.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [ACG 2018 Crohn's Guideline]({{ '/gi-hepatology/crohns/2018-acg/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/gi-hepatology/crohns/2018-acg.apkg)
 
 ## Versions
 

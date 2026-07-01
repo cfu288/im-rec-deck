@@ -15,7 +15,7 @@ has_children: true
 
 Comprehensive update consolidating evidence since the 2012/2014 stable ischemic heart disease guidelines for outpatient management of chronic coronary disease (CCD). Emphasizes team-based, patient-centered care with shared decision-making, social determinants of health, and cost/value considerations. Key new directions: limited role for long-term beta blockers without MI/LVEF≤50%, expanded use of SGLT2 inhibitors and GLP-1 RAs (including some without diabetes), shorter DAPT durations when bleeding risk is high, low-dose colchicine as adjunct, and recommendation against routine periodic ischemic/anatomic testing in stable asymptomatic patients.
 
-**Current guideline:** [2023 AHA/ACC Multisociety Chronic Coronary Disease Guideline]({{ '/cardiology/chronic-coronary-disease/2023-aha-acc/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/chronic-coronary-disease/2023-aha-acc.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [2023 AHA/ACC Multisociety Chronic Coronary Disease Guideline]({{ '/cardiology/chronic-coronary-disease/2023-aha-acc/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/chronic-coronary-disease/2023-aha-acc.apkg)
 
 ## Versions
 

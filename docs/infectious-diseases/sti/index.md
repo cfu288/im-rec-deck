@@ -15,7 +15,7 @@ has_children: true
 
 Comprehensive CDC update of the 2015 STD treatment guidelines covering screening, diagnosis, and treatment of STIs across populations. Key updates include single-dose ceftriaxone 500 mg for gonorrhea, doxycycline preferred over azithromycin for chlamydia, addition of metronidazole to PID regimens, multidose metronidazole for trichomoniasis in women, resistance-guided two-stage therapy for M. genitalium, expanded syphilis screening in pregnancy, universal one-time HCV screening, and two-step HSV serologic testing.
 
-**Current guideline:** [CDC STI Treatment Guidelines 2021]({{ '/infectious-diseases/sti/2021-cdc/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/sti/2021-cdc.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [CDC STI Treatment Guidelines 2021]({{ '/infectious-diseases/sti/2021-cdc/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/sti/2021-cdc.apkg)
 
 ## Versions
 

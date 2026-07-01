@@ -453,9 +453,7 @@ def render_version_page(
         f"{system_slug}/{topic_slug}/{vslug}.apkg"
     )
     header_lines.append(
-        f"[{ANKI_ICON}Download this guideline's Anki deck (.apkg)]({subdeck_url}) — "
-        "safe to import on its own or alongside the full deck. Nothing gets "
-        "duplicated and any reviews you've already done stay intact."
+        f"[{ANKI_ICON}Download this guideline's Anki deck (.apkg)]({subdeck_url})"
     )
     header_lines.append("")
     # Extra "\n" gives a blank line between the header block and the body so
@@ -547,10 +545,7 @@ def render_topic_index_page(
             )
             lines.append(
                 f"**Current guideline:** [{cur_title}]({deep_link}) · "
-                f"[{ANKI_ICON}download Anki sub-deck]({subdeck_url}) — "
-                "safe to import on its own or alongside the full deck. "
-                "Nothing gets duplicated and any reviews you've already "
-                "done stay intact."
+                f"[{ANKI_ICON}download Anki sub-deck]({subdeck_url})"
             )
             lines.append("")
 

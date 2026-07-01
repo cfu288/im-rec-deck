@@ -15,7 +15,7 @@ has_children: true
 
 2020 NTCA/CDC update to the 2000 ATS/CDC latent TB infection (LTBI) treatment guidelines, based on GRADE systematic review and network meta-analysis. Short-course (3–4 month) rifamycin-based regimens are now preferred over 6–9 months of isoniazid monotherapy because of equivalent efficacy, lower hepatotoxicity, and higher completion rates. Applies only to LTBI presumed susceptible to isoniazid or rifampin (not MDR-TB contacts).
 
-**Current guideline:** [2020 NTCA/CDC Latent TB Guideline]({{ '/infectious-diseases/tuberculosis/2020-ntca-cdc/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/tuberculosis/2020-ntca-cdc.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [2020 NTCA/CDC Latent TB Guideline]({{ '/infectious-diseases/tuberculosis/2020-ntca-cdc/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/tuberculosis/2020-ntca-cdc.apkg)
 
 ## Versions
 

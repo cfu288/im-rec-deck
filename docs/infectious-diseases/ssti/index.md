@@ -15,7 +15,7 @@ has_children: true
 
 2014 IDSA update on diagnosis and management of skin and soft tissue infections (SSTIs), updating the 2005 guideline and aligned with IDSA's MRSA guideline. Stratifies purulent vs nonpurulent SSTIs into mild/moderate/severe categories driving incision-and-drainage and antibiotic selection. Covers impetigo, abscesses, cellulitis/erysipelas, necrotizing fasciitis, pyomyositis, gas gangrene, surgical site infections, animal/human bites, zoonotic SSTIs, and SSTIs in immunocompromised and neutropenic hosts.
 
-**Current guideline:** [IDSA 2014 SSTI Guideline]({{ '/infectious-diseases/ssti/2014-idsa/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/ssti/2014-idsa.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [IDSA 2014 SSTI Guideline]({{ '/infectious-diseases/ssti/2014-idsa/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/infectious-diseases/ssti/2014-idsa.apkg)
 
 ## Versions
 

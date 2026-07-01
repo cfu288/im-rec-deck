@@ -15,7 +15,7 @@ has_children: true
 
 2019 ACR/SAA/SPARTAN update of the 2015 recommendations for treatment of ankylosing spondylitis (AS) and non-radiographic axial spondyloarthritis (nr-axSpA), focused on positioning of newer agents (secukinumab, ixekizumab, tofacitinib, TNFi biosimilars) and the role of imaging. NSAIDs and TNFi remain first-line pharmacologic therapy; IL-17 inhibitors are preferred over a second TNFi in primary TNFi non-responders, while a second TNFi is preferred for secondary non-response. New recommendations address against treat-to-target with ASDAS, against routine biologic tapering/discontinuation in stable disease, against mandated switching to a biosimilar, and against scheduled serial spine radiographs.
 
-**Current guideline:** [ACR/SAA/SPARTAN 2019 Axial Spondyloarthritis Guideline]({{ '/rheumatology/axial-spondyloarthritis/2019-acr-saa-spartan/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/axial-spondyloarthritis/2019-acr-saa-spartan.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [ACR/SAA/SPARTAN 2019 Axial Spondyloarthritis Guideline]({{ '/rheumatology/axial-spondyloarthritis/2019-acr-saa-spartan/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/axial-spondyloarthritis/2019-acr-saa-spartan.apkg)
 
 ## Versions
 

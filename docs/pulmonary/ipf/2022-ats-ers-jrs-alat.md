@@ -9,7 +9,7 @@ permalink: /pulmonary/ipf/2022-ats-ers-jrs-alat/
 
 **Read the guideline:** [html](https://academic.oup.com/ajrccm/article/205/9/e18/200689) · [pmc](https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/ipf/2022-ats-ers-jrs-alat.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/ipf/2022-ats-ers-jrs-alat.apkg)
 
 # Summary
 

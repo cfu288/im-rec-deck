@@ -15,7 +15,7 @@ has_children: true
 
 GOLD 2026 is the 6th major revision of the global strategy for COPD diagnosis, management, and prevention. Key updates include lowering the threshold for GOLD group E to include even one moderate exacerbation, a new Disease Activity framework, clarified initial vs follow-up pharmacological algorithms, new biologic therapy guidance (dupilumab, mepolizumab), updated RSV/pneumococcal/influenza vaccination, completely revised exacerbation and multimorbidity chapters, and a new chapter on AI and emerging technologies. Diagnosis remains anchored on post-bronchodilator FEV1/FVC < 0.7 with active case-finding (not population screening) endorsed.
 
-**Current guideline:** [GOLD 2026 — Global Strategy for Prevention, Diagnosis and Management of COPD]({{ '/pulmonary/copd/2026-gold/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/copd/2026-gold.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [GOLD 2026 — Global Strategy for Prevention, Diagnosis and Management of COPD]({{ '/pulmonary/copd/2026-gold/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/pulmonary/copd/2026-gold.apkg)
 
 ## Versions
 

@@ -15,7 +15,7 @@ has_children: true
 
 The 2023 ACP living guideline updates pharmacologic management of primary osteoporosis and low bone mass in adults. Bisphosphonates are recommended as first-line therapy in both postmenopausal females and males with osteoporosis, with denosumab as second-line for bisphosphonate intolerance. Anabolic agents (romosozumab or teriparatide) followed by a bisphosphonate are reserved for females at very high fracture risk, while estrogen, estrogen-progestin, and SERMs are not recommended for treatment of osteoporosis.
 
-**Current guideline:** [ACP 2023 Pharmacologic Treatment of Osteoporosis]({{ '/endocrinology/osteoporosis/2023-acp/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/endocrinology/osteoporosis/2023-acp.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [ACP 2023 Pharmacologic Treatment of Osteoporosis]({{ '/endocrinology/osteoporosis/2023-acp/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/endocrinology/osteoporosis/2023-acp.apkg)
 
 ## Versions
 

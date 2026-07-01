@@ -15,7 +15,7 @@ has_children: true
 
 ASH 2019 guidelines provide 21 evidence-based recommendations for managing adults and children with newly diagnosed, persistent, and chronic ITP with non–life-threatening bleeding. Management options addressed include observation, corticosteroids, IVIG, anti-D immunoglobulin, rituximab, splenectomy, and TPO-RAs. Compared with the 2011 guideline, the update favors shorter corticosteroid courses, emphasizes shared decision-making for second-line therapy, and incorporates TPO-RAs as a preferred second-line option in both adults and children. The guideline does not cover diagnosis, life-threatening bleeding, pregnancy, or agents introduced after 2017.
 
-**Current guideline:** [ASH 2019 ITP Guideline]({{ '/hematology-oncology/itp/2019-ash/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/hematology-oncology/itp/2019-ash.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [ASH 2019 ITP Guideline]({{ '/hematology-oncology/itp/2019-ash/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/hematology-oncology/itp/2019-ash.apkg)
 
 ## Versions
 

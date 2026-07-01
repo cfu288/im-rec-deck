@@ -9,7 +9,7 @@ permalink: /rheumatology/polymyalgia-rheumatica/2015-acr-eular/
 
 **Read the guideline:** [html](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.39333) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/26352874/)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/polymyalgia-rheumatica/2015-acr-eular.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/rheumatology/polymyalgia-rheumatica/2015-acr-eular.apkg)
 
 # Summary
 

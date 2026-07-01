@@ -15,7 +15,7 @@ has_children: true
 
 The 2026 AHA/ASA guideline replaces the 2018 guideline and 2019 update for early management of acute ischemic stroke, spanning prehospital care through early in-hospital management. Major updates include endorsement of tenecteplase as equivalent to alteplase within 4.5 hours, expanded EVT eligibility (large cores, basilar occlusion to 24 h, selected pediatric patients), extended-window IVT (4.5–9 h with perfusion mismatch), abandonment of intensive glucose (80–130 mg/dL) and intensive post-EVT BP (\<140 mm Hg) targets, mobile stroke unit endorsement, and first-time pediatric EVT/IVT recommendations.
 
-**Current guideline:** [2026 AHA/ASA Early Management of AIS]({{ '/neurology/acute-ischemic-stroke/2026-aha-asa/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/acute-ischemic-stroke/2026-aha-asa.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [2026 AHA/ASA Early Management of AIS]({{ '/neurology/acute-ischemic-stroke/2026-aha-asa/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/neurology/acute-ischemic-stroke/2026-aha-asa.apkg)
 
 ## Versions
 

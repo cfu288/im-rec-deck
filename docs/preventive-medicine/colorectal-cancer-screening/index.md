@@ -15,7 +15,7 @@ has_children: true
 
 USPSTF 2021 recommendations on colorectal cancer screening in average-risk asymptomatic adults. New in this update: screening start age lowered from 50 to 45 years (Grade B for ages 45-49). Screening ages 50-75 remains Grade A; selective screening ages 76-85 remains Grade C; discontinue after 85. Multiple stool-based and direct visualization strategies are endorsed without ranking.
 
-**Current guideline:** [USPSTF 2021 Colorectal Cancer Screening]({{ '/preventive-medicine/colorectal-cancer-screening/2021-uspstf/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/colorectal-cancer-screening/2021-uspstf.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [USPSTF 2021 Colorectal Cancer Screening]({{ '/preventive-medicine/colorectal-cancer-screening/2021-uspstf/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/colorectal-cancer-screening/2021-uspstf.apkg)
 
 ## Versions
 

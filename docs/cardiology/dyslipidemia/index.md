@@ -15,7 +15,7 @@ has_children: true
 
 The 2026 ACC/AHA multisociety guideline replaces the 2018 cholesterol guideline and broadens scope to dyslipidemias including LDL-C, triglycerides, and Lp(a). Major changes: adoption of PREVENT-ASCVD equations (replacing Pooled Cohort Equations) with new lower risk thresholds; reintroduction of explicit LDL-C and non-HDL-C treatment goals stratified by risk; universal one-time Lp(a) measurement; expanded role for apoB, CAC scoring (including incidental CAC on noncardiac CT), and combination nonstatin therapy (ezetimibe, PCSK9 mAb, bempedoic acid, inclisiran, olezarsen for FCS).
 
-**Current guideline:** [2026 ACC/AHA Multisociety Guideline on the Management of Dyslipidemia]({{ '/cardiology/dyslipidemia/2026-acc-aha/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/dyslipidemia/2026-acc-aha.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [2026 ACC/AHA Multisociety Guideline on the Management of Dyslipidemia]({{ '/cardiology/dyslipidemia/2026-acc-aha/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/dyslipidemia/2026-acc-aha.apkg)
 
 ## Versions
 

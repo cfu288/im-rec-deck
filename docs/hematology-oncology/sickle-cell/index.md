@@ -15,7 +15,7 @@ has_children: true
 
 ASH 2019 guidelines on cardiopulmonary and kidney disease in sickle cell disease (SCD) address screening and management of pulmonary hypertension, sleep-disordered breathing, abnormal pulmonary function, venous thromboembolism, albuminuria, and chronic kidney disease. The panel generally recommends against routine screening of asymptomatic patients with echocardiography, polysomnography, or pulmonary function testing, favoring targeted evaluation based on signs and symptoms. Recommendations also address anticoagulation duration for VTE, ACEi/ARB use for albuminuria, renal transplant referral, and combined hydroxyurea plus erythropoiesis-stimulating agent therapy for CKD-related anemia.
 
-**Current guideline:** [ASH 2014–2020 Sickle Cell Disease Guideline Series]({{ '/hematology-oncology/sickle-cell/2020-ash/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/hematology-oncology/sickle-cell/2020-ash.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [ASH 2014–2020 Sickle Cell Disease Guideline Series]({{ '/hematology-oncology/sickle-cell/2020-ash/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/hematology-oncology/sickle-cell/2020-ash.apkg)
 
 ## Versions
 

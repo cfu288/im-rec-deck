@@ -15,7 +15,7 @@ has_children: true
 
 Multisociety update replacing the 2017 hypertension guideline, redefining BP categories, treatment thresholds, and goals using the PREVENT 10-year CVD risk equation rather than pooled cohort equations. Universal BP target is \<130/80 mm Hg, with risk-based initiation of pharmacotherapy at ≥130/80 mm Hg for high-risk patients and ≥140/90 mm Hg for all others. New recommendations address primary aldosteronism screening in resistant hypertension, potassium-based salt substitutes, pregnancy management (including aspirin prophylaxis), renal denervation, and management of acute ICH and stroke.
 
-**Current guideline:** [2025 AHA/ACC Multisociety Guideline for High Blood Pressure in Adults]({{ '/cardiology/hypertension/2025-aha-acc/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/hypertension/2025-aha-acc.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [2025 AHA/ACC Multisociety Guideline for High Blood Pressure in Adults]({{ '/cardiology/hypertension/2025-aha-acc/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/cardiology/hypertension/2025-aha-acc.apkg)
 
 ## Versions
 

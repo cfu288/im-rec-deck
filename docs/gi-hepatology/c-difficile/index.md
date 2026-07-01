@@ -15,7 +15,7 @@ has_children: true
 
 IDSA/SHEA 2021 focused update on management of Clostridioides difficile infection (CDI) in adults, addressing the use of fidaxomicin and bezlotoxumab. Fidaxomicin is now preferred over vancomycin for both initial and recurrent CDI episodes (conditional recommendations), reflecting lower recurrence rates. Bezlotoxumab is suggested as an adjunct to standard-of-care antibiotics for patients with recurrent CDI within the past 6 months, especially those with additional risk factors for recurrence.
 
-**Current guideline:** [IDSA/SHEA 2021 Focused Update]({{ '/gi-hepatology/c-difficile/2021-idsa-shea/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/gi-hepatology/c-difficile/2021-idsa-shea.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [IDSA/SHEA 2021 Focused Update]({{ '/gi-hepatology/c-difficile/2021-idsa-shea/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/gi-hepatology/c-difficile/2021-idsa-shea.apkg)
 
 ## Versions
 

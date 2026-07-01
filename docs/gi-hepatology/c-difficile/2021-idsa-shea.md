@@ -9,7 +9,7 @@ permalink: /gi-hepatology/c-difficile/2021-idsa-shea/
 
 **Read the guideline:** [html](https://academic.oup.com/cid/article/73/5/e1029/6298219)
 
-[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/gi-hepatology/c-difficile/2021-idsa-shea.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+[<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">Download this guideline's Anki deck (.apkg)](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/gi-hepatology/c-difficile/2021-idsa-shea.apkg)
 
 # Summary
 

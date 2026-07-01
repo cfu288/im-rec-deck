@@ -15,7 +15,7 @@ has_children: true
 
 USPSTF 2021 Grade B recommendation for annual lung cancer screening with low-dose CT (LDCT) in high-risk adults defined by age and smoking history. Compared to the 2013 statement, the age range was expanded (was 55–80, now 50–80 years) and the pack-year threshold was lowered (was 30, now 20 pack-years), nearly doubling the eligible population and partially addressing racial/sex disparities in eligibility. Screening continues annually until 15 years of abstinence, limiting life expectancy, or inability/unwillingness to undergo curative lung surgery.
 
-**Current guideline:** [USPSTF 2021 Lung Cancer Screening]({{ '/preventive-medicine/lung-cancer-screening/2021-uspstf/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/lung-cancer-screening/2021-uspstf.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [USPSTF 2021 Lung Cancer Screening]({{ '/preventive-medicine/lung-cancer-screening/2021-uspstf/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/preventive-medicine/lung-cancer-screening/2021-uspstf.apkg)
 
 ## Versions
 

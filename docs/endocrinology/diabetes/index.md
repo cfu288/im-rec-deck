@@ -15,7 +15,7 @@ has_children: true
 
 The ADA Standards of Care in Diabetes—2026 is the annually updated, comprehensive clinical practice guideline covering screening, diagnosis, prevention, and management of type 1, type 2, gestational, and other forms of diabetes across the lifespan, along with associated complications and comorbidities. It is a "living document" with interim online updates triggered by new evidence or regulatory changes. New for 2026: the National Kidney Foundation endorsed the CKD section and ISPAD endorsed the Children and Adolescents section, joining prior endorsements from ACC, AGS, ASBMR, and TOS. This introductory section describes scope, methodology, evidence grading, and conflict-of-interest policies rather than specific clinical recommendations.
 
-**Current guideline:** [ADA Standards of Care in Diabetes — 2026]({{ '/endocrinology/diabetes/2026-ada/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/endocrinology/diabetes/2026-ada.apkg) — safe to import on its own or alongside the full deck. Nothing gets duplicated and any reviews you've already done stay intact.
+**Current guideline:** [ADA Standards of Care in Diabetes — 2026]({{ '/endocrinology/diabetes/2026-ada/' | relative_url }}) · [<img src="{{ '/assets/anki.png' | relative_url }}" alt="" style="height:1.1em;vertical-align:-0.2em;margin-right:0.25em">download Anki sub-deck](https://github.com/cfu288/guidelines-flashcards/raw/main/build/decks/endocrinology/diabetes/2026-ada.apkg)
 
 ## Versions
 
