@@ -37,6 +37,8 @@ from anthropic.types.messages.batch_create_params import Request
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field, ValidationError
 
+import cost_ledger
+
 
 BUNDLE_ROOT = Path("references/guidelines")
 STATE_PATH = Path("build/.enrich-state.json")
@@ -387,6 +389,11 @@ def ingest_batch(
     ok = 0
     retries: list[tuple[str, Path, str]] = []
     failed: list[tuple[Path, str]] = []
+    # Actual usage across the batch — recorded to the cost ledger so future
+    # estimates calibrate from observed history (estimates ran 36-50% low when
+    # derived from priors; see AGENTS.md incident log).
+    in_tok = 0
+    out_tok = 0
 
     for result in client.messages.batches.results(entry["id"]):
         m = entry["concepts"].get(result.custom_id)
@@ -403,6 +410,10 @@ def ingest_batch(
             continue
 
         message = result.result.message
+        usage = getattr(message, "usage", None)
+        if usage is not None:
+            in_tok += getattr(usage, "input_tokens", 0) or 0
+            out_tok += getattr(usage, "output_tokens", 0) or 0
         tool_block = next(
             (b for b in message.content if b.type == "tool_use"), None
         )
@@ -433,6 +444,16 @@ def ingest_batch(
         except Exception as e:
             failed.append((path, f"write: {e}"))
             print(f"  {label}: write failed: {e}")
+
+    if in_tok or out_tok:
+        usd = cost_ledger.record(
+            "enrich", entry["id"], ok, in_tok, out_tok,
+            INPUT_USD_PER_M, OUTPUT_USD_PER_M,
+        )
+        print(
+            f"  actuals: {in_tok:,} in / {out_tok:,} out tokens ≈ ${usd:.2f} "
+            f"(batch rates) → {cost_ledger.LEDGER_PATH}"
+        )
 
     return ok, retries, failed
 

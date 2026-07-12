@@ -32,6 +32,8 @@ from anthropic.types.messages.batch_create_params import Request
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field, ValidationError
 
+import cost_ledger
+
 
 BUNDLE_ROOT = Path("references/guidelines")
 OUTPUT_PATH = Path("build/cards.jsonl")
@@ -393,16 +395,27 @@ def run_chunk_and_collect(
     new_rows: list[dict] = []
     retries: list[Job] = []
     failures: list[tuple[Path, str]] = []
+    # Actual usage — recorded to the cost ledger for estimate calibration
+    # (estimates ran 36-50% low when derived from priors; see AGENTS.md).
+    in_tok = 0
+    out_tok = 0
+    n_ok = 0
 
     for result in client.messages.batches.results(batch.id):
         job = chunk_by_id[result.custom_id]
         lbl = str(job.concept_path.relative_to(BUNDLE_ROOT))
+        if result.result.type == "succeeded":
+            usage = getattr(result.result.message, "usage", None)
+            if usage is not None:
+                in_tok += getattr(usage, "input_tokens", 0) or 0
+                out_tok += getattr(usage, "output_tokens", 0) or 0
         status, card_batch, detail = process_result(result, job)
         if status == "ok":
             assert card_batch is not None
             fm, body = by_path[job.concept_path]
             rows = cards_for_concept(job.concept_path, fm, body, card_batch)
             new_rows.extend(rows)
+            n_ok += 1
             print(f"    {lbl}: ok ({len(rows)} cards)")
         elif status == "retry":
             retries.append(job)
@@ -410,6 +423,16 @@ def run_chunk_and_collect(
         else:
             failures.append((job.concept_path, detail))
             print(f"    {lbl}: failed ({detail})")
+
+    if in_tok or out_tok:
+        usd = cost_ledger.record(
+            "cards", batch.id, n_ok, in_tok, out_tok,
+            INPUT_USD_PER_M, OUTPUT_USD_PER_M,
+        )
+        print(
+            f"    actuals: {in_tok:,} in / {out_tok:,} out tokens ≈ ${usd:.2f} "
+            f"(batch rates) → {cost_ledger.LEDGER_PATH}"
+        )
 
     return new_rows, retries, failures
 

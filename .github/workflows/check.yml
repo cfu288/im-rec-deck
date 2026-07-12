@@ -1,0 +1,21 @@
+# Repo self-test gate. Catches pre-deploy what used to be found post-deploy:
+# manifest validity, generator idempotency/drift, docs<->deck link integrity,
+# coverage, jargon, apkg import. (The Jekyll build itself is exercised by the
+# separate GitHub Pages build on push.)
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Validate manifest
+        run: uv run scripts/validate_manifest.py
+      - name: Repo self-test
+        run: uv run scripts/check_repo.py

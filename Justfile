@@ -44,9 +44,16 @@ qa-cards:
 publish-docs:
     uv run scripts/build_docs.py
 
-# Everything free: validate → parse → build → report → apkg → qa-cards.
+# Repo self-test: generator idempotency, enrichment preservation, docs<->deck
+# link integrity, manifest coverage, site-copy jargon lint, apkg import smoke
+# test. Each check guards a failure class that has bitten before (AGENTS.md
+# incident log). Free; runs the two free generators twice.
+check:
+    uv run scripts/check_repo.py
+
+# Everything free: validate → parse → build → report → apkg → qa-cards → check.
 # Safe to run any time; never spends money on API.
-all-local: validate parse build report apkg qa-cards
+all-local: validate parse build report apkg qa-cards check
 
 # ── Paid (Anthropic API spend) ─────────────────────────────────────────────
 
