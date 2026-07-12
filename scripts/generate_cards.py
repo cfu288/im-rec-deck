@@ -459,6 +459,10 @@ def main() -> int:
     # stale body (purge + regen), or new (gen).
     eligible: list[tuple[Path, dict, str]] = []
     purge_concepts: set[tuple[str, str, str]] = set()
+    # Every concept currently flagged card_eligible in the references tree,
+    # regardless of enrichment/drift state. Used below to retire cards for
+    # concepts that have dropped out of eligibility (superseded versions).
+    card_eligible_keys: set[tuple[str, str, str]] = set()
     stats = {"fresh": 0, "legacy_no_hash": 0, "stale_body": 0, "stale_gen": 0, "new": 0}
 
     for p in sorted(BUNDLE_ROOT.rglob("*.md")):
@@ -470,11 +474,12 @@ def main() -> int:
             continue
         if not fm.get("card_eligible"):
             continue
-        if not fm.get("_source_hash"):
-            continue
         try:
             parts = concept_parts(p)
         except ValueError:
+            continue
+        card_eligible_keys.add(parts)
+        if not fm.get("_source_hash"):
             continue
 
         existing = existing_by_concept.get(parts)
@@ -508,14 +513,34 @@ def main() -> int:
         purge_concepts.add(parts)
         eligible.append((p, fm, body))
 
+    # Retire cards for concepts that are no longer card_eligible — e.g. a version
+    # that was the current guideline when it was carded but has since been
+    # superseded by a newer version added to the manifest. The deck tracks the
+    # current guideline, so its stale cards are dropped rather than left to
+    # linger. (Concepts whose file was deleted outright are retired here too,
+    # since they can't appear in card_eligible_keys.)
+    retired = set(existing_by_concept) - card_eligible_keys
+    if retired:
+        for k in sorted(retired):
+            print(f"retiring cards for no-longer-eligible concept: {'/'.join(k)}")
+        purge_concepts |= retired
+
     print(f"discovery: {stats}")
     if purge_concepts:
-        print(f"will purge old rows for {len(purge_concepts)} stale concept(s) before regen")
+        print(f"will purge old rows for {len(purge_concepts)} concept(s)")
+
+    def is_purged(row: dict) -> bool:
+        meta = row.get("_meta") or {}
+        key = (meta.get("system"), meta.get("topic"), meta.get("version"))
+        return key in purge_concepts
 
     if not eligible:
-        # Re-emit file unchanged (sorted) so downstream gets stable output.
-        write_jsonl(existing_rows)
-        print("nothing to generate")
+        # No new/stale eligible concepts to generate. Still apply any retirements
+        # (a pure-supersede run has nothing to generate but must drop old rows).
+        kept = [r for r in existing_rows if not is_purged(r)]
+        write_jsonl(kept)
+        dropped = len(existing_rows) - len(kept)
+        print(f"nothing to generate; retired {dropped} row(s)" if dropped else "nothing to generate")
         return 0
 
     # Build jobs.
@@ -538,11 +563,7 @@ def main() -> int:
 
     # Start the merged set with non-purged existing rows; append new rows per
     # chunk and re-emit so a Ctrl-C between chunks doesn't lose committed work.
-    def is_purged(row: dict) -> bool:
-        meta = row.get("_meta") or {}
-        key = (meta.get("system"), meta.get("topic"), meta.get("version"))
-        return key in purge_concepts
-
+    # (is_purged is defined above, alongside the retirement pass.)
     merged_rows: list[dict] = [r for r in existing_rows if not is_purged(r)]
     purged_count = len(existing_rows) - len(merged_rows)
     if purged_count:

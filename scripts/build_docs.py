@@ -160,6 +160,7 @@ def render_version(
     # Non-enriched versions render as plain text — no dead links.
     link_title = title
     is_enriched = False
+    is_card_eligible = False
     vslug = None
     if system_slug and topic_slug:
         vslug = version_slug(v, topic_society)
@@ -168,6 +169,10 @@ def render_version(
             body = ref_path.read_text()
             m = FRONTMATTER_RE.match(body)
             body_only = m.group(2) if m else body
+            # Only card_eligible versions get a sub-deck from build_apkg.py; a
+            # superseded version keeps its enriched body but its cards are
+            # retired, so it must not advertise a (now-orphaned) .apkg.
+            is_card_eligible = bool(m) and "card_eligible: true" in m.group(1)
             if (
                 SKELETON_BODY_MARKER not in body_only
                 and "# Key Recommendations" in body_only
@@ -210,9 +215,10 @@ def render_version(
     row_parts: list[str] = []
     if source_links:
         row_parts.append("Read the guideline: " + " · ".join(source_links))
-    # Anki sub-deck download alongside the source links — only when the
-    # version is enriched (which means build_apkg.py emitted a matching .apkg).
-    if is_enriched and vslug and system_slug and topic_slug:
+    # Anki sub-deck download alongside the source links — only when the version
+    # is the current, card_eligible one (which is what build_apkg.py emits a
+    # matching .apkg for). Superseded versions have no deck.
+    if is_enriched and is_card_eligible and vslug and system_slug and topic_slug:
         subdeck_url = (
             "https://github.com/cfu288/im-rec-deck/raw/main/build/decks/"
             f"{system_slug}/{topic_slug}/{vslug}.apkg"
@@ -448,14 +454,18 @@ def render_version_page(
     # Per-guideline Anki sub-deck (produced by build_apkg.py). Stable GUIDs +
     # deck IDs mean a user can import this on its own OR alongside the mega
     # deck without duplicate notes / dupe deck tree / lost FSRS history.
-    subdeck_url = (
-        "https://github.com/cfu288/im-rec-deck/raw/main/build/decks/"
-        f"{system_slug}/{topic_slug}/{vslug}.apkg"
-    )
-    header_lines.append(
-        f"[{ANKI_ICON}Download this guideline's Anki deck (.apkg)]({subdeck_url})"
-    )
-    header_lines.append("")
+    # Only card_eligible versions have a deck; a superseded version's cards are
+    # retired, so its deep-dive page must not link a now-orphaned .apkg.
+    is_card_eligible = bool(m) and "card_eligible: true" in m.group(1)
+    if is_card_eligible:
+        subdeck_url = (
+            "https://github.com/cfu288/im-rec-deck/raw/main/build/decks/"
+            f"{system_slug}/{topic_slug}/{vslug}.apkg"
+        )
+        header_lines.append(
+            f"[{ANKI_ICON}Download this guideline's Anki deck (.apkg)]({subdeck_url})"
+        )
+        header_lines.append("")
     # Extra "\n" gives a blank line between the header block and the body so
     # kramdown renders "# Summary" as its own paragraph, not text-flow.
     return "\n".join(header_lines) + "\n" + body + "\n"
